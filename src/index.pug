@@ -1,0 +1,623 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header
+      main
+        section.section-main
+          .section-main__slider
+            .swiper-wrapper
+              .swiper-slide
+                .slider-item
+                  .slider-item__container
+                    .slider-item__col
+                      h1.slider-item__title Подключим медицинскую информационную систему нового поколения
+                      .slider-item__list
+                        .main-item
+                          .main-item__title с 2015 года
+                          .main-item__text работаем в области медицины
+                        .main-item
+                          .main-item__title 86
+                          .main-item__text регионов используют нашу систему
+                        .main-item
+                          .main-item__title 1400+
+                          .main-item__text медицинских организаций
+                      a(href="").btn.btn--accent.btn--medium Подробнее
+                    .slider-item__col
+                      img(src="@img/slider.png" srcset="@img/slider@2x.png 2x", alt="").slider-item__col-img1
+              .swiper-slide
+                .slider-item
+                  .slider-item__container
+                    .slider-item__col
+                      .slider-item__title2 Являемся официальным оператором Минздрава России
+                      .slider-item__descr Подключены к ЕГИСЗ
+                      a(href="").btn.btn--accent.btn--medium Подробнее
+                    .slider-item__col
+                      .slider-item__circle
+                        img(src="@img/slider2.png" srcset="@img/slider2@2x.png 2x", alt="").slider-item__circle-item
+                        img(src="@img/slider-circle.png" srcset="@img/slider-circle2@2x.png 2x", alt="").slider-item__circle-item2
+                        .circle-item
+                          .circle-item-block
+                            .circle-item-block__icon ЕПГУ
+                            .circle-item-block__wrap Единый портал государственных  и муниципальных услуг
+                          .circle-item-block
+                            .circle-item-block__icon
+                              svg.circle-item-block__img
+                                use(xlink:href="@img/icons/icons.svg#docPlus")
+                            .circle-item-block__wrap Электронная медицинская карта
+                          .circle-item-block
+                            .circle-item-block__icon ФРМО
+                            .circle-item-block__wrap Федеральный реестр медицинских  организаций
+                          .circle-item-block
+                            .circle-item-block__icon ФРМР
+                            .circle-item-block__wrapper Федеральный реестр медицинских работников
+                          .circle-item-block
+                            .circle-item-block__icon
+                              svg.circle-item-block__img
+                                use(xlink:href="@img/icons/icons.svg#hand")
+                            .circle-item-block__wrapper Партнёрские информационные системы
+                          .circle-item-block
+                            .circle-item-block__icon РЭМД
+                            .circle-item-block__wrapper Реестр электронных медицинских документов
+              .swiper-slide
+                .slider-item
+                  .slider-item__container
+                    .slider-item__col
+                      .slider-item__title3 Автоматизируем ваше медицинское учреждение
+                      .slider-item__descr от 3000 рублей в месяц
+                      a(href="").btn.btn--accent.btn--medium Подробнее
+                    .slider-item__col
+                      img(src="@img/slider3.png" srcset="@img/slider3@2x.png 2x", alt="")
+            .section-main__dots
+        section.section-difficulties
+          .section-difficulties__container
+            h2.section-title Сложности, с которыми сталкиваются <br> медицинские учреждения
+            .section-difficulties__row
+              .section-difficulties__col
+                .difficulties-item
+                  svg.difficulties-item__icon
+                    use(xlink:href="@img/icons/icons.svg#docs")
+                  .difficulties-item__block
+                    .difficulties-item__title Большой объём документов
+                    .difficulties-item__text Медицинские учреждения обрабатывают много документов на бумажных носителях
+              .section-difficulties__col
+                .difficulties-item
+                  svg.difficulties-item__icon
+                    use(xlink:href="@img/icons/icons.svg#rule_folder")
+                  .difficulties-item__block
+                    .difficulties-item__title Прозрачность в учёте
+                    .difficulties-item__text Ведение бухгалтерского и налоговый учёта обладает <br>своей спецификой
+              .section-difficulties__col
+                .difficulties-item
+                  svg.difficulties-item__icon
+                    use(xlink:href="@img/icons/icons.svg#clock")
+                  .difficulties-item__block
+                    .difficulties-item__title Ограниченное количество времени
+                    .difficulties-item__text Заполнение необходимых медицинских документов даже<br> на одного пациента занимает большое количество времени
+              .section-difficulties__col
+                .difficulties-item
+                  svg.difficulties-item__icon
+                    use(xlink:href="@img/icons/icons.svg#reset_shutter_speed")
+                  .difficulties-item__block
+                    .difficulties-item__title Скорость обработки данных
+                    .difficulties-item__text Необходимо быстро обработать результаты исследований и не потерять при этом качество обслуживания
+        section.section-possibilities
+          .section-possibilities__container
+            .section-possibilities__title
+              h2.section-title Возможности
+            p.section-possibilities__descr ГИГТЕСТ.МЕДИЦИНА — это сервис, в котором собраны все нужные инструменты для успешной работы медицинского учреждения и управления его процессами
+            .section-possibilities__row
+              .section-possibilities__col
+                .accordion
+                  .accordion-item
+                    .accordion-item__block.active
+                      .accordion-header
+                        .accordion-header__title Отправка медицинской документации в ЕГИСЗ
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений<br class="br-desctop-lg"> по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ <br class="br-desctop">передачи документов, необходимых для оформления личных медицинских <br class="br-desctop"> книжек!
+                        a(href="#" data-hystmodal="#myModal1").accordion-image
+                          .accordion-image__block.accordion-image__block--active
+                            .swiper-wrapper
+                              .swiper-slide
+                                img(src="@img/scheme.png" srcset="@img/scheme@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme8.png" srcset="@img/scheme8@2x.png 2x", alt="")
+                      #myModal1.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .hystmodal__slider.hystmodal__slider--active
+                                  .swiper-wrapper
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal1.png" srcset="@img/sliderModal1@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal2.png" srcset="@img/sliderModal2@2x.png 2x", alt="")
+                                  .hystmodal__dots
+                                  .hystmodal__arrows
+                                    .hystmodal__left
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-left")
+                                    .hystmodal__right
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-right")
+                  .accordion-item
+                    .accordion-item__block
+                      .accordion-header
+                        .accordion-header__title Электронная очередь к врачу
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ передачи документов, необходимых для оформления личных медицинских книжек!
+                        a(href="#" data-hystmodal="#myModal2").accordion-image
+                          .accordion-image__block.accordion-image__block--active
+                            .swiper-wrapper
+                              .swiper-slide
+                                img(src="@img/scheme4.png" srcset="@img/scheme4@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme9.png" srcset="@img/scheme9@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme10.png" srcset="@img/scheme10@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme11.png" srcset="@img/scheme11@2x.png 2x", alt="")
+                      #myModal2.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .hystmodal__slider.hystmodal__slider--active
+                                  .swiper-wrapper
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal3.png" srcset="@img/sliderModal3@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal4.png" srcset="@img/sliderModal4@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal5.png" srcset="@img/sliderModal5@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal6.png" srcset="@img/sliderModal6@2x.png 2x", alt="")
+                                  .hystmodal__dots
+                                  .hystmodal__arrows
+                                    .hystmodal__left
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-left")
+                                    .hystmodal__right
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-right")
+                  .accordion-item
+                    .accordion-item__block
+                      .accordion-header
+                        .accordion-header__title Личный кабинет врача
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ передачи документов, необходимых для оформления личных медицинских книжек!
+                        a(href="#" data-hystmodal="#myModal3").accordion-image
+                          .accordion-image__block.accordion-image__block--active
+                            .swiper-wrapper
+                              .swiper-slide
+                                img(src="@img/scheme2.png" srcset="@img/scheme2@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme12.png" srcset="@img/scheme12@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme13.png" srcset="@img/scheme13@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme14.png" srcset="@img/scheme14@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme15.png" srcset="@img/scheme15@2x.png 2x", alt="")
+                      #myModal3.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .hystmodal__slider.hystmodal__slider--active
+                                  .swiper-wrapper
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal7.png" srcset="@img/sliderModal7@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal8.png" srcset="@img/sliderModal8@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal9.png" srcset="@img/sliderModal9@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal10.png" srcset="@img/sliderModal6@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal11.png" srcset="@img/sliderModal6@2x.png 2x", alt="")
+                                  .hystmodal__dots
+                                  .hystmodal__arrows
+                                    .hystmodal__left
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-left")
+                                    .hystmodal__right
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-right")  
+                  .accordion-item
+                    .accordion-item__block
+                      .accordion-header
+                        .accordion-header__title Запись на амбулаторные приёмы
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ передачи документов, необходимых для оформления личных медицинских книжек!
+                        a(href="#" data-hystmodal="#myModal4").accordion-image
+                          img(src="@img/scheme3.png" srcset="@img/scheme3@2x.png 2x", alt="")
+                      #myModal4.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .slide-modal-item
+                                  img(src="@img/sliderModal12.png" srcset="@img/sliderModal12@2x.png 2x", alt="")
+                  .accordion-item
+                    .accordion-item__block
+                      .accordion-header
+                        .accordion-header__title Гибкая медицинская документация
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ передачи документов, необходимых для оформления личных медицинских книжек!
+                        a(href="#" data-hystmodal="#myModal5").accordion-image
+                          .accordion-image__block.accordion-image__block--active
+                            .swiper-wrapper
+                              .swiper-slide
+                                img(src="@img/sliderModal13.png" srcset="@img/sliderModal13@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/sliderModal14.png" srcset="@img/sliderModal14@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/sliderModal15.png" srcset="@img/sliderModal15@2x.png 2x", alt="")
+                      #myModal5.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .hystmodal__slider.hystmodal__slider--active
+                                  .swiper-wrapper
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal13.png" srcset="@img/sliderModal13@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal14.png" srcset="@img/sliderModal14@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal15.png" srcset="@img/sliderModal15@2x.png 2x", alt="")
+                                  .hystmodal__dots
+                                  .hystmodal__arrows
+                                    .hystmodal__left
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-left")
+                                    .hystmodal__right
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-right")
+                  .accordion-item
+                    .accordion-item__block
+                      .accordion-header
+                        .accordion-header__title Работа с юридическими лицами
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ передачи документов, необходимых для оформления личных медицинских книжек!
+                        a(href="#" data-hystmodal="#myModal6").accordion-image
+                          .accordion-image__block.accordion-image__block--active
+                            .swiper-wrapper
+                              .swiper-slide
+                                img(src="@img/scheme6.png" srcset="@img/scheme6@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme16.png" srcset="@img/scheme16@2x.png 2x", alt="")
+                              .swiper-slide
+                                img(src="@img/scheme17.png" srcset="@img/scheme17@2x.png 2x", alt="")
+                      #myModal6.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .hystmodal__slider.hystmodal__slider--active
+                                  .swiper-wrapper
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal16.png" srcset="@img/sliderModal16@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal17.png" srcset="@img/sliderModal17@2x.png 2x", alt="")
+                                    .swiper-slide
+                                      .slide-modal-item
+                                        img(src="@img/sliderModal18.png" srcset="@img/sliderModal18@2x.png 2x", alt="")
+                                  .hystmodal__dots
+                                  .hystmodal__arrows
+                                    .hystmodal__left
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-left")
+                                    .hystmodal__right
+                                      svg.hystmodal__arrow
+                                        use(xlink:href="@img/icons/icons.svg#arrow-right")
+                  .accordion-item
+                    .accordion-item__block
+                      .accordion-header
+                        .accordion-header__title Медицинская статистика
+                          svg.accordion-header__icon
+                            use(xlink:href="@img/icons/icons.svg#arrow-down")
+                      .accordion-content 
+                        .accordion-content__wrap Применяйте для передачи медицинских заключений по результатам предварительных и периодических медицинских осмотров в РЭМД — быстрый и удобный способ передачи документов, необходимых для оформления личных медицинских книжек!
+                        a(href="#" data-hystmodal="#myModal7").accordion-image
+                          img(src="@img/scheme7.png" srcset="@img/scheme7@2x.png 2x", alt="")
+                      #myModal7.hystmodal(aria-hidden="true")
+                        .hystmodal__wrap
+                          .hystmodal__window(role="dialog" aria-modal="true")
+                            .hystmodal__container
+                              .hystmodal__block
+                                button(data-hystclose).hystmodal__close
+                                  svg.hystmodal__iconClose
+                                    use(xlink:href="@img/icons/icons.svg#close")
+                                .slide-modal-item
+                                  img(src="@img/sliderModal19.png" srcset="@img/sliderModal19@2x.png 2x", alt="")
+            .section-possibilities__btn
+              a(href="").btn.btn--bordered.btn--wide.btn--medium Получить консультацию
+        section.section-integration
+          .section-integration__container
+            h2.section-title Интеграции
+            .section-integration__row
+              .section-integration__col
+                img(src="@img/integration1.png" srcset="@img/integration1@2x.png 2x", alt="")
+              .section-integration__col
+                img(src="@img/integration2.png" srcset="@img/integration2@2x.png 2x", alt="")
+              .section-integration__col
+                img(src="@img/integration3.png" srcset="@img/integration3@2x.png 2x", alt="")
+              .section-integration__col
+                img(src="@img/integration4.png" srcset="@img/integration4@2x.png 2x", alt="")
+              .section-integration__col
+                img(src="@img/integration5.png" srcset="@img/integration5@2x.png 2x", alt="")
+        section.section-price
+          .section-price__container
+            h2.section-title Тарифы ГИГТЕСТ.Медицина
+            .section-price__tabs
+              .tabs-header
+                ul.tabs-header__block
+                  li(data-id="tab-1").tab.tab--active.tabs-header__item
+                    span МИС
+                  li(data-id="tab-2").tab.tabs-header__item
+                    span МИС+
+            .section-price__wrap
+              #tab-1.content.content--active
+                .price-info-title Для всех тарифов действуют условия
+                .section-price__top
+                  .price-info-item
+                    svg.price-info-item__icon
+                      use(xlink:href="@img/icons/icons.svg#check")
+                    .price-info-item__body <span>Неограниченное</span><br class="br-desctop"> число пользователей
+                  .price-info-item
+                    svg.price-info-item__icon
+                      use(xlink:href="@img/icons/icons.svg#check")
+                    .price-info-item__body <span>10 000 ₽ за подключение и настройку</span>
+                  .price-info-item
+                    svg.price-info-item__icon
+                      use(xlink:href="@img/icons/icons.svg#check")
+                    .price-info-item__body <span>Неограниченное</span> количество передаваемых документов
+                .section-price__cards
+                  .section-price__row
+                    .swiper-wrapper
+                      .swiper-slide.swiper-slide--active-card
+                        .section-price__col
+                          .price-card
+                            .price-card__header
+                              .price-card__month 12 месяцев
+                            .price-card__body
+                              .price-card__item
+                                .price-card__descr (2 800) ₽/мес
+                                .price-card__sum 33 600 <span>₽</span>
+                                a(href="").btn.btn--medium.btn--accent.btn--fw Выбрать
+                              .price-card__item
+                                .price-card__possibility Регистрация пациентов
+                                .price-card__possibility Интеграция с ЕГИСЗ
+                                .price-card__possibility Формирование и передача СЭМД
+                                .price-card__possibility Статистика и отчёты
+                      .swiper-slide
+                        .section-price__col
+                          .price-card
+                            .price-card__header
+                              .price-card__month 6 месяцев
+                            .price-card__body
+                              .price-card__item
+                                .price-card__descr (3 000) ₽/мес
+                                .price-card__sum 18 000 <span>₽</span>
+                                a(href="").btn.btn--medium.btn--accent.btn--fw Выбрать
+                              .price-card__item
+                                .price-card__possibility Регистрация пациентов
+                                .price-card__possibility Интеграция с ЕГИСЗ
+                                .price-card__possibility Формирование и передача СЭМД
+                                .price-card__possibility Статистика и отчёты
+                    .section-price__dots
+                      .price-dots
+              #tab-2.content
+                .price-info-title Для всех тарифов действуют условия
+                .section-price__top
+                  .price-info-item
+                    svg.price-info-item__icon
+                      use(xlink:href="@img/icons/icons.svg#check")
+                    .price-info-item__body <span>Неограниченное</span> число пользователей
+                  .price-info-item
+                    svg.price-info-item__icon
+                      use(xlink:href="@img/icons/icons.svg#check")
+                    .price-info-item__body <span>Бесплатное подключение и настройка</span>
+                  .price-info-item
+                    svg.price-info-item__icon
+                      use(xlink:href="@img/icons/icons.svg#check")
+                    .price-info-item__body <span>Неограниченное</span> количество передаваемых документов
+                .section-price__rows
+                  .swiper-wrapper
+                    .swiper-slide.swiper-slide--active-card
+                      .section-price__item
+                        .price-card
+                          .price-card__header
+                            .price-card__month 24 месяца
+                          .price-card__body
+                            .price-card__item
+                              .price-card__descr (4 900) ₽/мес
+                              .price-card__sum 117 600 ₽
+                              a(href="").btn.btn--medium.btn--accent.btn--fw Выбрать
+                            .price-card__item
+                              .price-card__possibility Электронная регистратура
+                              .price-card__possibility Интеграция с ЕГИСЗ
+                              .price-card__possibility Формирование и передача СЭМД
+                              .price-card__possibility Амбулаторный приём
+                              .price-card__possibility Статистика и отчёты
+                              .price-card__possibility Электронный документооборот
+                              .price-card__possibility Калькулятор услуг
+                    .swiper-slide
+                      .section-price__item
+                        .price-card
+                          .price-card__header
+                            .price-card__month 12 месяцев
+                          .price-card__body
+                            .price-card__item
+                              .price-card__descr (6 000) ₽/мес
+                              .price-card__sum 72 000 ₽
+                              a(href="").btn.btn--medium.btn--accent.btn--fw Выбрать
+                            .price-card__item
+                              .price-card__possibility Электронная регистратура
+                              .price-card__possibility Интеграция с ЕГИСЗ
+                              .price-card__possibility Формирование и передача СЭМД
+                              .price-card__possibility Амбулаторный приём
+                              .price-card__possibility Статистика и отчёты
+                              .price-card__possibility Электронный документооборот
+                              .price-card__possibility Калькулятор услуг
+                    .swiper-slide  
+                      .section-price__item
+                        .price-card
+                          .price-card__header
+                            .price-card__month 6 месяцев
+                          .price-card__body
+                            .price-card__item
+                              .price-card__descr (6 800) ₽/мес
+                              .price-card__sum 40 800 ₽
+                              a(href="").btn.btn--medium.btn--accent.btn--fw Выбрать
+                            .price-card__item
+                              .price-card__possibility Электронная регистратура
+                              .price-card__possibility Интеграция с ЕГИСЗ
+                              .price-card__possibility Формирование и передача СЭМД
+                              .price-card__possibility Амбулаторный приём
+                              .price-card__possibility Статистика и отчёты
+                              .price-card__possibility Электронный документооборот
+                              .price-card__possibility Калькулятор услуг
+                  .section-price__dots
+                    .price-dots
+        section.section-reviews
+          .section-reviews__container
+            h2.section-title Отзывы наших клиентов
+            .section-reviews__slider
+              .swiper-wrapper
+                .swiper-slide
+                  .review-slide
+                    .review-slide__left
+                      .review-slide__title Отзыв ФБУЗ «Центр <br class="br-mobile">гигиены и эпидемиологии<br> в Челябинской области»    
+                      .review-slide__content--desctop.review-slide__content Федеральное бюджетное учреждение «Центр гигиены и эпидемиологии в Челябинской области» в лице главного врача Валеуллиной Н.Н. выражает Вашему коллективу свою признательность за плодотворное сотрудничество и неоценимую помощь<br class="br-desctop-lg"> в организации дистанционной профессиональной гигиенической подготовки населения на территории Челябинской области посредством системы «ГИГТЕСТ». Особую актуальность данная форма подготовки приобрела в период пандемии COVID–19.<br class="br-desctop">Желаем вам вдохновения и неиссякаемой творческой энергии, совершения всех начинаний и планов, крепкого здоровья и благополучия!<br> Спасибо за ваш труд!
+                      .review-slide__content.review-slide__content--mobile Федеральное бюджетное учреждение «Центр гигиены и эпидемиологии в Челябинской области» в лице главного врача Валеуллиной Н.Н. выражает Вашему коллективу свою признательность за плодотворное сотрудничество и неоценимую помощь в организации дистанционной профессиональной гигиенической подготовки населения на территории Челябинской области посредством системы «ГИГТЕСТ». <br>Спасибо за ваш труд!
+                    .review-slide__img
+                      img(src="@img/review.png" srcset="@img/review@2x.png 2x", alt="")
+                .swiper-slide
+                  .review-slide
+                    .review-slide__left
+                      .review-slide__title Отзыв ФБУЗ «Центр<br class="br-mobile"> гигиены и эпидемиологии в Челябинской области»    
+                      .review-slide__content Федеральное бюджетное учреждение «Центр гигиены и эпидемиологии в Челябинской области» в лице главного врача Валеуллиной Н.Н. выражает Вашему коллективу свою признательность за плодотворное сотрудничество и неоценимую помощь в организации дистанционной профессиональной гигиенической подготовки населения на территории Челябинской области посредством системы «ГИГТЕСТ». Особую актуальность данная форма подготовки приобрела в период пандемии COVID–19. Желаем вам вдохновения и неиссякаемой творческой энергии, совершения всех начинаний и планов, крепкого здоровья и благополучия! Спасибо за ваш труд!
+                    .review-slide__img
+                      img(src="@img/review.png" srcset="@img/review@2x.png 2x", alt="")
+                .swiper-slide
+                  .review-slide
+                    .review-slide__left
+                      .review-slide__title Отзыв ФБУЗ «Центр гигиены и эпидемиологии в Челябинской области»    
+                      .review-slide__content Федеральное бюджетное учреждение «Центр гигиены и эпидемиологии в Челябинской области» в лице главного врача Валеуллиной Н.Н. выражает Вашему коллективу свою признательность за плодотворное сотрудничество и неоценимую помощь в организации дистанционной профессиональной гигиенической подготовки населения на территории Челябинской области посредством системы «ГИГТЕСТ». Особую актуальность данная форма подготовки приобрела в период пандемии COVID–19. Желаем вам вдохновения и неиссякаемой творческой энергии, совершения всех начинаний и планов, крепкого здоровья и благополучия! Спасибо за ваш труд!
+                    .review-slide__img
+                      img(src="@img/review.png" srcset="@img/review@2x.png 2x", alt="") 
+              .section-reviews__arrows
+                .section-reviews__arrows-left
+                  svg.section-reviews__arrow
+                    use(xlink:href="@img/icons/icons.svg#arrow-left")
+                .section-reviews__arrows-right
+                  svg.section-reviews__arrow
+                    use(xlink:href="@img/icons/icons.svg#arrow-right")
+            .section-reviews__btn
+              a(href="").btn.btn--white.btn--bordered.btn--medium.btn--wide Все отзывы
+        section.section-certificate
+          .section-certificate__container
+            h2.section-title Сертификаты
+            .section-certificate__row
+              .section-certificate__item
+                img(src="@img/certificate1.png" srcset="@img/certificate1@2x.png 2x" , alt="")
+              .section-certificate__item
+                img(src="@img/certificate2.png" srcset="@img/certificate2@2x.png 2x" , alt="")
+              .section-certificate__item
+                img(src="@img/certificate3.png" srcset="@img/certificate3@2x.png 2x" , alt="")
+            .section-certificate__arms
+              .section-certificate__arm
+                .section-certificate__image
+                  img(src="@img/eagle.png" srcset="@img/eagle@2x.png", alt="")
+                .section-certificate__arm-text Единый реестр Российских программ для ЭВМ № 4043, приказа Минкомсвязи РФ от 07.12.2017 № 680
+              .section-certificate__arm
+                .section-certificate__image
+                  img(src="@img/eagle2.png" srcset="@img/eagle2@2x.png", alt="")
+                .section-certificate__arm-text Официальный оператор Министерства здравоохранения Российской Федерации
+        section.section-partners
+          .section-partners__container
+            h2.section-title Мы сотрудничаем
+            .section-partners__row
+              .section-partners__col
+                .partner-item
+                  .partner-item__title Федеральное медико-<br>биологическое агентство
+                  .partner-item__image
+                    img(src="@img/eagle3.png" srcset="@img/eagle3@2x.png 2x", alt="")
+              .section-partners__col
+                .partner-item
+                  .partner-item__title Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+                  .partner-item__image
+                    img(src="@img/eagle4.png" srcset="@img/eagle4@2x.png 2x", alt="")
+              .section-partners__col
+                .partner-item
+                  .partner-item__title Министерство <br class="br-tablet">здравоохранения <br class="br-tablet"> Российской Федерации
+                  .partner-item__image
+                    img(src="@img/eagle5.png" srcset="@img/eagle5@2x.png 2x", alt="")
+        section.section-question
+          .section-question__container
+            h2.section-title Остались вопросы? Мы готовы помочь!
+            .section-question__block
+              .section-question__row
+                .section-question__col
+                  img(src="@img/question-image.png" srcset="@img/question-image@2x.png 2x", alt="").section-question__image
+                .section-question__col
+                  form.form-question
+                    input(type="text" placeholder="Введите имя")
+                    input(type="text" placeholder="+7 (___) ___ - __ - __").form-input-tel
+                    .ycaptcha
+                      img(src="@img/captcha.png", alt="")
+                    a(href="").btn.btn--medium.btn--accent.btn--fw Заказать звонок
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

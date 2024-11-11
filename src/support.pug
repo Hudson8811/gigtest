@@ -1,0 +1,49 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header
+      main
+        .breadcrumbs
+          .breadcrumbs__container
+            ul.breadcrumbs__list
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link Главная
+              li.breadcrumbs__item Техподдержка
+        .section-page
+          .section-page__support
+            .section-page__container
+              .section-page__head
+                h1.page-title Техподдержка
+                .section-page__descr Поддержка — это линия технического сопровождения, которая помогает клиентам в решении различных вопросов, связанных с продуктами или услугами компании. 
+              .section-support
+                .section-support__row
+                  .section-support__col
+                    img(src="@img/support.png", alt="")
+                  .section-support__col
+                    .section-support__item
+                      .section-support__item-title Почта:
+                      .section-support__item-text info@gigtest.ru
+                    .section-support__item
+                      .section-support__item-title Телефон:
+                      .section-support__item-text 8 800 700-30-60
+                    .section-support__item
+                      .support-time
+                        .support-time__title Часы работы по московскому времени
+                        .support-time__label
+                          .support-time__days Пн-Чт
+                          .support-time__info с 08:00 до 17:00
+                        .support-time__label
+                          .support-time__days Пт
+                          .support-time__info с 08:00 до 16:00
+                        .support-time__label
+                          .support-time__days Сб-Вс 
+                          .support-time__info выходные
+                .section-support__links
+                  a(href="").section-support__link Инструкция для администратора
+                  a(href="").section-support__link Инструкция для регистратора
+                  a(href="").section-support__link Инструкция для врача
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

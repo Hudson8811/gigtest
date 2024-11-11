@@ -1,0 +1,74 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header2
+      main
+        .breadcrumbs
+          .breadcrumbs__container
+            ul.breadcrumbs__list
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link Главная
+              li.breadcrumbs__item API
+        .section-page
+          .section-page__api
+            .section-page__container
+              .section-page__title
+                h1.page-title API
+              .section-page__contentApi
+                h2 API для передачи СЭМД в РЭМД
+                p API предназначено для передачи структурированных электронных медицинских документов (далее — СЭМД)<br class="d-lg-none"> в реестр электронных медицинских документов (далее — РЭМД).<br> API cодержит методы для создания нового СЭМД, его подписи и получении статуса отправки СЭМД.
+                p Основные требования<br class="br-mobile"> для взаимодействия с РЭМД.
+                p Для осуществления взаимодействия с подсистемой РЭМД со стороны МИС должно быть обеспечено выполнение следующих условий:<br>— Медицинская организация, от которой осуществляется отправка ЭМД в РЭМД, должна быть зарегистрирована в ФРМО;<br>— Врач, подписавший ЭМД должeн быть зарегистрирован в ФРМР;<br>— ЭМД должен быть подписан подписью врача, сформированной по формату CMS (Cryptographic Message Syntax);<br>— У врача, подписавшего ЭМД, должен быть передан СНИЛС;<br>— У пациента должен быть передан СНИЛС;<br>— Для формирования указанных УКЭП должны использоваться сертификаты, выданные аккредитованными УЦ. Сертификаты должны соответствовать требованиям ГОСТ Р 34.10–2012 (Согласно выписке из документа ФСБ России N 149/7/1/3–58 от 31.01.2014 «О порядке перехода к использованию новых стандартов ЭЦП и функции хэширования» использование схемы подписи ГОСТ Р 34.10–2001 для формирования подписи после 31.12.2018 года не допускается);<br>— Файл ЭМД должен иметь XML формат.
+              .section-page__contentApi
+                h2 Общие требования к использованию API
+                ol
+                  li Передача сведений осуществляется в рамках защищённого соединения с помощью OpenVPN-ГОСТ;
+                  li Аутентификация: в каждом запросе необходимо передавать параметр access-token;
+                  li Для получения ответа в формате JSON необходимо передавать заголовок запроса Accept:application/json;
+                  li Кодировка ответа UTF-8;
+                  li СЭМД и подпись врача передаются в Base64.
+              .section-page__contentApi
+                h2 СЭМД
+                p СЭМД — электронный документ, с помощью которого осуществляется передача информации (электронных персональных медицинских записей) из Электронной медицинской карты конкретной медицинской организации в Интегрированную электронную медицинскую карту.
+                p СЭМД содержит информацию из конкретной Электронной персональной медицинской записи (далее — ЭПМЗ) в конкретной медицинской организации, всю необходимую информацию для идентификации субъекта ИЭМК, а также для определения автора данной информации и медицинской организации, несущих ответственность за её содержание.
+                p СЭМД имеет определённую структуру и формат в соответствии с используемыми стандартами и правилами, установленными для взаимодействия с Интегрированным электронным медицинским архивом. ИЭМА также устанавливает регламент обработки СЭМД при его поступлении в ИЭМК. СЭМД должен обеспечивать требования, предъявляемые к медицинскому документу:<br> — Официальность (юридическую значимость);<br>— Неизменность;<br>— Персонифицируемость и неотказуемость, т.е. возможность определить происхождение документа и его автора, несущего ответственность за его медицинское содержание, а также конкретный момент (дату) его создания.
+              .section-page__contentApi
+                h2 Пример запроса на создание СЭМД*
+                pre
+                  code
+                    span {
+                      span <span><span class="red" >"document"</span>: {</span>
+                        span <span class="red" >"number"</span>: <span class="green">"10"</span>,
+                        span <span class="red" >"created_at"</span>: <span class="green">"2024-09-01 14:00:23"</span>,
+                        span <span class="red" >"kind"</span>: <span class="green" >230</span>,
+                        span <span class="red" >"description"</span>: <span class="green" >"Профосмотр"</span>,
+                        span <span class="red" >"content"</span>: <span class="green" >"документ в base64"</span>
+                      span },
+                      span <span><span class="red" >"organization"</span>: {</span>
+                        span <span class="red" > "oid"</span>: <span class="green">"1.2.643.5.1.13.13.12.2.53.192929"</span>,
+                        span <span class="red" >"name"</span>: <span class="green">"ООО ЕВРОМЕД"</span>
+                      span },
+                      span <span><span class="red" >"patient"</span>: {</span>
+                        span <span class="red" >"firstname"</span>: <span class="green">"Иванов"</span>,
+                        span <span class="red" >"lastname"</span>: <span class="green">"Иванов"</span>,
+                        span <span class="red" >"patrname"</span>: <span class="green">"Иванович"</span>,
+                        span <span class="red" >"birthdate"</span>: <span class="green">"1985-06-01"</span>,
+                        span <span class="red" >"gender"</span>: <span class="green">0</span>,
+                        span <span class="red" >"snils"</span>: <span class="green">"66089818145"</span>
+                      span },
+                      span <span><span class="red" >"doctor"</span>: {</span>
+                        span <span class="red" >"firstname"</span>: <span class="green">"Иванов"</span>,
+                        span <span class="red" >"lastname"</span>: <span class="green">"Иванов"</span>,
+                        span <span class="red" >"patrname"</span>: <span class="green">"Иванович"</span>,
+                        span <span class="red" >"snils"</span>: <span class="green">"66089818145"</span>,
+                        span <span class="red" >"position_id"</span>: <span class="green">80</span>,
+                        span <span class="red" >"speciality_id"</span>: <span class="green">124</span>
+                      span }
+                    span }
+                .code-descr 
+                  .code-descr__block * Подробное описание API предоставляется индивидуально.
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

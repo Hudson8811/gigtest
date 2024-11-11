@@ -1,0 +1,36 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header2
+      main
+        .section-page
+          .section-page__happens
+            .section-page__container
+              .section-page__title
+                h1.page-title Что произойдёт, если не подключаться к ЕГИСЗ?
+              .section-page__happensWrap
+                p Одной из причин, почему многие частные медицинские учреждения откладывают подключение к ЕГИСЗ, является <br class="br-mobile"> ощущение, что никаких негативных последствий за это не будет. Однако предположение о безнаказанности в этом случае не вполне верно.
+                p Несоблюдение норм, установленных Минздравом, может повлечь ответственность по статьям КоАП РФ 14.1 и 19.20, которые касаются ведения деятельности без лицензии или разрешения.
+                p Наказания за такие нарушения могут быть значительными — от крупных штрафов до временной остановки работы организации.
+                p 7 октября 2021 года Росздравнадзор выпустил информационное письмо № 01И-1296/21, в котором разъяснил, что несоблюдение лицензионных требований, включая непередачу данных в ЕГИСЗ, влечёт за собой ответственность в соответствии с законодательством.
+                p Таким образом, обмен информацией с ЕГИСЗ стал обязательной нормой для всех участников сферы здравоохранения. Отказ от выполнения этих требований грозит медицинским организациям серьёзными санкциями.
+                p Перед тем как подключиться к ЕГИСЗ, рекомендуется тщательно изучить нормативные акты, регулирующие данную область.
+              .section-page__happensContact
+                .section-question
+                  h2.section-title Остались вопросы? Мы готовы помочь!
+                  .section-question__block
+                    .section-question__row
+                      .section-question__col
+                        img(src="@img/question-image.png" srcset="@img/question-image@2x.png 2x", alt="").section-question__image
+                      .section-question__col
+                        form.form-question
+                          input(type="text" placeholder="Введите имя")
+                          input(type="text" placeholder="+7 (___) ___ - __ - __").form-input-tel
+                          .ycaptcha
+                            img(src="@img/captcha.png", alt="")
+                          a(href="").btn.btn--medium.btn--accent.btn--fw Заказать звонок
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

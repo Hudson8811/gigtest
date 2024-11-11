@@ -1,0 +1,27 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header
+      main
+        .section-page
+          .section-page__appsoft
+            .section-page__container
+              .section-page__info
+                .section-page__titleAppsoft
+                  h1.page-title Компания «APPSOFT»
+              .section-app
+                .section-app__wrapper
+                  .section-app__row
+                    .section-app__logo
+                      img(src="@img/app.svg", alt="")
+                    .section-app__content
+                      p Разработчиком МИС <br class="br-mobile"> «ГИГТЕСТ.Медицина» является компания «APPSOFT» (ООО «ППО»).<br> Мы создаем сервисы цифрового здравоохранения для медицинских организаций<br class="d-md-none"> с 2016 года.
+                      p «APPSOFT» (ООО «ППО») является официальным оператором иной информационной системы, уполномоченным МЗ РФ <br class="br-mobile"> для размещения сведений <br class="br-mobile"> об оказанной медицинской помощи<br class="d-md-none"> в ЕГИСЗ МЗ РФ в соответствии с действующим законодательством.
+                      p В настоящее время наши цифровые решения внедрены и успешно применяются<br class="d-md-none"> в медицинских <br class="br-mobile"> организациях во всех субъектах Российской Федерации. 
+                  .section-app__btn
+                    a(href="").btn.btn--bordered.btn--wide.btn--medium Получить консультацию
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

@@ -1,0 +1,27 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header2
+      main
+        .breadcrumbs
+          .breadcrumbs__container
+            ul.breadcrumbs__list
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link Главная
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link  База знаний 
+              li.breadcrumbs__item Нормативно-правовая документация
+        .section-page
+          .section-page__documentation
+            .section-page__container
+              .section-page__title
+                h1.page-title Нормативно-правовая документация
+              .section-page__contentDocumentation
+                .section-page__list
+                  p Приказ Министерства здравоохранения РФ от 28 января 2021 г. N 29н «Об утверждении Порядка проведения обязательных предварительных и периодических медицинских осмотров работников, предусмотренных частью четвёртой статьи 213 Трудового кодекса Российской Федерации, перечня медицинских противопоказаний к осуществлению работ с вредными и (или) опасными производственными факторами, а также работам, при выполнении которых проводятся обязательные предварительные и периодические медицинские осмотры» (с изменениями и дополнениями)
+                  p Приказ Министерства здравоохранения РФ от 18 февраля 2022 г. N 90н «Об утверждении формы, порядка ведения отчётности, учёта и выдачи работникам личных медицинских книжек, в том числе в форме электронного документа» (документ не вступил в силу)
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

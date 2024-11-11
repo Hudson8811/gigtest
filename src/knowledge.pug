@@ -1,0 +1,42 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header2
+      main
+        .breadcrumbs
+          .breadcrumbs__container
+            ul.breadcrumbs__list
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link Главная
+              li.breadcrumbs__item База знаний
+        .section-page
+          .section-page__knowledge
+            .section-page__container
+              .section-page__title
+                h1.page-title База знаний
+              .section-page__contentKnowledge
+                p Платформа «ГИГТЕСТ. Медицина» – облачный сервис для обмена информацией о здоровье, с помощью которого медицинские организации могут обмениваться данными между собой и с государственными информационными системами в сфере здравоохранения.
+                p В нашей базе знаний собраны материалы, которые помогут глубже изучить вопрос подключения к ЕГИСЗ узнать о необходимых сопутствующих мероприятиях, разобраться в нюансах.
+            .section-documentation
+              .section-documentation__container
+                .section-documentation__row
+                  .section-documentation__col
+                    .documentation-item
+                      .documentation-item__image
+                        img(src="@img/knowledge.png", alt="")
+                      .documentation-item__text Нормативно-правовая документация
+                  .section-documentation__col
+                    .documentation-item
+                      .documentation-item__image
+                        img(src="@img/knowledge2.png", alt="")
+                      .documentation-item__text Почему необходимо<br class="br-mobile"> подключиться<br class="br-tablet d-sm-none"> к ЕГИСЗ
+                  .section-documentation__col
+                    .documentation-item
+                      .documentation-item__image
+                        img(src="@img/knowledge3.png", alt="")
+                      .documentation-item__text Законность <br class="br-desctop">требования<br class="br-mobile"> СНИЛС
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')

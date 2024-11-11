@@ -1,0 +1,32 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header2
+      main
+        .section-page
+          .section-page__large
+            .section-page__container
+              .section-page__info
+                .section-page__title
+                  h1.page-title Консалтинг
+                .section-page__content
+                  p Консалтинг и сопровождение процесса прямого подключения частной медицинской организации с ЕГИСЗ. Предлагаем полный комплекс услуг по прямому подключению медицинской организации к ЕГИСЗ «под ключ»,<br class="br-tablet">  включая выстраивание защищённого канала, разработку SOAP-клиента, <br class="br-tablet"> настройку взаимодействия с тестовой и промышленной средами сервисов ЕГИСЗ.
+              .section-page__consult
+                .section-question
+                  h2.section-title Остались вопросы? Мы готовы помочь!
+                  .section-question__block
+                    .section-question__row
+                      .section-question__col
+                        img(src="@img/question-image.png" srcset="@img/question-image@2x.png 2x", alt="").section-question__image
+                      .section-question__col
+                        form.form-question
+                          input(type="text" placeholder="Введите имя")
+                          input(type="text" placeholder="+7 (___) ___ - __ - __").form-input-tel
+                          .ycaptcha
+                            img(src="@img/captcha.png", alt="")
+                          a(href="").btn.btn--medium.btn--accent.btn--fw Заказать звонок
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')
