@@ -3,7 +3,7 @@ html
   include html/head
   body
     .wrapper
-      include html/header
+      include html/header2
       main
         .breadcrumbs
           .breadcrumbs__container
@@ -11,33 +11,34 @@ html
               li.breadcrumbs__item
                 a(href="").breadcrumbs__link Главная
               li.breadcrumbs__item Контакты
-        section.section-page
-          .section-page__container
-            .section-page__head
-              h1.page-title Контакты
-            .section-support
-              .section-support__row
-                .section-support__col
-                  img(src="@img/contacts.png", alt="")
-                .section-support__col
-                  .section-support__item
-                    .section-support__item-title Почта:
-                    .section-support__item-text info@gigtest.ru
-                  .section-support__item
-                    .section-support__item-title Телефон:
-                    .section-support__item-text 8 800 700-30-60
-                  .section-support__item
-                    .support-time
-                      .support-time__title Часы работы по московскому времени
-                      .support-time__label
-                        .support-time__days Пн-Чт
-                        .support-time__info с 08:00 до 17:00
-                      .support-time__label
-                        .support-time__days Пт
-                        .support-time__info с 08:00 до 16:00
-                      .support-time__label
-                        .support-time__days Сб-Вс 
-                        .support-time__info выходные
+        .section-page
+          .section-page__contact
+            .section-page__container
+              .section-page__head
+                h1.page-title Контакты
+              .section-contact
+                .section-contact__row
+                  .section-contact__col
+                    img(src="@img/question-image.png", alt="")
+                  .section-contact__col
+                    .section-contact__item
+                      .section-contact__item-title Почта:
+                      .section-contact__item-text info@gigtest.ru
+                    .section-contact__item
+                      .section-contact__item-title Телефон:
+                      .section-contact__item-text 8 800 700-30-60
+                    .section-contact__item
+                      .contact-time
+                        .contact-time__title Часы работы по московскому времени
+                        .contact-time__label
+                          .contact-time__days Пн-Чт
+                          .contact-time__info с 08:00 до 17:00
+                        .contact-time__label
+                          .contact-time__days Пт
+                          .contact-time__info с 08:00 до 16:00
+                        .contact-time__label
+                          .contact-time__days Сб-Вс 
+                          .contact-time__info выходные
       include html/footer
   script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
   script(src='js/app.js')

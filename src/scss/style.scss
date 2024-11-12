@@ -267,14 +267,13 @@ body {
     @include tablet {
       max-width: 750px;
       padding-top: 15px;
-      padding-bottom: 15px;
+      padding-bottom: 10px;
       column-gap: 37px;
     }
 
     @include mobile {
       gap: 20px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+   
     }
   }
 
@@ -387,7 +386,9 @@ body {
 
   &__link {
     color: $dark-blue;
-
+    &--active{
+      color: $blue;
+    }
     @include desctop {
       color: white;
     }
@@ -601,7 +602,7 @@ body {
     width: 60px;
     .circle-item-block__wrap {
 
-      width: 190px;
+      width: auto;
       opacity: 1;
       height: 60px;
  
@@ -610,10 +611,16 @@ body {
 
     .circle-item-block__wrapper {
 
-      width: 190px;
+      width: auto;
       opacity: 1;
       height: 60px;
+
    
+    }
+
+    .circle-item-block__img {
+      width: 35px;
+      height: 35px;
     }
   }
 
@@ -642,6 +649,8 @@ body {
     justify-content: center;
     border-radius: 100px;
     padding: 0 20px 0 60px;
+    white-space: nowrap;
+    width: auto;
 
     @include mobile {
       display: none;
@@ -651,7 +660,7 @@ body {
   &__wrapper {
     font-size: 10px;
     font-weight: 500;
-
+    width: auto;
     @include mobile {
       display: none;
     }
@@ -668,6 +677,7 @@ body {
     justify-content: center;
     border-radius: 100px;
     padding: 0 60px 0 20px;
+    white-space: nowrap;
   }
 
   &:nth-child(2) {
@@ -823,7 +833,7 @@ body {
   display: flex;
 
   width: 100%;
-  height: 565px;
+  height: 555px;
   position: relative;
   padding: 100px 0;
 
@@ -861,12 +871,14 @@ body {
   }
 
   @include desctop {
-    height: 420px;
+    height: 410px;
     padding: 20px 0;
   }
 
   @include tablet {
-    height: 370px;
+
+    height: 360px;
+
 
     padding-bottom: 20px;
   }
@@ -1049,14 +1061,16 @@ body {
     font-weight: 500;
     color: #35495d;
     line-height: 1.20;
-    margin-bottom: 23px;
-    padding-top: 19px;
+    margin-bottom: 25px;
+    padding-top: 10px;
 
     @include desctop {
       font-size: 24px;
       margin-bottom: 5px;
-      padding-top: 100px;
+   
       margin-bottom: 20px;
+
+      padding-top: 95px;
     }
 
 
@@ -1139,12 +1153,12 @@ body {
     &-img4 {
 
       max-width: initial;
-      margin-top: -25px;
+      margin-top: -30px;
       margin-left: 10px;
 
       @include desctop-md {
         max-width: initial;
-        margin-top: -16px;
+        margin-top: -24px;
         margin-left: 0;
         width: 620px;
       }
@@ -1152,9 +1166,9 @@ body {
 
       @include desctop {
         
-        width: 405px;
+        width: 410px;
         margin-left: 5px;
-        margin-top: 45px;
+        margin-top: 40px;
       }
 
       @include tablet{
@@ -1198,7 +1212,8 @@ body {
   display: flex;
 
   width: 100%;
-  height: 560px;
+  height: 555px;
+  
   position: relative;
   padding: 100px 0;
 
@@ -1231,12 +1246,12 @@ body {
   }
 
   @include desctop {
-    height: 420px;
+    height: 415px;
     padding: 20px 0;
   }
 
   @include tablet {
-    height: 370px;
+    height: 365px;
 
     padding-bottom: 20px;
   }
@@ -1355,12 +1370,12 @@ body {
     color: #35495d;
     line-height: 1.20;
     margin-bottom: 31px;
-    padding-top: 19px;
+    padding-top: 15px;
 
     @include desctop {
       font-size: 24px;
       margin-bottom: 5px;
-      padding-top: 79px;
+      padding-top: 75px;
 
     }
 
@@ -1369,12 +1384,12 @@ body {
     @include tablet {
       font-size: 22px;
       line-height: 1.2;
-      padding-top: 60px;
+      padding-top: 55px;
 
     }
 
     @include mobile {
-      padding-top: 28px;
+      padding-top: 25px;
       margin-bottom: 20px;
     }
   }
@@ -1780,6 +1795,9 @@ padding-bottom: 130px;
 
       &:nth-child(2) {
         padding-bottom: 6px;
+        @include mobile{
+          padding-bottom: 12px;
+        }
       }
 
       &:nth-child(3) {
@@ -1835,7 +1853,7 @@ padding-bottom: 130px;
     color: $dark-blue;
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   &__text {
@@ -1983,22 +2001,31 @@ padding-bottom: 130px;
   &__prices {
     position: relative;
     padding-top: 60px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
 
     .card-item {
       height: 510px;
     }
 
+  
+
+   
+    @include desctop{
+      padding-top: 50px;
+      padding-left: 10px;
+    }
     @include mobile {
       padding-bottom: 0;
-      padding-top: 40px;
+      padding-top: 35px;
+      padding-left: 0;
 
     }
+
   }
 
   &__cards {
     position: relative;
-    padding-top: 50px;
+    padding-top: 45px;
     padding-bottom: 35px;
 
     @include mobile {
@@ -2127,7 +2154,7 @@ padding-bottom: 130px;
         max-width: 314px;
 
         @include desctop {
-          max-width: 300px;
+          max-width: 300px!important;
         }
 
         @include tablet {
@@ -2146,13 +2173,14 @@ padding-bottom: 130px;
           max-width: 344px;
 
           .price-card__bodyItem {
-            padding: 43px 56px;
+            padding: 43px 43px 56px;
             padding-left: 55px;
             height: auto;
 
             @include mobile {
-              padding-left: 30px;
-              padding-right: 30px;
+          padding: 38px 43px 56px;
+              padding-right: 25px;
+              padding-left: 25px;
             }
           }
 
@@ -2165,7 +2193,7 @@ padding-bottom: 130px;
           }
 
           @include desctop {
-            max-width: 328px;
+            max-width: 328px!important;
           }
 
           @include tablet {
@@ -2241,6 +2269,13 @@ padding-bottom: 130px;
             color: white;
             font-size: 16px;
             padding-bottom: 30px;
+            @include tablet{
+              padding-bottom: 35px;
+            }
+            @include mobile{
+              padding-left: 0;
+              padding-right: 0;
+            }
 
           }
 
@@ -2298,6 +2333,7 @@ padding-bottom: 130px;
 
             @include mobile {
               padding-bottom: 12px;
+              padding-top: 5px;
             }
           }
 
@@ -2339,12 +2375,12 @@ padding-bottom: 130px;
 
       @include desctop {
         column-gap: 33px;
-        padding-left: 12px;
+     
 
       }
 
       @include tablet {
-        column-gap: 30px;
+        column-gap: 40px;
       }
 
       @include mobile {
@@ -3003,16 +3039,22 @@ padding-bottom: 130px;
 .section-reviews {
   background: #F8FBFF;
 
+  
+
   &__btn {
-    padding-top: 65px;
+    padding-top: 80px;
     text-align: center;
 
+    @include desctop-md{
+      padding-top: 80px;
+    }
+
     @include desctop {
-      padding-top: 70px;
+      padding-top: 65px;
     }
 
     @include tablet {
-      padding-top: 60px;
+      padding-top: 55px;
     }
 
     @include mobile {
@@ -3059,6 +3101,7 @@ padding-bottom: 130px;
       left: 0;
       bottom: 0;
       transform: none;
+      padding-top: 25px;
     }
 
     &-left,
@@ -3073,12 +3116,16 @@ padding-bottom: 130px;
       cursor: pointer;
     }
   }
+
+  @include mobile{
+    padding-top: 60px;
+  }
 }
 
 .review-slide {
   box-shadow: 0px 0px 8px 0px #00000026;
   border-radius: 16px;
-  padding: 57px 50px;
+  padding: 47px 50px;
   background: white;
   display: flex;
   justify-content: space-between;
@@ -3128,13 +3175,16 @@ padding-bottom: 130px;
     flex-direction: column;
   }
 
+  @include tablet{
+    padding-top: 50px;
+  }
+
   @include mobile {
-    padding: 20px;
+    padding: 15px;
   }
 
   &__title {
     font-size: 20px;
-    font-weight: 500;
     color: $dark-blue;
     padding-bottom: 21px;
 
@@ -3502,14 +3552,14 @@ row-gap: 5px;
     color: #26599b;
     padding: 30px;
     border-radius: 16px 16px 0 0;
-    padding-top: 40px;
+    padding-top: 35px;
 
 
     &-price {
       font-weight: 700;
       font-size: 28px;
       color: $blue;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
 
       span {
         margin-left: 8px;
@@ -3521,6 +3571,9 @@ row-gap: 5px;
       text-align: center;
       padding: 0 10px;
       padding-bottom: 20px;
+      @include tablet{
+        padding-bottom: 25px;
+      }
     }
   }
 
@@ -3571,6 +3624,10 @@ row-gap: 5px;
       font-size: 14px;
       padding-bottom: 15px;
     }
+
+    @include mobile{
+      padding-top: 5px;
+    }
   }
 
   &__body {
@@ -3581,6 +3638,8 @@ row-gap: 5px;
     padding: 43px 43px;
     gap: 15px;
     height: 232px;
+    padding-left: 35px;
+    padding-top: 35px;
   }
 
   &__item {
@@ -3596,10 +3655,10 @@ row-gap: 5px;
     }
 
     &:nth-child(2) {
-      padding: 23px 10px 30px 38px;
+      padding: 23px 10px 30px 30px;
 
       @include mobile {
-        padding: 26px 8px 30px 37px;
+        padding: 26px 8px 15px 37px;
       }
     }
 
@@ -5344,17 +5403,17 @@ padding-bottom: 115px;
   }
 }
 
-.swiper-wrapper{
-  padding: 2px;
+.swiper-slide{
+  padding: 5px!important;
 }
 
-// header.is-sticky {
-//   position: fixed;
-//   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+header.is-sticky {
+  position: fixed;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
 
-//   backdrop-filter: blur(10px);
-//   animation: slideDown 0.35s ease-out;
-// }
+  backdrop-filter: blur(10px);
+  animation: slideDown 0.35s ease-out;
+}
 
 
 
@@ -5391,8 +5450,12 @@ padding-bottom: 115px;
     max-width: 1230px;
     padding-left: 25px;
 
-    @include desctop-md {
-      max-width: 1068px;
+    @include desctop-md{
+      padding-left: 0;
+    }
+
+    @include desctop {
+      max-width: 870px;
       padding-left: 25px;
     }
 
@@ -5435,6 +5498,7 @@ padding-bottom: 115px;
 
   &__link {
     color: $dark-blue;
+   
   }
 }
 
@@ -5447,10 +5511,33 @@ padding-bottom: 115px;
 
     .section-price__row .swiper-wrapper {
       @include desctop {
-        column-gap: 45px;
+        column-gap: 30px;
 
       }
+     
 
+    }
+
+
+    .section-page__container{
+      @include desctop{
+        max-width: 750px;
+      
+
+      
+      }
+
+      @include desctop{
+        .section-price__row .swiper-wrapper .swiper-slide.swiper-slide--active-card {
+          max-width: 368px!important;
+      }
+      .section-price__row .swiper-wrapper .swiper-slide {
+        max-width: 320px!important;
+      }
+      .section-price__row .swiper-wrapper .swiper-slide--active-card .price-card__head{
+        padding-top: 40px;
+      }
+      }
     }
 
     .section-price__row .swiper-wrapper .swiper-slide .section-price__col {
@@ -5476,7 +5563,11 @@ padding-bottom: 115px;
     @include desctop {
       padding: 100px 0;
       padding-bottom: 70px;
+      padding-top: 95px;
     }
+
+    
+    
 
     @include tablet {
       padding: 80px 0;
@@ -5484,12 +5575,15 @@ padding-bottom: 115px;
       .section-price__row .swiper-wrapper {
         column-gap: 20px;
       }
+
+      padding-left: 20px;
     }
 
     @include mobile {
 
       padding-bottom: 85px;
       padding-top: 65px;
+      padding-left: 0;
     }
 
 
@@ -7194,6 +7288,7 @@ padding-bottom: 115px;
     }
 
     &:nth-child(2) {
+      padding-top: 60px;
       @include desctop {
         padding-top: 30px;
       }
@@ -7764,11 +7859,11 @@ gap: 15px;}
 
     }
 
-    &:nth-child(1) {
-      .documentation-item__image {
-        padding-top: 10px;
-      }
-    }
+    // &:nth-child(1) {
+    //   .documentation-item__image {
+    //     padding-top: 10px;
+    //   }
+    // }
 
     &:nth-child(3) {
       .documentation-item__image {
@@ -7785,9 +7880,15 @@ gap: 15px;}
   padding: 20px;
   text-align: center;
   height: 310px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   @include tablet {
     height: 290px;
+  }
+
+  @include mobile{
+    height: 280px;
   }
 
   &__image img {
@@ -7812,13 +7913,14 @@ gap: 15px;}
     font-size: 20px;
     font-weight: 500;
     color: $dark-blue;
-
+    height: 70px;
     @include desctop {
       font-size: 18px;
     }
 
     @include tablet {
       font-size: 16px;
+      height: 80px;
     }
   }
 }
@@ -7917,7 +8019,9 @@ gap: 15px;}
 
   @include mobile {
     font-size: 12px;
-    margin-top: 20px;
+
+    margin-top: 5px;
+
   }
 
 }
@@ -8552,10 +8656,10 @@ width: 100%;
     
   }
   @include desctop{
-    padding-top: 80px;
+    padding-top: 85px;
   }
   @include mobile{
-    padding-top: 65px;
+    padding-top: 70px;
   }
   @include tablet{
     padding-top: 70px;
@@ -8765,6 +8869,7 @@ width: 100%;
     }
   }
 
+ 
   &__row{
     display: flex;
     gap: 20px;
@@ -8798,6 +8903,7 @@ align-items: center;
 
 
   }
+  
 
   &__col{
     width: calc(33.3% - 13.2px);
@@ -8935,10 +9041,51 @@ gap: 15px;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, .3);
+  background: #0B0B0BB2;
   display: none;
   z-index: 2;
   &--active{
     display: block;
   }
+}
+
+@include mobile{
+  .section-work__row:first-child{
+    & > *{
+      .work-item__circle {
+        position: relative;
+        &::before{
+          content: '';
+          position: relative;
+          height: 50px;
+          border: 1px dashed $blue;
+          top: 95%;
+          left: calc(50% - 10px);
+          transform: translateX(-50%);
+      
+        }
+      }
+    }
+    }
+    
+    
+    .section-work__row:last-child{
+      & > *:not(:last-child){
+        .work-item__circle {
+          position: relative;
+          &::before{
+            content: '';
+            position: relative;
+            height: 50px;
+            border: 1px dashed $blue;
+            top: 95%;
+            left: calc(50% - 10px);
+            transform: translateX(-50%);
+        
+          }
+        }
+      }
+      }
+    
+    
 }

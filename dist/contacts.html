@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20241111060226">
-    <link rel="stylesheet" href="css/style.min.css?_v=20241111060226">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20241112140715">
+    <link rel="stylesheet" href="css/style.min.css?_v=20241112140715">
     <title>Document</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="menu-mobile"></div>
-      <div class="menu-overlay"></div>
       <header class="header">
         <div class="header__container">
           <div class="logo"><picture><source srcset="img/logo.webp, img/logo@2x.webp 2x" type="image/webp"><img class="logo__image" src="img/logo.png" srcset="img/logo@2x.png 2x" alt=""></picture></div>
@@ -31,10 +30,10 @@
                   </ul>
                 </div>
               </li>
-              <li class="menu__item"><a class="menu__link" href="">Возможности</a></li>
-              <li class="menu__item"><a class="menu__link" href="">Интеграции</a></li>
+              <li class="menu__item"><a class="menu__link" href="">API</a></li>
               <li class="menu__item"><a class="menu__link" href="">Тарифы</a></li>
-              <li class="menu__item"><a class="menu__link" href="">Техподдержка</a></li>
+              <li class="menu__item"><a class="menu__link" href="">База знаний</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--active" href="">Контакты</a></li>
             </ul>
           </nav>
           <div class="header__phone">
@@ -66,37 +65,39 @@
             </ul>
           </div>
         </div>
-        <section class="section-page">
-          <div class="section-page__container">
-            <div class="section-page__head">
-              <h1 class="page-title">Контакты</h1>
-            </div>
-            <div class="section-support">
-              <div class="section-support__row">
-                <div class="section-support__col"><picture><source srcset="img/contacts.webp" type="image/webp"><img src="img/contacts.png" alt=""></picture></div>
-                <div class="section-support__col">
-                  <div class="section-support__item">
-                    <div class="section-support__item-title">Почта:</div>
-                    <div class="section-support__item-text">info@gigtest.ru</div>
-                  </div>
-                  <div class="section-support__item">
-                    <div class="section-support__item-title">Телефон:</div>
-                    <div class="section-support__item-text">8 800 700-30-60</div>
-                  </div>
-                  <div class="section-support__item">
-                    <div class="support-time">
-                      <div class="support-time__title">Часы работы по московскому времени</div>
-                      <div class="support-time__label">
-                        <div class="support-time__days">Пн-Чт</div>
-                        <div class="support-time__info">с 08:00 до 17:00</div>
-                      </div>
-                      <div class="support-time__label">
-                        <div class="support-time__days">Пт</div>
-                        <div class="support-time__info">с 08:00 до 16:00</div>
-                      </div>
-                      <div class="support-time__label">
-                        <div class="support-time__days">Сб-Вс </div>
-                        <div class="support-time__info">выходные</div>
+        <div class="section-page">
+          <div class="section-page__contact">
+            <div class="section-page__container">
+              <div class="section-page__head">
+                <h1 class="page-title">Контакты</h1>
+              </div>
+              <div class="section-contact">
+                <div class="section-contact__row">
+                  <div class="section-contact__col"><picture><source srcset="img/question-image.webp" type="image/webp"><img src="img/question-image.png" alt=""></picture></div>
+                  <div class="section-contact__col">
+                    <div class="section-contact__item">
+                      <div class="section-contact__item-title">Почта:</div>
+                      <div class="section-contact__item-text">info@gigtest.ru</div>
+                    </div>
+                    <div class="section-contact__item">
+                      <div class="section-contact__item-title">Телефон:</div>
+                      <div class="section-contact__item-text">8 800 700-30-60</div>
+                    </div>
+                    <div class="section-contact__item">
+                      <div class="contact-time">
+                        <div class="contact-time__title">Часы работы по московскому времени</div>
+                        <div class="contact-time__label">
+                          <div class="contact-time__days">Пн-Чт</div>
+                          <div class="contact-time__info">с 08:00 до 17:00</div>
+                        </div>
+                        <div class="contact-time__label">
+                          <div class="contact-time__days">Пт</div>
+                          <div class="contact-time__info">с 08:00 до 16:00</div>
+                        </div>
+                        <div class="contact-time__label">
+                          <div class="contact-time__days">Сб-Вс </div>
+                          <div class="contact-time__info">выходные</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -104,7 +105,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </main>
       <footer class="footer">
         <div class="footer__container">
@@ -151,6 +152,6 @@
       </footer>
     </div>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241111060226"></script>
-  <script src="js/app.js?_v=20241111060226"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241112140715"></script>
+  <script src="js/app.js?_v=20241112140715"></script>
 </html>
