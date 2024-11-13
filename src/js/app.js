@@ -144,7 +144,7 @@ for (i = 0; i < myCustomSlider.length; i++) {
       speed: 5000,
       autoplay: {
         enabled: true,
-        delay: 1,
+      
       },
 
 
@@ -192,14 +192,16 @@ function swiperCard() {
           clickable: true,
         },
         breakpoints: {
-          768: {
-            slidesPerView: 2,
-        
-          },
           320: {
             slidesPerView: 1,
        
           },
+          768: {
+            slidesPerView: 2,
+        
+          },
+
+          
         },
 
       
