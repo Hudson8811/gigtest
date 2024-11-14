@@ -120,12 +120,26 @@ main{
     background: $blue;
     color: white;
     border-radius: 8px;
+    &:hover{
+      background: #184279;
+    }
+  }
+
+  &--disabled{
+    background: #A6A6A6;
+    color: white;
+    border-radius: 8px;
   }
 
   &--bordered {
     border: 1px solid $blue;
     color: $blue;
     border-radius: 8px;
+    &:hover{
+      background: #F8FBFF;
+      border: 1px solid #184279;
+      color: #184279;
+    }
   }
 
   &--medium {
@@ -148,6 +162,9 @@ main{
 
   &--white {
     background: white;
+    &:hover{
+      color: #5479F8;
+    }
   }
 
 }
@@ -397,7 +414,22 @@ body {
     color: $dark-blue;
  
     &--active{
-      color: $blue;
+      color: #5479F8;
+
+      &>.menu__icon {
+        fill: #5479F8;
+        transform: rotate(180deg);
+      }
+
+      &::after{
+        content: '';
+        bottom: 30px;
+        width: 100%;
+        height: 1px;
+        background: #5479F8;
+        position: absolute;
+        left: 0;
+      }
     }
     @include desctop {
       color: white;
@@ -408,7 +440,7 @@ body {
     position: relative;
     width: 100%;
     white-space: nowrap;
-
+    position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -438,11 +470,21 @@ body {
       }
 
       &>a {
-        color: $blue;
+        color: #5479F8;
+        &::after{
+          content: '';
+          bottom: 30px;
+          width: 100%;
+          height: 1px;
+          background: #5479F8;
+          position: absolute;
+          left: 0;
+        }
       }
+      
 
       &>.menu__icon {
-        fill: $blue;
+        fill: #5479F8;
         transform: rotate(180deg);
       }
     }
@@ -462,11 +504,21 @@ body {
       }
 
       &>a {
-        color: $blue;
+        color: #5479F8;
+     
+      &::after{
+        content: '';
+        bottom: 30px;
+        width: 100%;
+        height: 1px;
+        background: #5479F8;
+        position: absolute;
+        left: 0;
+      }
       }
 
       &>.menu__icon {
-        fill: $blue;
+        fill: #5479F8;
         transform: rotate(180deg);
       }
      }
@@ -478,6 +530,28 @@ body {
   &__link {
     color: white;
     display: block;
+    position: relative;
+    &--active{
+      &::before{
+        content: '';
+        position: absolute;
+        bottom: -2px;
+       left: 0;
+       right: 0;
+        height: 1px;
+        background: white;
+      }
+    }
+    &:hover{
+      &::before{
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        width: 100%;
+        height: 1px;
+        background: white;
+      }
+    }
   }
 
   &__item {
@@ -506,7 +580,9 @@ body {
   &__text {
     color: $background;
     font-size: 12px;
-    white-space: normal
+    white-space: normal;
+    position: relative;
+    
   }
 }
 
@@ -2137,13 +2213,12 @@ padding-bottom: 130px;
 
   }
 
-  // &__item{
-  //   max-width: 260px;
-  //   margin: 0;
-  //   @include mobile{
-  //     max-width: 100%;
-  //   }
-  // }
+  &__item{
+   
+    @include tablet{
+      max-width: 330px;
+    }
+  }
 
 
 
@@ -2190,6 +2265,7 @@ padding-bottom: 130px;
     @include desctop {
       padding-top: 49px;
     }
+    
 
     @include mobile {
       padding-top: 35px;
@@ -2459,7 +2535,9 @@ padding-bottom: 130px;
 
     justify-content: center;
     overflow: hidden;
-    padding-top: 49px;
+    padding-top: 45px;
+
+
 
     .swiper-wrapper {
       display: flex;
@@ -2948,10 +3026,10 @@ padding-bottom: 130px;
       }
     }
 
-    &>* {
+    // &>* {
 
-      background: white;
-    }
+    //   background: white;
+    // }
 
   }
 
@@ -2991,10 +3069,20 @@ padding-bottom: 130px;
   margin: 0 auto;
 }
 
+.hystmodal--active:before {
+  background:#0B0B0BB2;
+  opacity: 1;
+}
+
 .hystmodal {
   display: block;
   &__wrap {
     max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__wrapper {
+    max-width: 1120px;
     margin: 0 auto;
   }
 
@@ -3057,6 +3145,7 @@ padding-bottom: 130px;
     width: 23px;
     height: 23px;
     margin-right: 20px;
+    margin-top: 10px;
     @include mobile{
       width: 17px;
     height: 17px;
@@ -3173,6 +3262,14 @@ padding-bottom: 130px;
 
 
   &__list {
+
+    a{
+      display: block;
+      color: $dark-blue;
+      &:hover{
+        color: $blue;
+      }
+    }
     
 
     &>* {
@@ -3466,7 +3563,7 @@ padding-bottom: 130px;
       margin-right: 3px;
     }
 
-    &.tab--active {
+    &.tab--active, &:hover {
       background: white;
       color: $blue;
     }
@@ -6089,10 +6186,19 @@ header.is-sticky {
 
   &__list {
 
+    a{
+      color: $dark-blue;
+      display: block;
+      &:hover{
+        color: $blue;
+      }
+    }
+
     &>* {
       position: relative;
       margin-bottom: 20px;
       padding-left: 37px;
+
 
       @include mobile {
         margin-bottom: 10px;
@@ -8168,7 +8274,7 @@ gap: 15px;}
 }
 
 
-  &:hover,  &--active{
+  &--active{
     background: $blue;
     color: white;
 
@@ -8490,7 +8596,7 @@ padding-top: 115px;
 
 .section-clients__row{
 position: relative;
-overflow: hidden;
+overflow-x: hidden;
 
 @include mobile{
   padding-bottom: 75px;
@@ -8501,6 +8607,10 @@ overflow: hidden;
 
 
 .section-clients{
+
+  &__block{
+    position: relative;
+  }
 
 @include desctop{
 
@@ -8537,6 +8647,17 @@ overflow: hidden;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: calc(100% + 185px);
+
+
+    @include mobile{
+      width: 100%;
+      height: 25px;
+      top: 100%;
+      justify-content: center;
+      & > *{
+        margin: 0 20px;
+      }
+    }
 
   }
   &__icon{
@@ -8856,7 +8977,7 @@ width: 100%;
 
   & > *:first-child{
     padding-bottom: 160px;
-    height: 320px;
+    height: 321.4px;
     @include tablet{
       height: 278px;
     }

@@ -141,7 +141,7 @@ for (i = 0; i < myCustomSlider.length; i++) {
 
       slidesPerView: 1,
       loop: true,
-      speed: 5000,
+      speed: 2000,
       autoplay: {
         enabled: true,
       
@@ -328,7 +328,26 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+const serviceItem = document.querySelectorAll(".service-item:not(.service-item--active)");
 
+serviceItem.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+
+
+    document.querySelector(".service-item--active").classList.remove('service-item--active');
+    item.classList.add("service-item--active");
+
+  });
+
+  item.addEventListener("mouseleave", () => {
+
+
+    document.querySelector(".section-grid-seo__col:nth-child(2) .service-item").classList.add('service-item--active');
+    item.classList.remove("service-item--active");
+ 
+  });
+
+});
 
 
 
