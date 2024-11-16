@@ -23,7 +23,7 @@
 }
 
 @mixin desctop-mob {
-  @media(min-width: 1024px) {
+  @media(min-width: 1025px) {
     @content;
   }
 }
@@ -98,8 +98,8 @@ ol {
   padding: 0 20px;
   width: 100%;
 
-  @include desctop {
-    max-width: 710px;
+  @include desctop{
+    max-width: 850px;
   }
 
   @include desctop {
@@ -107,8 +107,13 @@ ol {
   }
 }
 
+
+
+
+
+
 main{
-  min-height: calc(100vh - 258px);
+  min-height: calc(100vh - 260px);
 }
 
 .btn {
@@ -123,6 +128,13 @@ main{
     &:hover{
       background: #184279;
     }
+  }
+
+  &--green {
+    background: #12672A;
+    color: white;
+    border-radius: 8px;
+   
   }
 
   &--disabled{
@@ -143,11 +155,31 @@ main{
   }
 
   &--medium {
-    padding: 14px 16px;
+    padding: 18px 16px;
     min-width: 160px;
-
+    font-size: 16px;
+    min-width: 240px;
     @include desctop {
-      min-width: 130px;
+      min-width: 190px;
+     
+    }
+    @include tablet{
+      min-width: 180px;
+      padding: 14px 12px;
+    }
+  }
+
+  &--large {
+    padding: 18px 16px;
+    min-width: 240px;
+font-size: 16px;
+    @include desctop {
+      min-width: 190px;
+    }
+
+    @include tablet{
+      min-width: 180px;
+      padding: 14px 12px;
     }
   }
 
@@ -158,12 +190,25 @@ main{
 
   &--fw {
     width: 100%;
+    min-width: auto;
   }
 
   &--white {
     background: white;
     &:hover{
       color: #5479F8;
+    }
+  }
+
+  &--white-bordered {
+    background: white;
+    color: #26599B;
+    border: 1px solid #26599B;
+    border-radius: 8px;
+    &:hover{
+      color: #184279;
+      background: #F8FBFF;
+      border: 1px solid #184279;
     }
   }
 
@@ -363,7 +408,7 @@ body {
     background: $blue;
     padding: 30px;
     min-width: 270px;
-    top: 100%;
+    top: 60px;
     left: -20px;
     max-width: 250px;
     transition-delay: 1s;
@@ -379,7 +424,7 @@ body {
   &__list {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 33px;
 
     @include desctop {
       padding-top: 75px;
@@ -412,6 +457,8 @@ body {
 
   &__link {
     color: $dark-blue;
+
+    font-size: 16px;
  
     &--active{
       color: #5479F8;
@@ -452,9 +499,13 @@ body {
       justify-content: space-between;
       align-items: center;
       white-space: normal;
-      height: 56px;
+      height: 58px;
+
+     
 
     }
+
+   
 
     &--open {
       &>*.menu__dropdown {
@@ -556,9 +607,10 @@ body {
 
   &__item {
     @include desctop {
-      padding: 16px 23px;
+      padding: 20px 23px;
       border-bottom: 1px solid white;
     }
+   
 
     &:not(:last-child) {
       margin-bottom: 22.3px;
@@ -625,11 +677,12 @@ body {
   }
 
   &__top {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   &__bottom {
     color: $dark-blue;
+    font-size: 16px;
   }
 
 }
@@ -688,9 +741,9 @@ body {
   }
 
   &:hover {
-    height: 60px;
-    width: 60px;
-    transform: translateY(-3px);
+    height: 80px;
+    width: 80px;
+    transform: translateY(-10px);
 
     @include desctop{
       height: 50px;
@@ -701,7 +754,7 @@ body {
 
       width: auto;
       opacity: 1;
-      height: 60px;
+      height: 80px;
 
       
     @include desctop{
@@ -719,7 +772,8 @@ body {
 
       width: auto;
       opacity: 1;
-      height: 60px;
+      height: 80px;
+      font-size: 14px;
 
       @include desctop{
         height: 50px;
@@ -731,7 +785,7 @@ body {
 
     .circle-item-block__icon{
       font-weight: 500;
-      font-size: 14px;
+      font-size: 16px;
       @include desctop{
         font-size: 12px;
       }
@@ -771,10 +825,10 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    padding: 0 20px 0 60px;
+    padding: 0 20px 0 80px;
     white-space: nowrap;
     width: auto;
-
+    font-size: 14px;
     @include desctop{
       font-size: 8px;
     }
@@ -803,7 +857,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    padding: 0 60px 0 20px;
+    padding: 0 80px 0 20px;
     white-space: nowrap;
 
     @include desctop{
@@ -953,8 +1007,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-left: 40px;
-  margin-top: 8px;
+  margin-left: 12px;
+  margin-top: 2px;
 
   @include desctop {
     width: 160px;
@@ -967,12 +1021,14 @@ body {
     transform: translate(-50%, -50%);
 
     margin-top: 5px;
-    margin-left: 28px;
+    margin-left: 3px;
   }
 
   @include tablet {
     width: 135px;
     height: 135px;
+
+    margin-left: 8px;
   }
 
   @include mobile {
@@ -1088,8 +1144,8 @@ body {
         transform: translate(-50%, -50%);
         width: 90px;
         height: 90px;
-        margin-top: 5px;
-        margin-left: 28px;
+        margin-top: 10px;
+        margin-left: 5px;
       }
 
       @include tablet {
@@ -1301,7 +1357,7 @@ body {
         left: 0;
         right: 0;
         transform: none;
-        max-width: 100%;
+       
       }
     }
 
@@ -1370,14 +1426,14 @@ body {
   height: 550px;
   
   position: relative;
-  padding: 100px 0;
+  padding: 80px 0;
 
   &__container {
     position: relative;
     display: flex;
 
     @include tablet {
-      max-width: 650px;
+      max-width: 750px;
     }
 
     @include mobile {
@@ -1387,16 +1443,31 @@ body {
 
   }
 
-  .btn {
-    margin-top: 48px;
-
+  &__btn {
+    margin-top: 55px;
+    column-gap: 20px;
+    display: flex;
+    @include desctop-md{
+      margin-top: 45px;
+    }
     @include desctop {
-      font-size: 12px;
-      margin-top: 20px;
+      .btn{
+        font-size: 14px;
+      }
+      margin-top: 45px;
     }
 
     @include tablet {
-      margin-top: 10px;
+  
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    @include mobile{
+      flex-direction: column;
+   
+
+      margin-top: 45px;
     }
   }
 
@@ -1414,30 +1485,32 @@ body {
   @include mobile {
     flex-direction: column;
     height: auto;
-    height: auto;
+    min-height: 520px;
   }
 
   &__circle {
     position: relative;
-    margin-top: -22px;
-    padding-left: 50px;
+  
+    padding-left: 0;
 
     @include desctop {
-      width: 310px;
-      margin-left: 30px;
-      margin-top: 50px;
+      width: 260px;
+      margin-left: 40px;
+      margin-top: 35px;
     }
 
     @include tablet {
-      width: 280px;
-      margin-left: 20px;
-      margin-top: 30px;
+      width: 230px;
+        margin-left: 30px;
+        margin-top: 30px;
     }
 
     @include mobile {
       margin: 0 auto;
       width: 190px;
       padding-left: 0;
+
+      margin-top: 18px;
     }
 
     &-item {
@@ -1452,8 +1525,8 @@ body {
       transform: translate(-50%, -50%);
       width: 140px;
       height: 140px;
-      margin-top: 10px;
-      margin-left: 35px;
+      margin-top: 5px;
+    margin-left: 10px;
 
       @include desctop {
         position: absolute;
@@ -1463,12 +1536,14 @@ body {
         width: 90px;
         height: 90px;
         margin-top: 5px;
-        margin-left: 28px;
+      
       }
 
       @include tablet {
         width: 80px;
         height: 80px;
+
+        margin-left: 10px;
 
       }
 
@@ -1483,39 +1558,47 @@ body {
 
   &__descr {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     color: $blue;
+    padding-top: 15px;
 
     @include desctop {
-      font-size: 13px;
+      font-size: 16px;
+      padding-top: 10px;
     }
 
     @include tablet {
-      font-size: 12px;
+  
+      padding-top: 0;
+    }
+    @include mobile{
+      font-size: 14px;
     }
   }
 
   &__list {
     display: flex;
-    gap: 19px;
-    max-width: 473px;
+  column-gap: 40px;
+    max-width: 600px;
 
     @include desctop {
-      gap: 15px;
+      gap: 25px;
       margin-bottom: 10px;
-      padding-top: 14px;
+      padding-top: 24px;
       max-width: 320px;
+      padding-left: 5px;
     }
 
     @include tablet {
-      gap: 5px;
-      padding-top: 13px;
+      gap: 15px;
+      padding-top: 25px;
       padding-bottom: 20px;
       margin-bottom: 0;
     }
 
     @include mobile {
       padding-top: 0;
+      gap: 30px;
     }
 
   }
@@ -1525,28 +1608,33 @@ body {
     font-weight: 500;
     color: #35495d;
     line-height: 1.20;
-    margin-bottom: 31px;
-    padding-top: 15px;
+    margin-bottom: 43px;
+@include desctop-md{
+  margin-bottom: 35px;
+}
 
     @include desctop {
-      font-size: 24px;
-      margin-bottom: 5px;
-      padding-top: 75px;
+      font-size: 26px;
+      margin-bottom: 0;
+      padding-top: 40px;
+      max-width: 400px;
+      line-height: 1.3;
 
     }
 
 
 
     @include tablet {
-      font-size: 22px;
+      font-size: 26px;
       line-height: 1.2;
-      padding-top: 55px;
+      padding-top: 20px;
 
     }
 
     @include mobile {
-      padding-top: 32px;
+      padding-top: 0;
       margin-bottom: 20px;
+      font-size: 22px;
     }
   }
 
@@ -1558,12 +1646,12 @@ body {
     color: #35495d;
     line-height: 1.20;
     margin-bottom: 23px;
-    padding-top: 19px;
+  
 
     @include desctop {
-      font-size: 24px;
+      font-size: 26px;
       margin-bottom: 5px;
-      padding-top: 77px;
+      padding-top: 40px;
 
     }
 
@@ -1574,11 +1662,13 @@ body {
       font-size: 22px;
       line-height: 1.2;
       padding-top: 60px;
+      margin-bottom: 16px;
+      max-width: 360px;
 
     }
 
     @include mobile {
-      padding-top: 28px;
+      padding-top: 0;
       margin-bottom: 20px;
 
     }
@@ -1589,13 +1679,12 @@ body {
     font-weight: 500;
     color: #35495d;
     line-height: 1.20;
-    margin-bottom: 23px;
-    padding-top: 19px;
-
+    margin-bottom: 20px;
+ 
     @include desctop {
-      font-size: 24px;
+      font-size: 26px;
       margin-bottom: 5px;
-      padding-top: 79px;
+      padding-top: 40px;
       margin-bottom: 20px;
     }
 
@@ -1609,7 +1698,7 @@ body {
     }
 
     @include mobile {
-      padding-top: 28px;
+      padding-top: 0;
       margin-bottom: 20px;
       font-size: 22px;
     }
@@ -1619,21 +1708,24 @@ body {
 
 
   &__col {
-    width: 50%;
+    width: 55%;
+  
 
     @include tablet {
       padding-top: 0;
     }
 
     &:nth-child(2) {
+      width: 45%;
       @include mobile {
         padding-top: 0;
+        width: 100%;
       }
     }
 
     &:first-child {
       @include mobile {
-        padding-bottom: 50px;
+        padding-bottom: 25px;
 
       }
     }
@@ -1652,8 +1744,8 @@ body {
       @include desctop {
         max-width: 400px;
         position: absolute;
-        top: calc(50% - 15px);
-        right: -54px;
+        top: calc(50% - 25px);
+        right: 20px;
         transform: translateY(-50%);
       }
 
@@ -1661,7 +1753,7 @@ body {
         max-width: 355px;
         position: absolute;
         top: calc(50% - 25px);
-        right: -37px;
+        right: 10px;
         transform: translateY(-50%);
       }
 
@@ -1671,7 +1763,8 @@ body {
         left: 0;
         right: 0;
         transform: none;
-        max-width: 100%;
+        max-width: 290px;
+        margin: 0 auto;
       }
     }
 
@@ -1720,11 +1813,20 @@ body {
   &__slider {
     width: 100%;
 
+    .swiper-slide{
+      @include mobile{
+        &:nth-child(1){
+          .slider-item__btn {
+            flex-direction: column;
+            margin-top: 5px;
+        }
+        }
+      }
+    }
+
     .swiper-slide {
       &:nth-child(2) {
-        .btn {
-          margin-top: 34px;
-        }
+     
 
         .slider-item__title2 {
           margin-bottom: 20px;
@@ -1732,24 +1834,26 @@ body {
           @include tablet {
             margin-bottom: 16px;
           }
+
+          @include mobile{
+            margin-bottom: 20px;
+          }
         }
       }
 
-      &:nth-child(3) {
-        .btn--medium {
-          margin-top: 30px;
-        }
-      }
+ 
 
       &:nth-child(3) img {
-        margin-top: -33px;
-        margin-left: 9px;
-        max-width: initial;
+        margin-top: -13px;
+        margin-left: -40px;
+    max-width: initial;
+
 
         @include desctop {
 
           max-width: 400px;
-          margin-top: 46px;
+          margin-top: 40px;
+          margin-left: -30px;
         }
 
         @include tablet {
@@ -1760,13 +1864,12 @@ body {
         @include mobile {
           margin: 0 auto;
           width: 290px;
+          padding-top: 20px;
         }
       }
     }
 
-    @include mobile {
-      height: 517px
-    }
+   
   }
 
   &__dots {
@@ -1793,7 +1896,7 @@ body {
 
   &:nth-child(1) {
     .main-item__text {
-      margin-left: -4px;
+
     }
 
     @include mobile {
@@ -1802,12 +1905,10 @@ body {
   }
 
   &:nth-child(2) {
-    .main-item__title {
-      padding-left: 10px;
-    }
+
 
     .main-item__text {
-      margin-left: 8px;
+   
     }
 
     @include mobile {
@@ -1817,11 +1918,11 @@ body {
 
   &:nth-child(3) {
     .main-item__title {
-      margin-left: -3px;
+    
     }
 
     .main-item__text {
-      margin-left: -6px;
+    
     }
 
     @include mobile {
@@ -1832,27 +1933,28 @@ body {
   text-align: center;
 
   &__title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: $blue;
     margin-bottom: 5px;
 
     @include desctop {
-      font-size: 13px;
+      font-size: 16px;
     }
 
-    @include tablet {
-      font-size: 12px;
-    }
+  
+
+ 
   }
 
   &__text {
 
     color: $black;
     max-width: 225px;
-
+    font-size: 16px;
+white-space: nowrap;
     @include desctop {
-      font-size: 10px;
+      font-size: 12px;
     }
 
     @include mobile {
@@ -1936,11 +2038,18 @@ padding-bottom: 130px;
     padding-top: 55.8px;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 30px;
+    row-gap: 35px;
     column-gap: 26px;
-
+@include desctop-md{
+  row-gap: 30px;
+}
     @include desctop {
       padding-top: 50.8px;
+      row-gap: 25px;
+    }
+
+    @include tablet{
+      row-gap: 35px;
     }
 
     @include mobile {
@@ -1966,9 +2075,7 @@ padding-bottom: 130px;
         padding-bottom: 0;
 
         .difficulties-item__text {
-          @include mobile {
-            max-width: 205px;
-          }
+        
         }
       }
 
@@ -2013,14 +2120,15 @@ padding-bottom: 130px;
 
   &__title {
     color: $dark-blue;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   &__text {
+    font-size: 18px;
     @include desctop {
-      br {
+      br:not(.br-mobile) {
         display: none;
       }
     }
@@ -2038,12 +2146,17 @@ padding-bottom: 130px;
   display: none;
 
   &__wrap {
-    padding: 0 0 15px 0;
+    padding: 5px 0 15px 0;
+
+    font-size: 18px;
    
     padding-right: 25px;
     @include desctop {
       padding-top: 0;
-      padding-right: 0;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 20px;
 
     }
     @include tablet{
@@ -2083,12 +2196,21 @@ padding-bottom: 130px;
 
 
 .section-possibilities {
+
+  .accordion{
+    padding-top: 10px;
+    
+  }
   @include mobile {
     padding-top: 115px;
   }
 
   &__title {
     padding-bottom: 25px;
+
+    @include desctop-md{
+      padding-bottom: 20px;
+    }
 
     @include tablet {
       padding-bottom: 22px;
@@ -2100,6 +2222,7 @@ padding-bottom: 130px;
   }
 
   &__container {
+    
     @include tablet {
       max-width: 750px;
     }
@@ -2110,19 +2233,24 @@ padding-bottom: 130px;
     padding-bottom: 55px;
     max-width: 800px;
     margin: 0 auto;
+    font-size: 16px;
 
-    @include desctop {
-      font-size: 12px;
-    }
+
 
     @include mobile {
-      padding-bottom: 38px;
+ 
+      font-size: 12px;
+      padding-bottom: 15px;
     }
   }
 
   &__btn {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 75px;
+
+    @include desctop{
+      padding-top: 75px;
+    }
 
     @include tablet {
       padding-top: 72px;
@@ -2133,11 +2261,7 @@ padding-bottom: 130px;
     }
   }
 
-  @include desctop {
-    &__row {
-      margin-top: 5px;
-    }
-  }
+
 }
 
 .section-price {
@@ -2216,8 +2340,10 @@ padding-bottom: 130px;
   &__item{
    
     @include tablet{
-      max-width: 330px;
+      max-width: 295px;
     }
+
+   
   }
 
 
@@ -2225,7 +2351,7 @@ padding-bottom: 130px;
   &__top {
     display: flex;
 
-    padding-top: 25px;
+    padding-top: 30px;
     max-width: 800px;
     margin: 0 auto;
     column-gap: 10px;
@@ -2234,6 +2360,7 @@ padding-bottom: 130px;
     @include desctop {
       column-gap: 10px;
       padding-left: 10px;
+      padding-top: 35px;
     }
 
     @include tablet {
@@ -2243,6 +2370,7 @@ padding-bottom: 130px;
     @include mobile {
       flex-direction: column;
       gap: 23px;
+      padding-top: 20px;
     }
   }
 
@@ -2291,6 +2419,10 @@ padding-bottom: 130px;
 
     justify-content: center;
     overflow: hidden;
+    @include desctop{
+      max-width: 680px;
+      margin: 0 auto;
+    }
 
     .swiper-wrapper {
       display: flex;
@@ -2298,9 +2430,18 @@ padding-bottom: 130px;
       column-gap: 80px;
       align-items: center;
 
+      
+
       @include desctop {
-        column-gap: 33px;
+        justify-content: center;
+        column-gap: 40px;
+
       }
+      @include mobile{
+        justify-content: flex-start;
+      }
+
+      
 
       @include tablet {
         column-gap: 40px;
@@ -2359,7 +2500,7 @@ padding-bottom: 130px;
           }
 
           @include desctop {
-            max-width: 328px!important;
+            max-width: 340px!important;
           }
 
           @include mobile{
@@ -2368,6 +2509,9 @@ padding-bottom: 130px;
 
           @include tablet {
             .section-price__col {
+              max-width: 330px;
+            }
+            .section-price__item {
               max-width: 330px;
             }
           }
@@ -2402,7 +2546,7 @@ padding-bottom: 130px;
           }
 
           .price-card__sum {
-            padding-bottom: 40px;
+            padding-bottom: 35px;
           }
 
           .price-card__item:nth-child(2) {
@@ -2422,7 +2566,7 @@ padding-bottom: 130px;
           .price-card__header {
             background: $blue;
             color: white;
-            height: 95px;
+            height: 100px;
 
           }
 
@@ -2521,9 +2665,7 @@ padding-bottom: 130px;
 
 
 
-      @include desctop {
-        justify-content: flex-start;
-      }
+    
 
 
     }
@@ -2537,7 +2679,10 @@ padding-bottom: 130px;
     overflow: hidden;
     padding-top: 45px;
 
-
+@include desctop{
+  max-width: 680px;
+  margin: 0 auto;
+}
 
     .swiper-wrapper {
       display: flex;
@@ -2546,7 +2691,7 @@ padding-bottom: 130px;
       align-items: center;
 
       @include desctop {
-        column-gap: 33px;
+        column-gap: 40px;
      
 
       }
@@ -2613,11 +2758,14 @@ padding-bottom: 130px;
 
 
           @include desctop {
-            max-width: 328px;
+            max-width: 340px;
           }
 
           @include tablet {
             .section-price__col {
+              max-width: 330px;
+            }
+            .section-price__item {
               max-width: 330px;
             }
           }
@@ -2633,7 +2781,7 @@ padding-bottom: 130px;
           .price-card__body {}
 
           .price-card__sum {
-            padding-bottom: 40px;
+            padding-bottom: 35px;
           }
 
           .price-card__possibility {
@@ -2647,7 +2795,7 @@ padding-bottom: 130px;
           .price-card__header {
             background: $blue;
             color: white;
-            height: 93px;
+            height: 100px;
 
           }
 
@@ -2745,8 +2893,12 @@ padding-bottom: 130px;
   height: 325px;
 
   @include desctop {
-    height: 215px;
-    margin-top: 5px;
+    width: 330px;
+    height: 220px;
+        position: absolute;
+        top: 0;
+        right: 45px;
+      
   }
 
   @include tablet {
@@ -2759,6 +2911,7 @@ padding-bottom: 130px;
     width: 100%;
     height: 185px;
     margin-top: 8px;
+    right: 0;
   }
 
   &__block {
@@ -2878,6 +3031,14 @@ padding-bottom: 130px;
 
 }
 
+
+.d-xl-block {
+  @include desctop-md {
+    display: block;
+  }
+
+}
+
 .d-md-block {
 
 
@@ -2911,20 +3072,35 @@ padding-bottom: 130px;
   justify-content: space-between;
 
   &__title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: $blue;
     padding: 15.5px 0;
-    height: 55px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
 
+    @include desctop-md{
+      height: 71px;
+    }
+
     @include desctop {
       padding: 5px 0;
-      min-height: 55px;
+
+      height: 69.6px;
+   
+    }
+
+    @include mobile{
+      font-size: 20px;
+      height: auto;
+    
+
+      padding: 21.7px 0;
+    
     }
     
   }
@@ -2982,8 +3158,13 @@ padding-bottom: 130px;
       
     }
 
+    @include desctop{
+      margin-left: 5px;
+    }
+
     @include tablet{
       margin-right: 20px;
+    
     }
   }
 }
@@ -3001,7 +3182,12 @@ padding-bottom: 130px;
 
     &.active {
     
-
+.accordion-header__title{
+  padding-bottom: 0;
+}
+.accordion-content__wrap{
+  padding-top: 3px;
+}
       .accordion-header__name {
         @include desctop {
           padding-bottom: 5px;
@@ -3011,6 +3197,7 @@ padding-bottom: 130px;
           padding-bottom: 0;
 
         }
+        
       }
 
       .accordion-content {
@@ -3107,6 +3294,10 @@ padding-bottom: 130px;
     border-radius: 16px;
     padding: 50px 40px;
     position: relative;
+
+    @include mobile{
+      padding: 40px 15px;
+    }
   }
 
   &__contact{
@@ -3139,6 +3330,10 @@ padding-bottom: 130px;
     overflow: hidden;
     width: calc(100% - 100px);
     margin: 0 auto;
+
+    @include mobile{
+      width: calc(100% - 20px);
+    }
   }
 
   &__close {
@@ -3189,6 +3384,7 @@ padding-bottom: 130px;
 
     @include desctop{
       margin-right: 0;
+      
     }
 
   }
@@ -3207,6 +3403,11 @@ padding-bottom: 130px;
     left: 40px;
     right: 40px;
     z-index: 2;
+
+    @include mobile{
+      left: 5px;
+      right: 5px;
+    }
 
   }
 
@@ -3312,7 +3513,9 @@ padding-bottom: 130px;
     }
 
     @include desctop {
-      padding-top: 65px;
+   
+
+      padding-top: 80px;
     }
 
     @include tablet {
@@ -3320,21 +3523,28 @@ padding-bottom: 130px;
     }
 
     @include mobile {
-      padding-top: 35px;
+      padding-top: 15px;
     }
   }
 
   &__slider {
-    margin-top: 55px;
+    margin-top: 50px;
     overflow: hidden;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+
 
     position: relative;
+
+    @include desctop{
+      padding-left: 25px;
+    padding-right: 25px;
+    }
 
     @include mobile {
       padding: 0;
       margin-top: 45px;
+      padding-bottom: 50px;
     }
   }
 
@@ -3351,8 +3561,10 @@ padding-bottom: 130px;
     top: 50%;
     z-index: 2;
     transform: translateY(-50%);
-    left: 13px;
-    right: 13px;
+    left: 0;
+    right: 0;
+    height: 0;
+    align-items: center;
     @include mobile {
       position: relative;
       justify-content: center;
@@ -3362,7 +3574,7 @@ padding-bottom: 130px;
       left: 0;
       bottom: 0;
       transform: none;
-      padding-top: 25px;
+      padding-top: 40px;
     }
 
     &-left,
@@ -3379,7 +3591,8 @@ padding-bottom: 130px;
   }
 
   @include mobile{
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
 }
 
@@ -3391,14 +3604,18 @@ padding-bottom: 130px;
   display: flex;
   justify-content: space-between;
   column-gap: 40px;
+  align-items: flex-start;
 
   .br-desctop {
     display: block;
   }
 
   &__content {
+    font-size: 18px;
+    line-height: 1.35;
     @include desctop {
-      padding-bottom: 14px;
+      padding-bottom: 16px;
+      font-size: 16px;
     }
 
     @include tablet {
@@ -3409,6 +3626,7 @@ padding-bottom: 130px;
 
     @include mobile {
       padding-bottom: 0;
+      font-size: 14px;
     }
 
     &--desctop {
@@ -3445,9 +3663,13 @@ padding-bottom: 130px;
   }
 
   &__title {
-    font-size: 20px;
+    font-size: 22px;
     color: $dark-blue;
     padding-bottom: 21px;
+
+    @include desctop{
+      font-size: 20px;
+    }
 
     @include tablet {
       font-size: 18px;
@@ -3507,6 +3729,10 @@ padding-bottom: 130px;
     justify-content: space-between;
     gap: 20px;
     padding-top: 55px;
+
+    @include desctop{
+      column-gap: 55px;
+    }
 
     @include tablet {
       gap: 35px;
@@ -3794,7 +4020,7 @@ row-gap: 5px;
 
   &__header {
     background: #E5EFFA;
-    height: 80px;
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3933,9 +4159,13 @@ row-gap: 5px;
 
 .price-info-title {
   color: $dark-blue;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   text-align: center;
+
+  @include desctop{
+    font-size: 20px;
+  }
 
   @include mobile {
     font-size: 18px;
@@ -3945,19 +4175,22 @@ row-gap: 5px;
 .price-info-item {
   display: flex;
   gap: 9px;
-
+  font-size: 16px;
+@include mobile{
+  font-size: 14px;
+}
   &:nth-child(1) {
-    max-width: 195px;
+    max-width: 235px;
     width: 100%;
   }
 
   &:nth-child(2) {
-    max-width: 280px;
+    max-width: 260px;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 10px;
 
     @include desctop {
-      max-width: 230px;
+      max-width: 270px;
       padding-left: 10px;
     }
 
@@ -3972,7 +4205,7 @@ row-gap: 5px;
   }
 
   &:nth-child(3) {
-    padding-left: 20px;
+    padding-left: 0;
     max-width: 250px;
     width: 100%;
 
@@ -4081,11 +4314,11 @@ row-gap: 5px;
 
   @include desctop {
     padding: 20px 15px;
-    height: 300px;
+    min-height: 300px;
   }
 
   @include tablet {
-    height: 340px;
+    min-height: 340px;
   }
 
   border-radius: 16px;
@@ -4136,6 +4369,12 @@ row-gap: 5px;
 .section-certificate {
   background: #FFFFFF;
 
+  @include desctop{
+    padding-top: 110px;
+  }
+@include mobile{
+  padding-top: 35px;
+}
   h2 {
     @include mobile {
       padding-top: 10px;
@@ -4161,9 +4400,8 @@ row-gap: 5px;
     margin-bottom: 6px;
 
     @include desctop {
-      width: 100px;
-      height: 100px;
-      padding-top: 50px;
+     
+      padding-top: 20px;
     }
 
 
@@ -4182,8 +4420,10 @@ row-gap: 5px;
     padding-bottom: 40px;
 
     @include desctop {
-      gap: 35px;
+    
       padding-bottom: 50px;
+
+      gap: 20px;
     }
 
     @include tablet {
@@ -4233,18 +4473,41 @@ row-gap: 5px;
     &:nth-child(1) {
       .section-certificate__image {
         padding-left: 6px;
+        height: auto;
+        padding-top: 40px;
+        @include mobile{
+          margin-top: 0;
+          img{
+            width: 100px;
+          }
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .section-certificate__image {
+        padding-left: 6px;
+        height: auto;
+        padding-top: 40px;
+        @include mobile{
+          margin-top: 0;
+          img{
+            width: 100px;
+          }
+        }
       }
     }
 
     &-text {
       padding-top: 20px;
-      font-size: 16px;
+      font-size: 20px;
       color: $dark-blue;
       font-weight: 500;
       max-width: 450px;
 
       @include desctop {
-        padding-top: 55px;
+        padding-top: 25px;
+        font-size: 18px;
       }
 
       @include tablet {
@@ -4252,7 +4515,9 @@ row-gap: 5px;
       }
 
       @include mobile {
-        padding-top: 22px;
+        padding-top: 14px;
+        font-size: 16px;
+        line-height: 1.2;
       }
     }
   }
@@ -4935,6 +5200,7 @@ width: calc(50% - 10px);
 
     @include desctop {
       gap: 10px;
+      padding-top: 55px;
     }
 
     @include tablet {
@@ -4957,40 +5223,31 @@ width: calc(50% - 10px);
 
     @include mobile {
       width: 100%;
+
+      
     }
 
-
-    &:nth-child(1) {
-      @include desctop {
-        img {
-          height: 80px;
+    &:nth-child(2){
+     @include mobile{
+      .partner-item__image{
+        img{
+          width: 80px;
         }
       }
+     }
     }
 
 
-    &:nth-child(2) {
-      @include desctop {
-        img {
-          height: 85px;
-        }
-      }
-    }
 
-    &:nth-child(3) {
-      @include desctop {
-        img {
-          height: 95px;
-        }
-      }
-    }
+
+
 
   }
 
 }
 
 .partner-item {
-  max-width: 310px;
+  max-width: 330px;
   margin: 0 auto;
   text-align: center;
   height: 100%;
@@ -4998,7 +5255,9 @@ width: calc(50% - 10px);
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
-
+@include mobile{
+  gap: 8px;
+}
   &__image {
     width: 180px;
     height: 180px;
@@ -5008,23 +5267,30 @@ width: calc(50% - 10px);
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 10px;
+@include mobile{
+  width: 140px;
+  height: 140px;
+  margin-top: 0;
+  img{
+    width: 100px;
+  }
+}
 
-    @include desctop {
-      width: 135px;
-      height: 135px;
 
-    }
+   
   }
 
   &__title {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: $dark-blue;
     // padding-bottom: 20px;
 
     @include desctop {
-      line-height: 1.14;
+     
       padding-bottom: 5px;
+      font-size: 18px;
     }
 
     @include tablet{
@@ -5032,7 +5298,7 @@ width: calc(50% - 10px);
     }
 
     @include mobile {
-
+font-size: 16px;
       .br-tablet {
         display: none;
       }
@@ -5051,6 +5317,7 @@ select {
   border-radius: 4px;
   background: #fff no-repeat center center;
   color: #000;
+  font-size: 16px;
 }
 
 
@@ -5063,6 +5330,8 @@ input:not([type="checkbox"], [type="radio"], [type="submit"]) {
 
   &::placeholder {
     color: #8091A2;
+    font-size: 16px;
+   
   }
 }
 
@@ -5142,6 +5411,12 @@ padding-bottom: 115px;
 
 .section-question {
 
+  &__container{
+    @include desctop{
+      max-width: 710px;
+    }
+  }
+
 
   
 &--bg-lightblue{
@@ -5162,7 +5437,7 @@ padding-bottom: 115px;
   &__image {
     display: block;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 25px;
     margin-top: 20px;
 
     width: 410px;
@@ -5255,6 +5530,11 @@ padding-bottom: 115px;
 
     &:last-child {
       width: 45%;
+      padding-left: 10px;
+
+      @include desctop{
+        padding-left: 0;
+      }
 
       @include mobile {
         width: 100%;
@@ -5277,9 +5557,7 @@ padding-bottom: 115px;
   max-width: 265px;
   margin: 0 auto;
 
-  @include desctop-md {
-    margin-left: 80px;
-  }
+padding-top: 5px;
 
   @include desctop {
     margin-left: 0;
@@ -5349,7 +5627,7 @@ padding-bottom: 115px;
   }
 
   &__title {
-    font-size: 16px;
+    font-size: 18px;
     color: $dark-blue;
     padding-bottom: 12px;
 
@@ -5374,27 +5652,29 @@ padding-bottom: 115px;
     }
 
     &-item {
-      @include desctop {
-        font-size: 10px;
-      }
+  
 
       @include mobile {
         width: auto;
+        text-align: center;
       }
     }
 
   }
 
   &__block {
-    display: flex;
+  
 
-    gap: 70px;
-    padding-left: 170px;
+    display: flex;
+    gap: 88px;
+    padding-left: 155px;
 
     @include desctop {
+    
+
       margin-left: 0;
-      gap: 44px;
-      padding-left: 19px;
+        gap: 52px;
+        padding-left: 78px;
     }
 
     @include tablet {
@@ -5414,11 +5694,9 @@ padding-bottom: 115px;
     }
 
     &>*:nth-child(3) {
-      padding-left: 32px;
+  
 
-      @include tablet {
-        padding-left: 37px;
-      }
+   
 
       @include mobile {
         padding-left: 0;
@@ -5429,7 +5707,7 @@ padding-bottom: 115px;
   &__row {
 
     padding-bottom: 34px;
-    padding-top: 40px;
+    padding-top: 45px;
     display: flex;
 
     gap: 20px;
@@ -5480,7 +5758,7 @@ padding-bottom: 115px;
   }
 
   &__item {
-    font-size: 12px;
+    font-size: 14px;
     color: $gray;
   }
 
@@ -5489,7 +5767,7 @@ padding-bottom: 115px;
     gap: 40px;
     padding: 7px 0 10px 0;
 
-    font-size: 10px;
+    font-size: 12px;
 
     @include desctop {
       gap: 35px;
@@ -5564,13 +5842,13 @@ padding-bottom: 115px;
   padding: 5px!important;
 }
 
-header.is-sticky {
-  position: fixed;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+// header.is-sticky {
+//   position: fixed;
+//   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
 
-  backdrop-filter: blur(10px);
-  animation: slideDown 0.35s ease-out;
-}
+//   backdrop-filter: blur(10px);
+//   animation: slideDown 0.35s ease-out;
+// }
 
 
 
@@ -5661,7 +5939,9 @@ header.is-sticky {
 
 .section-page {
 
-
+&__formMain{
+  padding-top: 10px;
+}
 
   &__prices {
     padding: 95px 0 70px 0;
@@ -5747,7 +6027,9 @@ header.is-sticky {
     }
 
     @include mobile {
-
+      .section-price__row .swiper-wrapper {
+        column-gap: 0;
+      }
       padding-bottom: 85px;
       padding-top: 65px;
       padding-left: 0;
@@ -6058,6 +6340,27 @@ header.is-sticky {
     }
   }
 
+  &__form {
+    padding-top: 95px;
+    padding-bottom: 90px;
+
+    @include desctop {
+      padding-bottom: 125px;
+      padding-top: 100px;
+    }
+
+    @include tablet {
+      padding-top: 90px;
+
+
+    }
+
+    @include mobile {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+
   &__support {
     padding-top: 95px;
     padding-bottom: 90px;
@@ -6238,12 +6541,29 @@ header.is-sticky {
     }
   }
 
+  &__formHead {
+    padding-bottom: 55px;
+    text-align: center;
+
+    @include mobile {
+      padding-bottom: 25px;
+    }
+  }
+
   &__descr {
     padding-top: 27px;
+
+    font-size: 16px;
+
+    @include desctop{
+      max-width: 630px;
+    margin: 0 auto;
+    }
 
     @include tablet {
       padding-left: 55px;
       padding-right: 55px;
+      font-size: 14px;
 
     }
 
@@ -6281,7 +6601,7 @@ header.is-sticky {
 
   &__reviews {
     &>*:not(:last-child) {
-      padding-bottom: 45px;
+      padding-bottom: 50px;
 
     }
 
@@ -6979,7 +7299,7 @@ header.is-sticky {
     @include desctop {
       flex-direction: column;
       align-items: center;
-      padding: 55px 53px 50px 60px;
+      padding: 55px 53px 55px 60px;
 
       .br-desctop-rev {
         display: none;
@@ -7006,11 +7326,13 @@ header.is-sticky {
   }
 
   &__title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     color: $dark-blue;
     padding-bottom: 20px;
-
+@include desctop{
+  font-size: 20px;
+}
     @include tablet {
       font-size: 18px;
     }
@@ -7046,9 +7368,12 @@ header.is-sticky {
   }
 
   &__content {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 10px;
 
+@include desctop{
+  font-size: 16px;
+}
     @include mobile {
       font-size: 14px;
       line-height: 1.28;
@@ -7056,7 +7381,7 @@ header.is-sticky {
   }
 
   &__block {
-    padding: 40px 67px 30px 73px;
+    padding: 40px 67px 40px 73px;
     box-shadow: 0px 0px 8px 0px #00000026;
     border-radius: 6px;
     background: white;
@@ -7076,7 +7401,7 @@ header.is-sticky {
       padding-top: 38px;
 
       @include desctop {
-        padding: 56px 56px 50px 60px;
+        padding: 45px 56px 50px 60px;
       }
 
       @include tablet {
@@ -7147,11 +7472,26 @@ header.is-sticky {
     }
   }
 
+  &:nth-child(6) {
+    .review-item__block {
+      padding: 40px 70px 30px 70px;
+
+      @include desctop{
+        padding: 55px 65px 55px 60px;
+      }
+
+    
+    }
+  }
+
   &:nth-child(7) {
     .review-item__block {
-
+      padding: 35px 70px 35px 70px;
+      @include desctop{
+        padding: 50px 65px 50px 60px;
+      }
       @include mobile {
-        padding: 28px 18px 12px 23px;
+        padding: 28px 18px 15px 23px;
 
 
       }
@@ -7160,7 +7500,7 @@ header.is-sticky {
 
   &:nth-child(8) {
     .review-item__block {
-      padding: 40px 70px 40px 70px;
+      padding: 40px 65px 40px 70px;
 
       @include desctop {
         padding: 56px 56px 50px 60px;
@@ -8024,6 +8364,7 @@ gap: 15px;}
       padding-top: 10px;
       flex-direction: column;
       margin-top: 40px;
+      gap: 10px;
     }
   }
 
@@ -8044,6 +8385,9 @@ gap: 15px;}
     &:nth-child(3) {
       .documentation-item__image {
         margin-top: -5px;
+        @include mobile{
+          margin-top: 0;
+        }
       }
     }
   }
@@ -8061,12 +8405,10 @@ gap: 15px;}
   justify-content: space-between;
   height: 100%;
   @include tablet {
-    height: 290px;
+    min-height: 290px;
+    justify-content: flex-start;
   }
 
-  @include mobile{
-    height: 280px;
-  }
 
   &__image img {
     max-height: 170px;
@@ -8081,7 +8423,7 @@ gap: 15px;}
 
     @include mobile {
       margin-bottom: 0;
-      margin-top: 0;
+      margin-top: 5px;
     }
 
   }
@@ -8098,6 +8440,10 @@ gap: 15px;}
     @include tablet {
       font-size: 16px;
       min-height: 80px;
+    }
+
+    @include mobile{
+      margin-top: 15px;
     }
   }
 }
@@ -8488,6 +8834,7 @@ height: 100%;
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  fill: $dark-blue;
   @include desctop{
   
       margin-bottom: 7px;
@@ -9291,3 +9638,227 @@ gap: 15px;
     
     
 }
+
+
+.form-main{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+
+  &__alert{
+    padding-top: 10px;
+  }
+
+  @include desctop{
+    max-width: 540px;
+  }
+
+  @include tablet{
+    max-width: 470px;
+  }
+
+
+  &__download{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+   padding-top: 35px;
+
+   @include mobile{
+    padding-top: 40px;
+   }
+
+   @include desctop{
+    flex-direction: column;
+    align-items: flex-start;
+    & > *:not(:last-child){
+      margin-bottom: 30px;
+    }
+   }
+  }
+
+  &__btn{
+    padding-top: 10px;
+    max-width: 260px;
+    @include mobile{
+      max-width: 290px;
+    }
+  }
+  &__items{
+    padding-bottom: 10px;
+  }
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+  }
+  &__block{
+   
+    padding-bottom: 25px;
+    
+  }
+  &__info{
+    padding-top: 10px;
+    @include desctop{
+      padding-top: 0;
+    }
+  }
+  &__price{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    @include mobile{
+      font-size: 18px;
+    }
+    span{
+      margin-left: 12px;
+
+      @include desctop{
+        margin-left: 5px;
+      }
+
+      @include tablet{
+        margin-left: 2px;
+      }
+      @include mobile{
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.form-main__documents{
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+  padding-top: 35px;
+
+  @include tablet{
+    padding-top: 30px;
+  }
+
+  @include mobile{
+    padding-top: 25px;
+  }
+}
+
+
+.form-main-info{
+  color: #A6A6A6;
+}
+
+.form-main-validation{
+  display: flex;
+  gap: 10px;
+  &__icon{
+    transition: all 2.5s linear;
+  animation: rotate 3s linear infinite;
+  width: 24px;
+  height: 24px;
+  margin-left: 25px;
+  }
+  &__text{
+    color: #26599B;
+  }
+}
+
+.form-main-info{
+  font-size: 16px;
+  color: #A6A6A6;
+  @include mobile{
+    font-size: 14px;
+  }
+  & > *:not(:last-child){
+    margin-bottom: 9px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+input[class*="--is-valid"] {
+  border: 1px solid #55C966;
+ }
+
+ input[class*="--is-focus"] {
+  border: 1px solid #5479F8;
+ }
+
+ input[class*="--is-error"] {
+  border: 1px solid #F0402C;
+  color: #F0402C;
+ }
+ 
+ .error-text{
+  color: #F0402C;
+
+ }
+
+ .download-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  &--active{
+    &::before{
+      content: '';
+      width: 100%;
+      height: 1.5px;
+      left: 0;
+      bottom: -5px;
+      position: absolute;
+      background-image: repeating-linear-gradient(0deg, #26599b, #26599b 5px, transparent 5px, transparent 10px, #26599b 10px), repeating-linear-gradient(90deg, #26599b, #26599b 5px, transparent 5px, transparent 10px, #26599b 10px), repeating-linear-gradient(180deg, #26599b, #26599b 5px, transparent 5px, transparent 10px, #26599b 10px), repeating-linear-gradient(270deg, #26599b, #26599b 5px, transparent 5px, transparent 10px, #26599b 10px);
+background-size: 3px 100%, 100% 3px, 3px 100% , 100% 3px;
+background-position: 0 0, 0 0, 100% 0, 0 100%;
+background-repeat: no-repeat;
+    }
+  }
+
+  &:hover{
+    .download-item__text{
+      color: #5479F8;
+    }
+    .download-item__icon{
+      fill: #5479F8;
+    }
+  }
+
+  &__text{
+    color: #26599B;
+  }
+
+  &__icon{
+    width: 23px;
+    height: 23px;
+    fill: #26599B;
+  }
+ }
+
+ .document-frame{
+  &__item{
+    width: 95px;
+  height: 95px;
+  min-width: 95px;
+  min-height: 95px;
+  background: #D9D9D9;
+  }
+  &__close{
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    border: 1px solid #A6A6A6;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+  }
+  &__icon{
+    width: 24px;
+    height: 24px;
+  }
+  position: relative;
+ }

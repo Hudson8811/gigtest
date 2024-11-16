@@ -1,0 +1,40 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      include html/header2
+      main
+        .breadcrumbs
+          .breadcrumbs__container
+            ul.breadcrumbs__list
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link Главная
+              li.breadcrumbs__item
+                a(href="").breadcrumbs__link Тарифы
+              li.breadcrumbs__item Заявка на подключение
+        .section-page
+          .section-page__form
+            .section-page__container
+              .section-page__formHead
+                h1.page-title Заявка на подключение к МИС ГИГТЕСТ
+              .section-page__formMain
+                form.form-main
+                  .form-main__price Тариф:
+                    span 5000 ₽/мес
+                  .form-main__block
+                    .form-main__items
+                      .form-main__item
+                        input(type="text" placeholder="Введите имя" value="Ольга").form-input-name.form-input-name--is-valid
+                      .form-main__item
+                        input(type="text" placeholder="+7 (___) ___ - __ - __" value="+7 (___) ___ - __ - __").form-input-tel.form-input-tel--is-focus
+                      .form-main__item
+                        input(type="text" placeholder="Введите ИНН медицинской организации*")
+                    .form-main-info * Для оформления заявки нужно указать ИНН и система автоматически сформирует необходимые документы
+                  .ycaptcha
+                    img(src="@img/captcha.png", alt="")
+                  .form-main__btn
+                    a(href="").btn.btn--large.btn--disabled.btn--fw Заказать звонок
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src='js/app.js')
