@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/scss/style.scss" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/appsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/appsoft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/connect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/consulting.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/consulting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/documentation-normative.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/documentation-normative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/egsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/egsis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-disabled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-error2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-focus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-inactive.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-inactive2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-robot1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-robot2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/happens.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/happens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/captcha.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/captcha.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/captcha2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/captcha2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/certificate1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/certificate1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/certificate1@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/certificate1@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/certificate2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/certificate2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/certificate2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/certificate2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/certificate3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/certificate3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/certificate3@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/certificate3@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/contacts.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/contacts.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/doc1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc1@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/doc1@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle3@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle3@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle4@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle4@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle5@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle5@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/eagle@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/eagle@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/google.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/google.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/img3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/img3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration1@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration1@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration3@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration3@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration4@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration4@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/integration5@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/integration5@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/key1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/key1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/key2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/key2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/key3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/key3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/key4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/key4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/key5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/key5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/keys1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/keys1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/keys2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/keys2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/knowledge.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/knowledge.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/knowledge2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/knowledge2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/knowledge3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/knowledge3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/logo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/logo@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/med1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/med1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/med2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/med2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/med3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/med3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/med4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/med4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner10.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner10.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner8.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/partner9.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/partner9.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/question-image.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/question-image.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/question-image@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/question-image@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rec1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/rec1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rec2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/rec2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review7.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review8.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/review@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/review@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme-tablet.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme-tablet.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme10.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme10.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme10@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme10@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme11.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme11.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme11@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme11@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme12.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme12.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme12@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme12@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme13.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme13.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme13@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme13@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme14.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme14.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme14@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme14@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme15.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme15.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme15@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme15@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme16.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme16.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme16@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme16@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme17.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme17.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme17@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme17@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme3@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme3@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme4@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme4@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme5@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme5@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme6@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme6@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme7.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme7@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme7@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme8.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme8@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme8@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme9.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme9.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme9@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme9@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/scheme@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/scheme@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/seo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/seo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider-circle.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider-circle.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider-circle2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider-circle2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider3@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider3@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/slider@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/slider@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal10.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal10.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal10@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal10@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal11.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal11.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal11@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal11@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal12.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal12.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal12@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal12@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal13.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal13.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal13@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal13@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal14.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal14.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal14@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal14@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal15.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal15.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal15@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal15@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal16.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal16.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal16@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal16@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal17.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal17.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal17@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal17@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal18.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal18.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal18@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal18@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal19.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal19.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal19@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal19@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal1@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal1@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal2@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal2@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal3@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal3@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal4@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal4@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal5@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal5@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal6@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal6@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal7.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal7.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal7@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal7@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal8.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal8.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal8@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal8@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal9.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal9.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sliderModal9@2x.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sliderModal9@2x.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/support.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/support.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yandex.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/yandex.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/keys.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/keys.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/knowledge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/requirements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/requirements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/seo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reviews.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/reviews.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/support.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/support.pug" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="api.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reviews.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="560" column="526" lean-forward="true" selection-start-line="560" selection-start-column="526" selection-end-line="560" selection-end-column="526" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/support.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="3666" column="16" selection-start-line="3666" selection-start-column="16" selection-end-line="3666" selection-end-column="16" />
+              <folding>
+                <element signature="e#33792#38511#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>difficulties-item__text</find>
+      <find>.difficulties-item__text</find>
+      <find>__title</find>
+      <find>font-size: 26px;</find>
+      <find>height: 425px;</find>
+      <find>slider-item__title</find>
+      <find>.slider-item__title</find>
+      <find>max-width: 235px;</find>
+      <find>.main-item__title</find>
+      <find>.main-item</find>
+      <find>max-width: 268px;</find>
+      <find>margin-top: 5px;</find>
+      <find>.accordion-header__title</find>
+      <find>.accordion-header</find>
+      <find>accordion</find>
+      <find>--mobile</find>
+      <find>.price-info-item</find>
+      <find>__dots</find>
+      <find>review-item__title</find>
+      <find>breadcrumbs</find>
+      <find>.section-price</find>
+      <find>--fw</find>
+      <find>.slider-item__btn</find>
+      <find>.slider-item</find>
+      <find>неограниченное</find>
+      <find>review-item</find>
+      <find>.information-item</find>
+      <find>pre</find>
+      <find>Отзыв ФБУЗ «Центр</find>
+      <find>.review-slide</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\work\gigtest</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/support.pug" />
+        <option value="$PROJECT_DIR$/src/reviews.pug" />
+        <option value="$PROJECT_DIR$/src/api.pug" />
+        <option value="$PROJECT_DIR$/src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/index.pug" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="y" value="3" />
+    <option name="width" value="1987" />
+    <option name="height" value="1391" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gigtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gigtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gigtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gigtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gigtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gigtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gigtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gigtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.deploy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="" />
+      <created>1731926681159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731926681159</updated>
+      <workItem from="1731926682257" duration="21517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21517000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299373" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22021943" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="npm" sideWeight="0.5005025" side_tool="true" visible="true" weight="0.1501182" />
+      <window_info anchor="bottom" id="Terminal" weight="0.5736677" />
+      <window_info id="Gulp" sideWeight="0.5007837" side_tool="true" weight="0.24980299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49949747" visible="true" weight="0.1501182" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/bootstrap-grid.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reviews.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="3666" column="16" selection-start-line="3666" selection-start-column="16" selection-end-line="3666" selection-end-column="16" />
+          <folding>
+            <element signature="e#33792#38511#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="560" column="526" lean-forward="true" selection-start-line="560" selection-start-column="526" selection-end-line="560" selection-end-column="526" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

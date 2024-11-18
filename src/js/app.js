@@ -79,7 +79,7 @@ var swiper = new Swiper(".section-main__slider", {
 var swiper3 = new Swiper(".section-reviews__slider", {
   spaceBetween: 50,
   slidesPerView: 1,
-  autoHeight: true,
+  autoHeight: false,
   navigation: {
     nextEl: ".section-reviews__arrows-right",
     prevEl: ".section-reviews__arrows-left",
