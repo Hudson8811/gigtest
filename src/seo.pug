@@ -6,7 +6,7 @@ html
       include html/header3
       main
         section.section-main
-          .section-main__slider
+          .section-main__slider-seo
             .swiper-wrapper
               .swiper-slide
                 .slider-item-seo
@@ -81,7 +81,7 @@ html
                   svg.advantages-item__icon
                     use(xlink:href="@img/icons/icons.svg#seo")
                   .advantages-item__title Высокая экспертиза в SEO
-                  .advantages-item__text Подтверждена ведущими<br> рейтингами и крупными брендами
+                  .advantages-item__text Подтверждена ведущими <br class="d-none d-lg-block">рейтингами и крупными брендами
               .section-advantages__col
                 .advantages-item
                   svg.advantages-item__icon
@@ -92,14 +92,14 @@ html
                 .advantages-item
                   svg.advantages-item__icon
                     use(xlink:href="@img/icons/icons.svg#connect")
-                  .advantages-item__title Комплексное <br class="d-none d-lg-block d-md-none">IT-обеспечение
-                  .advantages-item__text Совместная работа Гигтест.Медицина<br class="d-block d-lg-none"> и BF360: МИС, передача в ЕГИСЗ,<br class="d-block d-md-none"> развитие сайта
+                  .advantages-item__title Комплексное IT-обеспечение
+                  .advantages-item__text Совместная работа  Гигтест.Медицина и BF360: МИС, передача в ЕГИСЗ, развитие сайта
               .section-advantages__col
                 .advantages-item
                   svg.advantages-item__icon
                     use(xlink:href="@img/icons/icons.svg#strategy")
                   .advantages-item__title Грамотная стратегия
-                  .advantages-item__text Целеориентированный подход<br class="d-block d-lg-none d-md-block"> с учётом специфики <br class="d-none d-lg-block d-md-none"> проекта
+                  .advantages-item__text Целеориентированный подход с учётом специфики проекта
         section.section-prices
           .section-prices__container
             h2.section-title Тариф
@@ -373,7 +373,7 @@ html
                 .accordion-item
                   .accordion-item__wrap.active
                     .accordion-header
-                      .accordion-header__name Какие услуги можно заказать для продвижения сайта <br class="d-none d-md-block">клиники?
+                      .accordion-header__name Какие услуги можно заказать для продвижения сайта <br class="d-none d-md-block d-sm-none">клиники?
                         svg.accordion-header__icon
                           use(xlink:href="@img/icons/icons.svg#arrow-down")
                     .accordion-content
@@ -381,7 +381,7 @@ html
                 .accordion-item
                   .accordion-item__wrap
                     .accordion-header
-                      .accordion-header__name Какой результат мы получим от продвижения и в какие <br class="d-none d-md-block"> сроки?
+                      .accordion-header__name Какой результат мы получим от продвижения и в какие  сроки?
                         svg.accordion-header__icon
                           use(xlink:href="@img/icons/icons.svg#arrow-down")
                     .accordion-content
@@ -397,7 +397,7 @@ html
                 .accordion-item
                   .accordion-item__wrap
                     .accordion-header
-                      .accordion-header__name Что требуется, чтобы начать работы по SEO?
+                      .accordion-header__name Что требуется,<br class="br-mobile"> чтобы начать работы по SEO?
                         svg.accordion-header__icon
                           use(xlink:href="@img/icons/icons.svg#arrow-down")
                     .accordion-content

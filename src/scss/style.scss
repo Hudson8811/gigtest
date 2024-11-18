@@ -372,11 +372,11 @@ body {
     }
   }
   &__text{
-    font-size: 18px;
+    font-size: 20px;
     color: $dark-blue;
     @include desctop{
-      font-size: 16px;
-      line-height: 1.1;
+      font-size: 18px;
+     
     }
   }
   
@@ -1054,9 +1054,7 @@ body {
     position: relative;
     display: flex;
 
-    @include tablet {
-      max-width: 650px;
-    }
+  
 
     @include mobile {
       display: block;
@@ -1078,6 +1076,11 @@ body {
     @include tablet {
    
       margin-top: 20px;
+      max-width: 190px;
+    }
+
+    @include mobile{
+      max-width: 320px;
     }
   }
 
@@ -1098,6 +1101,7 @@ body {
     flex-direction: column;
     height: auto;
     height: auto;
+    padding-bottom: 55px;
   }
 
   &__circle {
@@ -1165,17 +1169,19 @@ body {
 
   &__descr {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     color: $blue;
 
     @include desctop {
-      font-size: 13px;
+      font-size: 16px;
       padding-bottom: 30px;
     }
 
-    @include tablet {
-      font-size: 12px;
+    @include mobile{
+      font-size: 14px;
     }
+
+ 
   }
 
   &__list {
@@ -1272,25 +1278,27 @@ body {
     font-weight: 500;
     color: #35495d;
     line-height: 1.20;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     padding-top: 10px;
 
     @include desctop {
-      font-size: 24px;
+      font-size: 26px;
       margin-bottom: 5px;
    
-      margin-bottom: 20px;
+      margin-bottom: 25px;
 
-      padding-top: 95px;
+      padding-top: 80px;
     }
 
 
 
     @include tablet {
-      font-size: 22px;
+     
       line-height: 1.2;
-      padding-top: 75px;
+     
       margin-bottom: 25px;
+
+      padding-top: 70px;
 
     }
 
@@ -1423,10 +1431,13 @@ body {
   display: flex;
 
   width: 100%;
-  height: 550px;
   
   position: relative;
   padding: 80px 0;
+
+  @include desctop-md{
+    padding: 80px 0;
+  }
 
   &__container {
     position: relative;
@@ -1450,6 +1461,7 @@ body {
     @include desctop-md{
       margin-top: 45px;
     }
+   
     @include desctop {
       .btn{
         font-size: 14px;
@@ -1737,7 +1749,7 @@ body {
     &-img1 {
       max-width: initial;
       position: absolute;
-      top: calc(50% - 27px);
+      top: calc(50% - 7px);
       right: -85px;
       transform: translateY(-50%);
 
@@ -1812,7 +1824,22 @@ body {
 
   &__slider {
     width: 100%;
+    height: 565px;
+@include desctop-md{
+  width: 100%;
+  height: 560px;
+}
 
+@include desctop{
+  height: 425px;
+}
+
+@include tablet{
+  height: 370px;
+}
+@include mobile{
+  height: auto;
+}
     .swiper-slide{
       @include mobile{
         &:nth-child(1){
@@ -1967,12 +1994,13 @@ white-space: nowrap;
 .section-numbers {
   background: $background;
 
-  padding-bottom: 135px;
+  padding-bottom: 125px;
   @include tablet{
-    padding-bottom: 100px;
+    padding-bottom: 80px;
+    
   }
 @include desctop{
-padding-bottom: 130px;
+padding-bottom: 120px;
 }
 @include mobile{
   padding-bottom: 95px;
@@ -1983,7 +2011,7 @@ padding-bottom: 130px;
      
   }
     @include tablet {
-      max-width: 750px;
+      max-width: 660px;
     }
   }
 
@@ -1995,7 +2023,7 @@ padding-bottom: 130px;
     column-gap: 26px;
 @include tablet{
   justify-content: center;
-  row-gap: 50px;
+  row-gap: 20px;
 
 }
     @include mobile {
@@ -2012,7 +2040,7 @@ padding-bottom: 130px;
 
     @include tablet{
       width: calc(50% - 14px);
-      max-width: 223px;
+   
     }
 
     @include mobile {
@@ -2183,7 +2211,7 @@ padding-bottom: 130px;
     }
 
     @include mobile{
-      font-size: 12px;
+      font-size: 14px;
       padding: 0 20px 20px 20px;
     }
   }
@@ -2286,7 +2314,7 @@ padding-bottom: 130px;
 
   &__prices {
     position: relative;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 20px;
 
     .card-item {
@@ -2300,6 +2328,11 @@ padding-bottom: 130px;
       padding-top: 50px;
       padding-left: 10px;
     }
+
+    @include tablet{
+      padding-left: 0;
+    }
+    
     @include mobile {
       padding-bottom: 0;
       padding-top: 35px;
@@ -3090,7 +3123,7 @@ padding-bottom: 130px;
     @include desctop {
       padding: 5px 0;
 
-      height: 69.6px;
+      height: 70.8px;
    
     }
 
@@ -3107,7 +3140,7 @@ padding-bottom: 130px;
 
   &__name {
     font-size: 20px;
-    font-weight: 500;
+
     color: $dark-blue;
     padding: 20px 0;
     padding-left: 30px;
@@ -3131,10 +3164,11 @@ padding-bottom: 130px;
       padding-top: 25px;
       padding-left: 40px;
       line-height: 1.2;
+    
     }
 
     @include mobile{
-      font-size: 14px;
+      font-size: 16px;
       padding-top: 20px;
       padding-left: 20px;
       line-height: 1.3;
@@ -3430,11 +3464,14 @@ padding-bottom: 130px;
     padding-bottom: 65px;
   }
   @include mobile{
-    padding-top: 55px;
+    padding-top: 60px;
     padding-bottom: 40px;
   }
 
   &__container{
+    @include desctop{
+      max-width: 710px;
+    }
     @include tablet{
       max-width: 760px;
     }
@@ -3456,8 +3493,8 @@ padding-bottom: 130px;
     flex-direction: column;
     row-gap: 40px;
     @include mobile{
-      font-size: 14px;
-      row-gap: 30px;
+      font-size: 16px;
+      row-gap: 35px;
     }
   }
 
@@ -3479,7 +3516,7 @@ padding-bottom: 130px;
       padding-left: 37px;
 
       @include mobile {
-        margin-bottom: 15px;
+        margin-bottom: 17px;
       }
 
       &::before {
@@ -3819,7 +3856,7 @@ margin: 0 auto;
   }
 
   &__head {
-    height: 335px;
+    height: 340px;
 
     .btn {
       max-width: 270px;
@@ -3846,7 +3883,7 @@ margin: 0 auto;
     border-radius: 16px 16px 0 0;
     padding-top: 40px;
 @include mobile{
-  height: 280px;
+  height: 290px;
 }
 
     &-price {
@@ -4557,14 +4594,23 @@ row-gap: 5px;
   }
 }
  &__col{
+  @include tablet{
+    padding-left: 10px;
+  }
+  @include mobile{
+    padding-left: 0;
+  }
   &:last-child{
     .goal-item{
     .goal-item__text{
       margin-left: -5px;
+      @include mobile{
+        margin-left: 0;
+      }
     }
       &__icon{
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
       }
     }
   }
@@ -4575,9 +4621,7 @@ row-gap: 5px;
         width: 58px;
         height: 58px;
         margin-left: 4px;
-        @include desctop{
-          margin-left: 14px;
-        }
+     
         @include mobile{
           margin-left: 0;
         }
@@ -4586,15 +4630,13 @@ row-gap: 5px;
 
     @include mobile{
       .goal-item__text{
-        margin-left: -7px;
+       
       }
     }
   }
 
   &:nth-child(1){
-    @include desctop{
-      margin-left: 14px;
-    }
+   
     @include mobile{
       margin-left: 4px;
       .goal-item__text{
@@ -4611,14 +4653,17 @@ row-gap: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 90px;
+  column-gap: 68px;
   padding-left: 20px;
   padding-right: 10px;
   @include desctop{
     column-gap: 20px;
     padding: 0;
     justify-content: space-between;
-    padding-top: 5px;
+   
+  }
+  @include tablet{
+    padding-top: 6px;
   }
   @include mobile{
     flex-direction: column;
@@ -4627,6 +4672,11 @@ row-gap: 5px;
     flex-direction: column;
     row-gap: 36px;
 
+  }
+ }
+ &__container{
+  @include desctop{
+    max-width: 755px;
   }
  }
 }
@@ -4665,13 +4715,13 @@ row-gap: 5px;
 
 
   @include tablet {
-    padding-top: 85px;
-    padding-bottom: 75px;
+    padding-top: 75px;
+    padding-bottom: 50px;
   }
 
   @include mobile {
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 25px;
   }
 
   &__fwContainer {
@@ -4693,7 +4743,7 @@ row-gap: 5px;
   }
 
   &__title2 {
-    padding-bottom: 50px;
+    padding-bottom: 55px;
 
     @include desctop {
       padding-bottom: 60px;
@@ -4769,9 +4819,7 @@ width: calc(50% - 10px);
 
 }
 
-  @include desctop-md {
-    padding-bottom: 85px;
-  }
+  
 
   @include desctop {
     padding-top: 105px;
@@ -4836,7 +4884,7 @@ width: calc(50% - 10px);
     }
 
     @include mobile {
-      row-gap: 20px;
+      row-gap: 18px;
     }
   }
 
@@ -5052,11 +5100,14 @@ width: calc(50% - 10px);
   }
 
   @include mobile {
-    min-height: 220px;
-    min-height: 220px;
-    padding-top: 20px;
-    padding-left: 20px;
-    min-height: 209px;
+  
+ 
+
+    min-height: 230px;
+
+    padding-top: 25px;
+        padding-left: 20px;
+        min-height: 230px;
   }
 
 
@@ -5101,9 +5152,6 @@ width: calc(50% - 10px);
     font-size: 16px;
     margin-left: 5px;
 
-    @include mobile {
-      font-size: 14px;
-    }
 
   }
 
@@ -5131,6 +5179,10 @@ width: calc(50% - 10px);
   }
 
   &__container {
+    @include desctop{
+      max-width: 680px;
+    margin: 0 auto;
+    }
     @include tablet {
       max-width: 750px;
     }
@@ -5149,7 +5201,7 @@ width: calc(50% - 10px);
     }
 
     @include mobile {
-      padding-bottom: 38px;
+      padding-bottom: 45px;
     }
 
     h2 {
@@ -5166,7 +5218,7 @@ width: calc(50% - 10px);
     font-size: 18px;
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
@@ -5421,6 +5473,15 @@ padding-bottom: 115px;
   
 &--bg-lightblue{
   background: #F8FBFF;
+  @include desctop{
+    padding: 90px 0;
+  }
+  @include tablet{
+    padding: 80px 0;
+  }
+  @include mobile{
+    padding: 53px 0;
+  }
 }
 
 
@@ -5498,11 +5559,15 @@ padding-bottom: 115px;
 
     @include desctop {
       padding: 48px 36px;
+
+      max-width: 680px;
+      margin: 0 auto;
     }
 
     @include tablet {
 
       padding: 44px 27px;
+      max-width: 100%;
 
     }
 
@@ -5974,6 +6039,10 @@ padding-top: 5px;
       .section-price__row .swiper-wrapper .swiper-slide--active-card .price-card__head{
         padding-top: 40px;
       }
+      .section-price__row{
+        max-width: 100%;
+      }
+
       }
 
       @include mobile{
@@ -6018,6 +6087,8 @@ padding-top: 5px;
 
     @include tablet {
       padding: 80px 0;
+      padding-top: 85px;
+   
 
       .section-price__row .swiper-wrapper {
         column-gap: 20px;
@@ -6504,7 +6575,7 @@ padding-top: 5px;
 
 
       @include mobile {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
 
       &::before {
@@ -6560,17 +6631,9 @@ padding-top: 5px;
     margin: 0 auto;
     }
 
-    @include tablet {
-      padding-left: 55px;
-      padding-right: 55px;
-      font-size: 14px;
+   
 
-    }
-
-    @include mobile {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  
   }
 
   &__title {
@@ -6602,6 +6665,13 @@ padding-top: 5px;
   &__reviews {
     &>*:not(:last-child) {
       padding-bottom: 50px;
+      @include tablet{
+        padding-bottom: 46px;
+      }
+
+      @include mobile{
+        padding-bottom: 50px;
+      }
 
     }
 
@@ -6665,6 +6735,8 @@ padding-top: 5px;
 
   &__contentApi {
 
+
+   
     padding-top: 5px;
 
     &:not(:last-child) {
@@ -6691,6 +6763,7 @@ padding-top: 5px;
 
     font-size: 18px;
     color: $dark-blue;
+    
 
     p {
       line-height: 1.3;
@@ -6712,7 +6785,7 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
@@ -6744,10 +6817,13 @@ padding-top: 5px;
     @include desctop {
       padding-top: 0;
       padding-bottom: 140px;
+      max-width: 680px;
+      margin: 0 auto;
     }
 
     @include tablet {
       padding-bottom: 125px;
+      max-width: 100%;
     }
 
 
@@ -6784,20 +6860,18 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
       margin-bottom: 20px;
 
       @include desctop {
-        margin-bottom: 18px;
+        margin-bottom: 19px;
 
       }
 
-      @include mobile {
-        margin-bottom: 18px;
-      }
+   
 
     }
   }
@@ -6808,6 +6882,11 @@ padding-top: 5px;
 
     @include desctop {
       padding-top: 0;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    @include tablet{
+      max-width: 100%;
     }
 
 
@@ -6860,7 +6939,7 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
@@ -6871,7 +6950,7 @@ padding-top: 5px;
       }
 
       @include mobile {
-        margin-bottom: 12px;
+        margin-bottom: 20px;
       }
 
     }
@@ -6881,8 +6960,16 @@ padding-top: 5px;
   &__contentDocumentation {
     padding-top: 3px;
 
+
+
     @include desctop {
       padding-top: 0;
+      max-width: 680px;
+    margin: 0 auto;
+    }
+
+    @include tablet{
+      max-width: 100%;
     }
 
 
@@ -6935,7 +7022,7 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
@@ -6995,8 +7082,16 @@ padding-top: 5px;
       }
     }
 
+    @include desctop{
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    @include tablet{
+      max-width: 100%;
+    }
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
@@ -7006,9 +7101,7 @@ padding-top: 5px;
         margin-bottom: 22px;
       }
 
-      @include mobile {
-        margin-bottom: 18px;
-      }
+    
 
     }
   }
@@ -7051,7 +7144,7 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
@@ -7097,16 +7190,23 @@ padding-top: 5px;
       }
     }
 
+    @include desctop{
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    @include tablet{
+      max-width: 100%;
+    }
+
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
       margin-bottom: 19px;
 
-      @include mobile {
-        margin-bottom: 18px;
-      }
+    
 
     }
   }
@@ -7141,16 +7241,22 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     &>*:not(:last-child) {
       margin-bottom: 19px;
 
-      @include mobile {
-        margin-bottom: 13px;
-      }
 
+    }
+
+    @include desctop{
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    @include tablet{
+      max-width: 100%;
     }
   }
 
@@ -7158,6 +7264,10 @@ padding-top: 5px;
     padding-top: 120px;
 
     padding-bottom: 115px;
+
+    @include mobile{
+      padding-bottom: 90px;
+    }
 
     @include tablet {
       padding-top: 80px;
@@ -7189,13 +7299,27 @@ padding-top: 5px;
     font-size: 18px;
     color: $dark-blue;
 
+    @include desctop{
+      max-width: 680px;
+    margin: 0 auto;
+    }
+
+    @include tablet{
+      max-width: 100%;
+    }
+
+    @include mobile{
+      font-size: 16px;
+    }
+
     p {
       line-height: 1.3;
-
-      @include mobile {
-        line-height: 1.26;
-
-      }
+@include mobile{
+  br{
+    display: none;
+  }
+}
+    
     }
 
     h2 {
@@ -7209,9 +7333,6 @@ padding-top: 5px;
       }
     }
 
-    @include mobile {
-      font-size: 14px;
-    }
 
     &>*:not(:last-child) {
       margin-bottom: 17px;
@@ -7238,6 +7359,9 @@ padding-top: 5px;
 
     font-size: 18px;
     color: $dark-blue;
+    @include mobile{
+      padding-right: 20px;
+    }
 
     p {
       line-height: 1.3;
@@ -7255,7 +7379,8 @@ padding-top: 5px;
     }
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
+      
     }
 
     &>*:not(:last-child) {
@@ -7374,10 +7499,7 @@ padding-top: 5px;
 @include desctop{
   font-size: 16px;
 }
-    @include mobile {
-      font-size: 14px;
-      line-height: 1.28;
-    }
+ 
   }
 
   &__block {
@@ -7445,7 +7567,7 @@ padding-top: 5px;
       }
 
       @include mobile {
-        padding: 25px 20px 17px 20px;
+        padding: 26px 20px 16px 20px;
 
 
       }
@@ -7463,9 +7585,8 @@ padding-top: 5px;
       @include tablet {
         padding: 59px 56px 50px 60px;
       }
-
       @include mobile {
-        padding: 19px 23px 15px 23px;
+        padding: 26px 20px 16px 20px;
 
 
       }
@@ -7480,7 +7601,11 @@ padding-top: 5px;
         padding: 55px 65px 55px 60px;
       }
 
-    
+      @include mobile {
+        padding: 26px 20px 16px 20px;
+
+
+      }
     }
   }
 
@@ -7491,7 +7616,7 @@ padding-top: 5px;
         padding: 50px 65px 50px 60px;
       }
       @include mobile {
-        padding: 28px 18px 15px 23px;
+        padding: 26px 20px 16px 20px;
 
 
       }
@@ -7511,7 +7636,7 @@ padding-top: 5px;
       }
 
       @include mobile {
-        padding: 28px 18px 12px 23px;
+        padding: 26px 20px 16px 20px;
 
 
       }
@@ -7536,17 +7661,24 @@ padding-top: 5px;
 
 .section-steps {
   @include mobile {
-    padding-top: 57px;
+
+    padding-top: 63px;
   }
 
   &__container {
-    @include desctop {
-      max-width: 770px;
-    }
+  
   }
 
   &__title {
     padding-bottom: 57px;
+
+    @include desctop{
+      padding-bottom: 47px;
+    }
+
+    @include mobile{
+      padding-bottom: 57px;
+    }
   }
 
   &__row {
@@ -7564,6 +7696,10 @@ padding-top: 5px;
     width: 33.3%;
     padding: 0 20px;
     position: relative;
+
+    @include desctop{
+      padding: 0;
+    }
 
     @include mobile {
       padding-left: 0;
@@ -7645,7 +7781,7 @@ padding-top: 5px;
     }
 
     @include desctop {
-      padding-top: 115px;
+      padding-top: 130px;
     }
 
     @include tablet {
@@ -7668,8 +7804,13 @@ padding-top: 5px;
 
 
     @include desctop {
-      font-size: 14px;
+      font-size: 16px;
       padding-top: 13px;
+      max-width: 250px;
+      margin: 0 auto;
+      br{
+        display: none;
+      }
     }
 
     @include tablet {
@@ -7679,6 +7820,7 @@ padding-top: 5px;
     @include mobile {
       width: 100%;
       text-align: left;
+      font-size: 14px;
 
       br {
         display: none;
@@ -8016,7 +8158,7 @@ padding-top: 5px;
   background: #F8FBFF;
 
   @include mobile {
-    padding-top: 55px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 
@@ -8052,6 +8194,8 @@ padding-top: 5px;
     @include mobile {
       padding-top: 40px;
       padding-left: 0;
+
+      row-gap: 28px;
     }
   }
 
@@ -8117,7 +8261,7 @@ padding-top: 5px;
     margin-bottom: 12px;
 
     @include mobile {
-      font-size: 16px;
+      font-size: 18px;
       margin-bottom: 10px;
     }
   }
@@ -8126,7 +8270,7 @@ padding-top: 5px;
     font-size: 18px;
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 }
@@ -8463,7 +8607,7 @@ gap: 15px;}
   }
 
   @include mobile {
-    padding-top: 60px;
+    padding-top: 65px;
     padding-bottom: 60px;
   }
 
@@ -8529,7 +8673,7 @@ gap: 15px;}
 
   &__title {
     @include desctop {
-      font-size: 18px;
+      font-size: 20px;
     }
 
 
@@ -8573,17 +8717,23 @@ gap: 15px;}
     text-align: center;
 
     @include desctop{
-      font-size: 14px;
+      padding-top: 20px;
     }
     @include mobile{
       font-size: 12px;
+      padding-top: 15px;
     }
   }
 
   &__descr{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     padding-top: 10px;
+    @include tablet{
+      br{
+        display: none;
+      }
+    }
     @include mobile{
       font-size: 10px;
     }
@@ -8605,7 +8755,11 @@ gap: 15px;}
    padding-top: 45px;
   flex-direction: column;
   @include mobile{
-    min-height: 190px;
+    min-height: 192px;
+    padding-top: 40px;
+  }
+  @include desctop{
+    padding-top: 35px;
   }
   &__title{
   font-size: 20px;
@@ -8614,9 +8768,16 @@ gap: 15px;}
   padding-bottom: 21px;
   line-height: 1.1;
 @include mobile{
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 15px;
 }
+}
+
+&__content{
+  font-size: 16px;
+  @include mobile{
+    font-size: 14px;
+  }
 }
 
 
@@ -8634,47 +8795,41 @@ gap: 15px;}
 .section-advantages{
   background: #F8FBFF;
   @include tablet{
-    padding-top: 45px;
+ padding-top: 75px;
   }
   @include mobile{
-    padding-top: 25px;
+    padding-top: 55px;
   }
   &__container{
       max-width: 1247px;
       @include desctop{
       
-              max-width: 840px;
+              max-width: 710px;
       }
   }
   &__row{
     display: flex;
     padding-top: 55px;
     gap: 30px;
-    @include tablet{
+ 
+    @include desctop{
       flex-wrap: wrap;
     }
     @include mobile{
-      padding-top: 35px;
+ 
       gap: 28px;
+      padding-top: 45px;
     }
   }
 
   &__col{
   
   width: calc(25% - 15px);
-  @include tablet{
+  @include desctop{
     width: calc(50% - 15px);
-    &:first-child{
-      .advantages-item__icon{
-        margin-left: 10px;
-      }
-    }
 
-    &:nth-child(3){
-      .advantages-item__icon{
-        margin-left: 15px;
-      }
-    }
+
+ 
   }
 
   @include mobile{
@@ -8698,15 +8853,28 @@ align-items: center;
   }
 
   &__title{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: $dark-blue;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     text-align: center;
+
+    @include desctop{
+      padding-bottom: 10px;
+    }
+
+    @include mobile{
+      font-size:  18px;
+      padding-bottom: 12px;
+    }
   }
   &__text{
   text-align: center;
+  font-size: 18px;
+@include mobile{
+  font-size: 16px;
+}
   }
 }
 
@@ -8717,16 +8885,19 @@ align-items: center;
     padding-top: 60px;
     padding-bottom: 70px;
   }
+  @include tablet{
+    padding-top: 60px;
+  }
 
   &__descr{
     text-align: center;
     padding-top: 25px;
-    @include desctop{
-    padding-top: 15px;
-    font-size: 12px;}
+    font-size: 16px;
+   
 
     @include mobile{
       padding-top: 20px;
+      font-size: 14px;
     }
   }
 
@@ -8742,6 +8913,10 @@ align-items: center;
   }
 }
 
+padding-bottom: 105px;
+@include desctop{
+  padding-bottom: 80px;
+}
 }
 
 
@@ -8820,11 +8995,12 @@ background: white;
 border-radius: 16px;
 box-shadow: 0px 0px 8px 0px #00000026;
 padding: 30px;
-min-height: 200px;
+min-height: 185px;
 height: 100%;
-@include tablet{
-  padding: 35px;
+@include desctop{
+  min-height: 200px;
 }
+
 @include mobile{
   padding-top: 20px;
   padding-left: 20px;
@@ -8848,7 +9024,7 @@ height: 100%;
   @include mobile{
     width: 40px;
     height: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 }
 
@@ -8858,13 +9034,14 @@ font-weight: 500;
 @include desctop{
 
 font-size: 18px;
+padding-top: 5px;
 }
 @include mobile{
-  font-size: 14px;
+  font-size: 18px;
 }
 }
 @include mobile{
- min-height: 140px;
+ min-height: 151px;
  
 }
 }
@@ -8876,9 +9053,11 @@ padding-top: 115px;
 @include desctop{
     padding-top: 100px;
 
+    padding-bottom: 100px;
+
 }
 @include tablet{
-  padding-top: 81px;
+  padding-top: 75px;
   padding-bottom: 80px;
 }
 
@@ -8888,6 +9067,9 @@ padding-top: 115px;
   padding-bottom: 50px;
 }
 &__container{
+  @include desctop{
+    max-width: 710px;
+  }
   @include tablet{
    max-width: 760px;
   }
@@ -8908,8 +9090,8 @@ padding-top: 115px;
     row-gap: 20px;
    
     @include mobile{
-  font-size: 14px;
-      row-gap: 15px;
+  font-size: 16px;
+      row-gap: 20px;
     }
     div p{
     
@@ -8955,6 +9137,12 @@ overflow-x: hidden;
 
 .section-clients{
 
+  &__container{
+    @include desctop{
+      max-width: 710px;
+    }
+  }
+
   &__block{
     position: relative;
   }
@@ -8995,6 +9183,10 @@ overflow-x: hidden;
     z-index: 2;
     width: calc(100% + 185px);
 
+    @include tablet{
+      width: calc(100% + 85px);
+    }
+
 
     @include mobile{
       width: 100%;
@@ -9002,7 +9194,7 @@ overflow-x: hidden;
       top: 100%;
       justify-content: center;
       & > *{
-        margin: 0 20px;
+        margin: 0 30px;
       }
     }
 
@@ -9197,13 +9389,16 @@ width: 100%;
     
   }
   @include desctop{
-    padding-top: 85px;
+    padding-top: 95px;
   }
   @include mobile{
-    padding-top: 70px;
+   
+    padding-top: 85px;
+    padding-bottom: 55px;
   }
   @include tablet{
     padding-top: 70px;
+    padding-bottom: 135px;
   }
   &__container{
     max-width: 1250px;
@@ -9219,11 +9414,11 @@ width: 100%;
 
     @include desctop{
 
-      padding-top: 100px;
+      padding-top: 50px;
     }
 
     @include tablet{
-              padding-top: 65px;
+              padding-top: 45px;
     }
 
     @include mobile{
