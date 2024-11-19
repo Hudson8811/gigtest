@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20241118235518">
-    <link rel="stylesheet" href="css/style.min.css?_v=20241118235518">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20241119113721">
+    <link rel="stylesheet" href="css/style.min.css?_v=20241119113721">
     <title>Document</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
       <div class="menu-overlay"></div>
       <header class="header">
         <div class="header__container">
-          <div class="logo"><picture><source srcset="img/logo.webp, img/logo@2x.webp 2x" type="image/webp"><img class="logo__image" src="img/logo.png" srcset="img/logo@2x.png 2x" alt=""></picture></div>
+          <div class="logo"><a href="/dist/"><picture><source srcset="img/logo.webp, img/logo@2x.webp 2x" type="image/webp"><img class="logo__image" src="img/logo.png" srcset="img/logo@2x.png 2x" alt=""></picture></a></div>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item"><a class="menu__link" href="">Решения</a>
@@ -23,18 +23,18 @@
                 </svg>
                 <div class="menu__dropdown">
                   <ul class="menu-dropdown">
-                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href=""><span class="menu-dropdown__title">    ГИГТЕСТ</span><span class="menu-dropdown__text">Сервис для проведения гигиенического обучения граждан</span></a></li>
+                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/dist/"><span class="menu-dropdown__title">    ГИГТЕСТ</span><span class="menu-dropdown__text">Сервис для проведения гигиенического обучения граждан</span></a></li>
                     <li class="menu-dropdown__item"><a class="menu-dropdown__link" href=""><span class="menu-dropdown__title">ГИГТЕСТ. Медицина</span><span class="menu-dropdown__text">Медицинская информационная система</span></a></li>
-                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href=""><span class="menu-dropdown__title">Интеграция с ЕГИСЗ</span><span class="menu-dropdown__text">Подключаем вашу МИС к ЕГИСЗ</span></a></li>
-                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href=""><span class="menu-dropdown__title">SEO в медицине</span><span class="menu-dropdown__text">Маркетинговая помощь в продвижении медицинских услуг</span></a></li>
-                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href=""><span class="menu-dropdown__title">Консалтинг</span><span class="menu-dropdown__text">Поможем в подключении вашей организации к единому контуру</span></a></li>
+                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/dist/integration.html"><span class="menu-dropdown__title">Интеграция с ЕГИСЗ</span><span class="menu-dropdown__text">Подключаем вашу МИС к ЕГИСЗ</span></a></li>
+                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/dist/seo.html"><span class="menu-dropdown__title">SEO в медицине</span><span class="menu-dropdown__text">Маркетинговая помощь в продвижении медицинских услуг</span></a></li>
+                    <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/dist/consulting.html"><span class="menu-dropdown__title">Консалтинг</span><span class="menu-dropdown__text">Поможем в подключении вашей организации к единому контуру</span></a></li>
                   </ul>
                 </div>
               </li>
-              <li class="menu__item"><a class="menu__link" href="">Услуги</a></li>
-              <li class="menu__item"><a class="menu__link" href="">Особенности SEO</a></li>
-              <li class="menu__item"><a class="menu__link" href="">Клиенты</a></li>
-              <li class="menu__item"><a class="menu__link" href="">Требования</a></li>
+              <li class="menu__item"><a class="menu__link" href="#section-grid-seo">Услуги</a></li>
+              <li class="menu__item"><a class="menu__link" href="#section-contentSeo">Особенности SEO</a></li>
+              <li class="menu__item"><a class="menu__link" href="#section-clients">Клиенты</a></li>
+              <li class="menu__item"><a class="menu__link" href="#section-requirements">Требования</a></li>
             </ul>
           </nav>
           <div class="header__phone">
@@ -66,7 +66,7 @@
                   <div class="slider-item-seo__container">
                     <div class="slider-item-seo__col">
                       <div class="slider-item-seo__title3">SEO-продвижение сайтов в медицинской тематике</div>
-                      <div class="slider-item-seo__descr">Консорциум Гигтест.Медицина & BF360</div><a class="btn btn--accent btn--medium" href="#" data-hystmodal="#myModal22">Оставить заявку</a>
+                      <div class="slider-item-seo__descr">Консорциум Гигтест.Медицина & <a href="https://bf360.ru/" target="_blanc">BF360</a></div><a class="btn btn--accent btn--medium" href="#" data-hystmodal="#myModal22">Оставить заявку</a>
                     </div>
                     <div class="slider-item-seo__col"><picture><source srcset="img/seo.webp" type="image/webp"><img class="slider-item-seo__col-img4" src="img/seo.png" alt=""></picture></div>
                   </div>
@@ -111,7 +111,7 @@
             </div>
           </div>
         </section>
-        <section class="section-grid-seo">
+        <section class="section-grid-seo" id="section-grid-seo">
           <div class="section-grid-seo__seo">
             <div class="section-grid-seo__fwContainer">
               <div class="section-grid-seo__title2">
@@ -258,7 +258,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contentSeo">
+        <section class="section-contentSeo" id="section-contentSeo">
           <div class="section-contentSeo__container">
             <div class="section-contentSeo__title">
               <h2 class="section-title">Особенности продвижения <br class="br-mobile">сайтов<br class="d-block d-sm-none">в медицинской тематике</h2>
@@ -356,7 +356,7 @@
             </div>
           </div>
         </section>
-        <section class="section-clients">
+        <section class="section-clients" id="section-clients">
           <div class="section-clients__container">
             <div class="section-clients__title">
               <h2 class="section-title">100+ клиентов за последние 5 лет</h2>
@@ -435,7 +435,7 @@
               </div>
               <div class="section-keys__col"><picture><source srcset="img/keys2.webp" type="image/webp"><img src="img/keys2.png" alt=""></picture></div>
             </div>
-            <div class="section-keys__button"><a class="btn btn--bordered btn--wide btn--medium" href="">Все кейсы</a></div>
+            <div class="section-keys__button"><a class="btn btn--bordered btn--wide btn--medium" href="/dist/keys.html">Все кейсы</a></div>
           </div>
         </section>
         <section class="section-goals">
@@ -468,14 +468,14 @@
             </div>
           </div>
         </section>
-        <section class="section-requirements">
+        <section class="section-requirements" id="section-requirements">
           <div class="section-requirements__container">
             <div class="section-requirements__title"> 
               <h2 class="section-title">Требования федеральных законов к сайтам<br class="d-none d-lg-block"> медицинской тематики</h2>
             </div>
             <div class="section-requirements__row">
               <p>Согласно российскому законодательству, государственные и частные клиники, а также прочие организации данной сферы обязаны соблюдать законы и постановления, регулирующие предоставление медицинских услуг. В том числе эти правовые нормы затрагивают контентное наполнение интернет-ресурсов. Чтобы избежать штрафов от контролирующих органов и заслужить доверие пользователей и поисковых систем, необходимо проверять медицинские сайты на соответствие следующим нормативно-правовым актам:</p>
-              <div class="section-requirements__list"><a href="">Приказ Минздрава РФ от 30.12.2014 № 956н «Требования к содержанию и форме предоставления информации<br class="d-none d-lg-block d-sm-none"> о деятельности медицинских организаций, размещаемой <br class="d-none d-lg-block d-sm-none">на официальных сайтах в информационно-телекоммуникационной сети <br class="d-none d-lg-block">Интернет».</a><a href="">Постановление Правительства РФ от 11.05.2023 г. № 736: <br class="d-none d-md-block"> «Об утверждении Правил предоставления медицинскими организациями платных медицинских услуг».</a><a href="">Федеральный зaкон от 21.11.2011 № 323-ФЗ «Об основах охраны <br class="d-none d-md-block"> здоровья граждан в Российской Федерации».</a><a href="">Федеральный закон от 29.11.2010 № 326-ФЗ «Об обязательном  <br class="d-none d-md-block">медицинском страховании в Российской Федерации».</a><a href="">Федеральный закон от 24.11.1995 № 181-ФЗ «О социальной защите <br class="d-none d-md-block"> инвалидов в Российской Федерации».</a><a href="">Федеральный закон от 27.07.2006 № 149-ФЗ «Об информации, <br class="d-none d-md-block"> информационных технологиях и о защите информации».</a><a href="">Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных».</a><a href="">Закон РФ от 07.02.1992 № 2300–1 «О защите прав потребителей».</a><a href="">Федеральный закон от 13.03.2006 № 38-ФЗ «О рекламе».</a><a href="">Гражданский кодекс РФ, Часть четвёртая (ст. 1225–1551) от 18.12.2006 <br class="d-none d-md-block d-sm-none">№ 230-ФЗ.</a><a href="">Гражданский кодекс РФ, Статья 152.1. Охрана изображения гражданина.</a></div>
+              <div class="section-requirements__list"><a href="https://docs.cntd.ru/document/420247233">Приказ Минздрава РФ от 30.12.2014 № 956н «Требования к содержанию и форме предоставления информации<br class="d-none d-lg-block d-sm-none"> о деятельности медицинских организаций, размещаемой <br class="d-none d-lg-block d-sm-none">на официальных сайтах в информационно-телекоммуникационной сети <br class="d-none d-lg-block">Интернет».</a><a href="https://docs.cntd.ru/document/1301535919">Постановление Правительства РФ от 11.05.2023 г. № 736: <br class="d-none d-md-block"> «Об утверждении Правил предоставления медицинскими организациями платных медицинских услуг».</a><a href="https://docs.cntd.ru/document/902312609">Федеральный зaкон от 21.11.2011 № 323-ФЗ «Об основах охраны <br class="d-none d-md-block"> здоровья граждан в Российской Федерации».</a><a href="https://docs.cntd.ru/document/902247618">Федеральный закон от 29.11.2010 № 326-ФЗ «Об обязательном  <br class="d-none d-md-block">медицинском страховании в Российской Федерации».</a><a href="https://docs.cntd.ru/document/9014513">Федеральный закон от 24.11.1995 № 181-ФЗ «О социальной защите <br class="d-none d-md-block"> инвалидов в Российской Федерации».</a><a href="https://docs.cntd.ru/document/901990051">Федеральный закон от 27.07.2006 № 149-ФЗ «Об информации, <br class="d-none d-md-block"> информационных технологиях и о защите информации».</a><a href="https://docs.cntd.ru/document/901990046">Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных».</a><a href="https://docs.cntd.ru/document/9005388">Закон РФ от 07.02.1992 № 2300–1 «О защите прав потребителей».</a><a href="https://docs.cntd.ru/document/901971356">Федеральный закон от 13.03.2006 № 38-ФЗ «О рекламе».</a><a href="https://docs.cntd.ru/document/902019731">Гражданский кодекс РФ, Часть четвёртая (ст. 1225–1551) от 18.12.2006 <br class="d-none d-md-block d-sm-none">№ 230-ФЗ.</a><a href="https://www.consultant.ru/document/cons_doc_LAW_5142/14c6c3902cffa17ab26d330b2fd4fae28e5cd059/">Гражданский кодекс РФ, Статья 152.1. Охрана изображения гражданина.</a></div>
             </div>
           </div>
         </section>
@@ -625,7 +625,7 @@
             </div>
           </div>
         </section>
-        <section class="section-question">
+        <section class="section-question" id="section-question">
           <div class="section-question__container">
             <h2 class="section-title">Начнём с бесплатного<br class="br-mobile"> SEO-аудита</h2>
             <div class="section-question__block">
@@ -716,6 +716,6 @@
       </div>
     </div>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241118235518"></script>
-  <script src="js/app.js?_v=20241118235518"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241119113721"></script>
+  <script src="js/app.js?_v=20241119113721"></script>
 </html>
