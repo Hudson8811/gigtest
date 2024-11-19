@@ -66,7 +66,6 @@ if (tabButtons && tabContents) {
 var swiper = new Swiper(".section-main__slider", {
   spaceBetween: 30,
   slidesPerView: 1,
-  autoHeight: true,
   pagination: {
     el: ".section-main__dots",
     clickable: true,
@@ -79,7 +78,6 @@ var swiper = new Swiper(".section-main__slider", {
 var swiper3 = new Swiper(".section-reviews__slider", {
   spaceBetween: 50,
   slidesPerView: 1,
-  autoHeight: false,
   navigation: {
     nextEl: ".section-reviews__arrows-right",
     prevEl: ".section-reviews__arrows-left",

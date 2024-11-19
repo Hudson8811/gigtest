@@ -173,8 +173,8 @@ main{
     min-width: 235px;
 
     @include mobile{
-      min-width: none;
-      max-width: none;
+      max-width: 288px;
+      min-width: auto;
     }
   }
 
@@ -327,7 +327,7 @@ body {
   }
 
   @include mobile{
-    height: 55px;
+    height: 60px;
   }
 
   &__container {
@@ -5947,13 +5947,13 @@ padding-top: 5px;
   padding: 5px!important;
 }
 
-// header.is-sticky {
-//   position: fixed;
-//   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+ header.is-sticky {
+   position: fixed;
+   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
 
-//   backdrop-filter: blur(10px);
-//   animation: slideDown 0.35s ease-out;
-// }
+   backdrop-filter: blur(10px);
+   animation: slideDown 0.35s ease-out;
+ }
 
 
 
@@ -9202,11 +9202,12 @@ overflow-x: hidden;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: calc(100% + 185px);
+    height: 0;
 
     @include tablet{
       width: calc(100% + 85px);
