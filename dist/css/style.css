@@ -1327,7 +1327,7 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  padding-bottom: 4px;
+  padding-bottom: 3px;
 }
 
 .swiper-pagination-bullet {
@@ -7526,8 +7526,6 @@ input[class*="--is-error"] {
   .slider-item__list {
     padding-top: 0;
     gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 288px;
     padding-left: 0;
   }
