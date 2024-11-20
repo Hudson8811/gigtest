@@ -455,3 +455,59 @@ overlay.addEventListener("click", function(){
  });
  overlay.classList.toggle('menu-overlay--active');
 })
+
+/*document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});*/
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  let currentHash = window.location.hash
+
+  if(currentHash.length > 0 && $(currentHash).length > 0) {
+
+    var dest = 0;
+    if ($(currentHash).offset().top > $(document).height() - $(window).height()) {
+        dest = $(document).height() - $(window).height();
+    } else {
+        dest = $(currentHash).offset().top;
+    }
+
+    let currentScroll = $(window).scrollTop()
+
+    let currentDest = currentScroll > dest ? currentScroll - dest : dest - currentScroll
+
+    //go to destination
+    $('html,body').animate({
+        scrollTop: dest
+    }, currentDest / 3, 'linear');
+  }
+
+  $("[href^='#']").on("click touchstart" , function (event) {
+
+          event.preventDefault();
+          //calculate destination place
+          var dest = 0;
+          if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+              dest = $(document).height() - $(window).height();
+          } else {
+              dest = $(this.hash).offset().top;
+          }
+
+          let currentScroll = $(window).scrollTop()
+
+          let currentDest = currentScroll > dest ? currentScroll - dest : dest - currentScroll
+
+          //go to destination
+          $('html,body').animate({
+              scrollTop: dest
+          }, currentDest / 3, 'swing');
+
+  });
+})
