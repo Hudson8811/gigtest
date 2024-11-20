@@ -1134,6 +1134,10 @@ body {
   color: inherit;
 }
 
+.slider-item-seo__descr a:hover {
+  color: #5479F8;
+}
+
 .slider-item-seo__list {
   display: flex;
   gap: 19px;
@@ -1937,7 +1941,7 @@ body {
   width: 23px;
   height: 23px;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .hystmodal .section-question__rows {
@@ -2619,8 +2623,13 @@ body {
   row-gap: 25px;
 }
 
+.section-grid-seo__col:first-child {
+  cursor: auto;
+}
+
 .section-grid-seo__col {
   width: calc(33.3% - 13px);
+  cursor: pointer;
 }
 
 .section-grid__seo .section-grid__col {
@@ -2944,6 +2953,10 @@ input[type=checkbox]:checked {
   text-align: center;
 }
 
+.footer__items a {
+  color: inherit;
+}
+
 .footer__item {
   font-size: 14px;
   color: #46596C;
@@ -3015,11 +3028,8 @@ header.is-sticky {
   background: #FAFAFA;
 }
 
-.breadcrumbs__list {
-  display: flex;
-}
-
 .breadcrumbs__item {
+  display: inline;
   color: #35495D;
 }
 
@@ -3241,6 +3251,14 @@ header.is-sticky {
   padding-bottom: 160px;
   font-size: 18px;
   color: #35495D;
+}
+
+.section-page__contentConnect a {
+  color: inherit;
+}
+
+.section-page__contentConnect a:hover {
+  color: #5479F8;
 }
 
 .section-page__contentConnect p {
@@ -3666,6 +3684,10 @@ header.is-sticky {
   font-size: 16px;
 }
 
+.section-contact__item-text a {
+  color: inherit;
+}
+
 .section-support {
   color: #35495D;
 }
@@ -3720,6 +3742,10 @@ header.is-sticky {
 .section-support__item-title {
   font-weight: 500;
   font-size: 16px;
+}
+
+.section-support__item-text a {
+  color: inherit;
 }
 
 .support-time__title {
@@ -4002,6 +4028,14 @@ code > span > span > span {
   border-bottom: 1px solid #26599B;
 }
 
+.numbers-item__place a {
+  color: inherit;
+}
+
+.numbers-item__place a:hover {
+  color: #5479f8;
+}
+
 .numbers-item__info {
   font-size: 16px;
   padding-top: 15px;
@@ -4039,6 +4073,20 @@ code > span > span > span {
   font-size: 16px;
 }
 
+.service-item__content--before-hover {
+  display: block;
+}
+
+.service-item__content--after-hover {
+  display: none;
+}
+
+.service-item__content a {
+  color: #fff;
+  padding: 0 8px 4px;
+  border-bottom: 1px dashed #fff;
+}
+
 .service-item--active {
   background: #26599B;
   color: white;
@@ -4046,6 +4094,14 @@ code > span > span > span {
 
 .service-item--active .service-item__title {
   color: white;
+}
+
+.service-item--active .service-item__content--before-hover {
+  display: none;
+}
+
+.service-item--active .service-item__content--after-hover {
+  display: block;
 }
 
 .section-advantages {
@@ -4175,6 +4231,10 @@ code > span > span > span {
   overflow-x: hidden;
 }
 
+.section-clients__row .swiper-slide {
+  padding: 0 !important;
+}
+
 .section-clients__block {
   position: relative;
 }
@@ -4193,6 +4253,11 @@ code > span > span > span {
   z-index: 2;
   width: calc(100% + 185px);
   height: 0;
+}
+
+.section-clients__arrows-left,
+.section-clients__arrows-right {
+  cursor: pointer;
 }
 
 .section-clients__icon {
@@ -5309,18 +5374,19 @@ input[class*="--is-error"] {
     margin-bottom: 17.6px;
   }
 
-  .hystmodal__contact .section-title {
-    font-size: 32px;
+  .hystmodal__containerContact {
+    max-width: 706px;
   }
 
-  .hystmodal .form-input-tel {
-    width: 180px;
+  .hystmodal__contact .section-title {
+    font-size: 32px;
   }
 
   .hystmodal .section-question__rows {
     padding-left: 0;
     padding-right: 0;
     padding-top: 25px;
+    padding-bottom: 33px;
   }
 
   .hystmodal .form-question {
@@ -6580,6 +6646,10 @@ input[class*="--is-error"] {
 
   .hystmodal__contact .section-title {
     font-size: 22px;
+  }
+
+  .hystmodal__close {
+    margin-top: 10px;
   }
 
   .section-requirements {
@@ -7876,7 +7946,6 @@ input[class*="--is-error"] {
 
   .hystmodal__contact .section-title {
     font-size: 20px;
-    margin-top: 10px;
   }
 
   .hystmodal__slider {
@@ -7887,11 +7956,7 @@ input[class*="--is-error"] {
     width: 17px;
     height: 17px;
     margin-right: 10px;
-    margin-top: 20px;
-  }
-
-  .hystmodal .form-input-tel {
-    width: 100%;
+    margin-top: 16px;
   }
 
   .hystmodal .section-question__rows {
@@ -7899,7 +7964,13 @@ input[class*="--is-error"] {
   }
 
   .hystmodal .section-question__image {
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hystmodal .form-question {
+    margin-right: auto;
+    padding-bottom: 0;
   }
 
   .hystmodal__arrows {
@@ -8415,10 +8486,6 @@ input[class*="--is-error"] {
 
   .breadcrumbs {
     padding: 16px 0;
-  }
-
-  .breadcrumbs__list {
-    flex-wrap: wrap;
   }
 
   .breadcrumbs__item {
