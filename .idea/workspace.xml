@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/appsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/appsoft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/connect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/consulting.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/consulting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/documentation-normative.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/documentation-normative.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/egsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/egsis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-disabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-disabled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-error2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-focus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-inactive.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-inactive2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-robot1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-robot2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-validation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/happens.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/happens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/keys.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/keys.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/knowledge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/requirements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/requirements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/seo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form-confirmed-disabled.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -106,11 +73,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="88" lean-forward="true" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-text</find>
       <find>item:not(:last-child)</find>
       <find>:not(:last-child)</find>
       <find>section-support</find>
@@ -121,9 +96,9 @@
       <find>5479F8</find>
       <find>__descr</find>
       <find>__place</find>
-      <find />
+      <find>Настройка сайтов</find>
       <find>service-item</find>
-      <find />
+      <find>.hystmodal .form-input-tel</find>
       <find>.hystmodal</find>
       <find>.section-question__rows</find>
       <find>__close</find>
@@ -137,9 +112,10 @@
       <find>menu-dropdown</find>
       <find>5479f8</find>
       <find>26599b</find>
-      <find />
+      <find>Единый реестр Российских</find>
       <find>__list</find>
       <find>.section-page</find>
+      <find>__li</find>
     </findStrings>
     <replaceStrings>
       <replace>/gigtest/dist/</replace>
@@ -168,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/consulting.pug" />
         <option value="$PROJECT_DIR$/src/seo.pug" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
-        <option value="$PROJECT_DIR$/src/index.pug" />
         <option value="$PROJECT_DIR$/src/integration.pug" />
         <option value="$PROJECT_DIR$/src/html/header2.pug" />
         <option value="$PROJECT_DIR$/src/egsis.pug" />
@@ -186,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/snils.pug" />
         <option value="$PROJECT_DIR$/src/support.pug" />
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/index.pug" />
       </list>
     </option>
   </component>
@@ -343,12 +319,12 @@
       <workItem from="1732021989312" duration="1109000" />
       <workItem from="1732041498109" duration="2685000" />
       <workItem from="1732122222896" duration="10603000" />
-      <workItem from="1732182147158" duration="854000" />
+      <workItem from="1732182147158" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53037000" />
+    <option name="totallyTimeSpent" value="53304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,15 +337,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.5007837" side_tool="true" weight="0.24980299" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80372095" visible="true" weight="0.1501182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80372095" visible="true" weight="0.1501182" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299373" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" sideWeight="0.19627906" side_tool="true" visible="true" weight="0.1501182" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15752351" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15752351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5736677" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -566,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1451">
-          <caret line="587" column="146" selection-start-line="587" selection-start-column="146" selection-end-line="587" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/knowledge.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -668,6 +638,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="6713" column="23" lean-forward="true" selection-start-line="6713" selection-start-column="23" selection-end-line="6713" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="88" lean-forward="true" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
         </state>
       </provider>
     </entry>
