@@ -1,0 +1,49 @@
+.menu-mobile
+.menu-overlay
+header.header
+  .header__container
+    .logo
+      a(href="/gigtest/dist/")
+        img(src="@img/logo.png" srcset="@img/logo@2x.png 2x", alt="").logo__image
+    nav.menu
+      ul.menu__list
+        li.menu__item
+          a.menu__link Решения
+          svg.menu__icon
+            use(xlink:href="@img/icons/icons.svg#arrow-down")
+          .menu__dropdown
+            ul.menu-dropdown
+              li.menu-dropdown__item
+                a(href="https://gigtest.ru" target="_blanc").menu-dropdown__link
+                  span.menu-dropdown__title     ГИГТЕСТ
+                  span.menu-dropdown__text Сервис для проведения гигиенического обучения граждан
+              li.menu-dropdown__item
+                a(href="https://med.gigtest.ru" target="_blanc").menu-dropdown__link
+                  span.menu-dropdown__title ГИГТЕСТ. Медицина
+                  span.menu-dropdown__text Медицинская информационная система
+              li.menu-dropdown__item
+                a(href="/gigtest/dist/integration.html").menu-dropdown__link
+                  span.menu-dropdown__title Интеграция с ЕГИСЗ
+                  span.menu-dropdown__text Подключаем вашу МИС к ЕГИСЗ
+              li.menu-dropdown__item
+                a(href="/gigtest/dist/seo.html").menu-dropdown__link
+                  span.menu-dropdown__title SEO в медицине
+                  span.menu-dropdown__text Маркетинговая помощь в продвижении медицинских услуг
+              li.menu-dropdown__item
+                a(href="/gigtest/dist/consulting.html").menu-dropdown__link
+                  span.menu-dropdown__title Консалтинг
+                  span.menu-dropdown__text Поможем в подключении вашей организации к единому контуру
+        li.menu__item
+          a(href="/gigtest/dist/contacts.html").menu__link Контакты
+    .header__phone
+      .phone
+        svg.phone__icon
+          use(xlink:href="@img/icons/icons.svg#telephone-fill")
+        .phone__item
+          .phone__top с 9–00 до 18–00 Пн-Пт
+          a(href="tel:+78007003060").phone__bottom 8 800 700-30-60
+    .hamburger
+      svg.hamburger__icon
+        use(xlink:href="@img/icons/icons.svg#hamburger")
+      svg.hamburger__close
+        use(xlink:href="@img/icons/icons.svg#cross")
