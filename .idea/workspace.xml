@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/dist/appsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/appsoft.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/connect.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/consulting.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/consulting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contacts-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts-in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/documentation-normative.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/documentation-normative.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/egsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/egsis.html" afterDir="false" />
@@ -19,6 +20,8 @@
       <change beforePath="$PROJECT_DIR$/dist/form-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/form-error2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/form-focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-focus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-in-tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-in-tarif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/form-inactive.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/form-inactive2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/form-robot1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot1.html" afterDir="false" />
@@ -26,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/dist/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-validation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/happens.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/happens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/integration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/keys.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/keys.html" afterDir="false" />
@@ -37,11 +41,10 @@
       <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form-in.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/form-in.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/form.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/header2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header2.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integration.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prices.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/prices.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,8 +70,8 @@
       <file leaf-file-name="form-in.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/form-in.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -76,16 +79,25 @@
       <file leaf-file-name="form-in-tarif.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/form-in-tarif.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="816">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prices.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/form.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prices.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/prices.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="738">
               <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
             </state>
           </provider>
@@ -100,29 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header2.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/header2.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="43" selection-end-line="54" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/header.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
               <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts-in.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contacts-in.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -136,11 +130,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contacts.pug">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="790">
+              <caret line="1624" column="24" selection-start-line="1624" selection-start-column="24" selection-end-line="1624" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -149,9 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section-support</find>
-      <find>footer</find>
-      <find>О лицензировании</find>
       <find>section-contact</find>
       <find>__contentConnect</find>
       <find>5479F8</find>
@@ -179,6 +179,9 @@
       <find>__li</find>
       <find />
       <find>swiper</find>
+      <find>.slider-item__title</find>
+      <find>.slider-item</find>
+      <find>__tit</find>
     </findStrings>
     <replaceStrings>
       <replace>/gigtest/dist/</replace>
@@ -207,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/html/header3.pug" />
         <option value="$PROJECT_DIR$/src/html/header.pug" />
         <option value="$PROJECT_DIR$/src/appsoft.pug" />
-        <option value="$PROJECT_DIR$/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/src/consulting.pug" />
         <option value="$PROJECT_DIR$/src/html/header2-consulting.pug" />
         <option value="$PROJECT_DIR$/src/contacts.pug" />
@@ -224,15 +226,16 @@
         <option value="$PROJECT_DIR$/src/happens.pug" />
         <option value="$PROJECT_DIR$/src/html/header-index.pug" />
         <option value="$PROJECT_DIR$/src/index.pug" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/contacts-in.pug" />
         <option value="$PROJECT_DIR$/src/html/header2.pug" />
         <option value="$PROJECT_DIR$/src/html/header2-contacts-in.pug" />
-        <option value="$PROJECT_DIR$/src/form.pug" />
         <option value="$PROJECT_DIR$/src/integration.pug" />
-        <option value="$PROJECT_DIR$/src/form-in.pug" />
         <option value="$PROJECT_DIR$/src/form-in-tarif.pug" />
         <option value="$PROJECT_DIR$/src/prices.pug" />
+        <option value="$PROJECT_DIR$/src/form.pug" />
+        <option value="$PROJECT_DIR$/src/form-in.pug" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -391,12 +394,12 @@
       <workItem from="1732041498109" duration="2685000" />
       <workItem from="1732122222896" duration="10603000" />
       <workItem from="1732182147158" duration="5184000" />
-      <workItem from="1732197902539" duration="2904000" />
+      <workItem from="1732197902539" duration="3748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60271000" />
+    <option name="totallyTimeSpent" value="61115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,13 +527,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/form-confirmed-disabled.pug" />
-    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="6713" column="23" lean-forward="true" selection-start-line="6713" selection-start-column="23" selection-end-line="6713" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/header-reviews.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -643,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/appsoft.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -699,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/form.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/header2-contacts-in.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -717,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/form-in.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -741,17 +716,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/form-in-tarif.pug">
+    <entry file="file://$PROJECT_DIR$/src/prices.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="738">
+          <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/prices.pug">
+    <entry file="file://$PROJECT_DIR$/src/form.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/form-in.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/form-in-tarif.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="1624" column="24" selection-start-line="1624" selection-start-column="24" selection-end-line="1624" selection-end-column="24" />
         </state>
       </provider>
     </entry>

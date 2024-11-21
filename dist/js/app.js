@@ -53,7 +53,7 @@ if (tabButtons && tabContents) {
 var swiper = new Swiper(".section-main__slider", {
   spaceBetween: 30,
   slidesPerView: 1,
-  autoplay:true,
+  //autoplay:true,
   pagination: {
     el: ".section-main__dots",
     clickable: true,
