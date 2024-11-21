@@ -456,27 +456,28 @@ document.addEventListener('DOMContentLoaded', () => {
   //Прокрутка к якорю по клику
   $("[href^='#']").on("click touchstart" , function (event) {
 
-          event.preventDefault();
-
-          if($(window).width() < 1101) {
-            $('.header .hamburger').click()
+          if($(this).attr('href').length > 1) {
+            event.preventDefault();
+  
+            if($(window).width() < 1101) {
+              $('.header .hamburger--active.hamburger').click()
+            }
+            
+            var dest = 0;
+            if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                dest = $(document).height() - $(window).height();
+            } else {
+                dest = $(this.hash).offset().top - 80;
+            }
+  
+            let currentScroll = $(window).scrollTop()
+  
+            let currentDest = currentScroll > dest ? currentScroll - dest : dest - currentScroll
+  
+            $('html,body').animate({
+                scrollTop: dest
+            }, currentDest / 3, 'swing');
           }
-          
-          var dest = 0;
-          if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
-              dest = $(document).height() - $(window).height();
-          } else {
-              dest = $(this.hash).offset().top - 80;
-          }
-
-          let currentScroll = $(window).scrollTop()
-
-          let currentDest = currentScroll > dest ? currentScroll - dest : dest - currentScroll
-
-          $('html,body').animate({
-              scrollTop: dest
-          }, currentDest / 3, 'swing');
-
   });
 
   //подсвечивание пункта меню при прокрутке
