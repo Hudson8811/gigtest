@@ -31,7 +31,10 @@
                   </ul>
                 </div>
               </li>
-              <li class="menu__item"><a class="menu__link" href="/gigtest/dist/contacts.html">Контакты</a></li>
+              <li class="menu__item"><a class="menu__link" href="/gigtest/dist/api.html">API</a></li>
+              <li class="menu__item"><a class="menu__link" href="/gigtest/dist/prices.html">Тарифы</a></li>
+              <li class="menu__item"><a class="menu__link" href="/gigtest/dist/knowledge.html">База знаний</a></li>
+              <li class="menu__item"><a class="menu__link" href="/gigtest/dist/contacts-in.html">Контакты</a></li>
             </ul>
           </nav>
           <div class="header__phone">
@@ -55,33 +58,57 @@
         </div>
       </header>
       <main>
+        <div class="breadcrumbs">
+          <div class="breadcrumbs__container">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/gigtest/dist/integration.html">Интеграция с ЕГИСЗ</a></li>
+              <li class="breadcrumbs__item">Заявка на подключение</li>
+            </ul>
+          </div>
+        </div>
         <div class="section-page">
-          <div class="section-page__large">
+          <div class="section-page__form">
             <div class="section-page__container">
-              <div class="section-page__info">
-                <div class="section-page__title">
-                  <h1 class="page-title">Консалтинг</h1>
-                </div>
-                <div class="section-page__content">
-                  <p>Консалтинг и сопровождение процесса прямого подключения частной медицинской организации с ЕГИСЗ. Предлагаем полный комплекс услуг по прямому подключению медицинской организации к ЕГИСЗ «под ключ»,  включая выстраивание защищённого канала, разработку SOAP-клиента, настройку взаимодействия с тестовой и промышленной средами сервисов ЕГИСЗ.</p>
-                </div>
+              <div class="section-page__formHead">
+                <h1 class="page-title">Заявка на подключение к МИС ГИГТЕСТ</h1>
               </div>
-              <div class="section-page__consult">
-                <div class="section-question">
-                  <h2 class="section-title">Остались вопросы? Мы готовы помочь!</h2>
-                  <div class="section-question__block">
-                    <div class="section-question__row">
-                      <div class="section-question__col"><picture><source srcset="img/question-image.webp, img/question-image@2x.webp 2x" type="image/webp"><img class="section-question__image" src="img/question-image.png" srcset="img/question-image@2x.png 2x" alt=""></picture></div>
-                      <div class="section-question__col">
-                        <form class="form-question">
-                          <input type="text" placeholder="Введите имя">
-                          <input class="form-input-tel" type="text" placeholder="+7 (___) ___ - __ - __">
-                          <div class="ycaptcha"><picture><source srcset="img/captcha.webp" type="image/webp"><img src="img/captcha.png" alt=""></picture></div><a class="btn btn--medium btn--accent btn--fw" href="/gigtest/dist/#section-question">Заказать звонок</a>
-                        </form>
+              <div class="section-page__formMain">
+                <form class="form-main">
+                  <div class="form-main__price">Тариф:<span>5000 ₽/мес</span></div>
+                  <div class="form-main__block">
+                    <div class="form-main__items">
+                      <div class="form-main__item">
+                        <input class="form-input-name form-input-name--is-valid" type="text" placeholder="Введите имя" value="Ольга">
+                      </div>
+                      <div class="form-main__item">
+                        <input class="form-input-tel form-input-tel--is-valid" type="text" placeholder="+7 (___) ___ - __ - __" value="+7 (927) 876–98–63">
+                      </div>
+                      <div class="form-main__item">
+                        <input class="form-input-inn form-input-inn--is-valid" type="text" placeholder="Введите ИНН медицинской организации*" value="9876511371">
                       </div>
                     </div>
+                    <div class="form-main__info">
+                      <div class="form-main-info">
+                        <p>С таким ИНН найдена организация в ФРМО</p>
+                        <p>Организация: ООО «Медицинский региональный центр»</p>
+                        <p>OID: 1.2.643.5.1.13.13.12.2.14.59483</p>
+                        <p>Адрес: 125094, г. Москва, ул. Ленина, дом 3, стр. 23, офис 6</p>
+                        <p>Руководитель: Иванов И.И (директор)</p>
+                      </div>
+                    </div>
+                    <div class="form-main__download"><a class="download-item" href="">
+                        <svg class="download-item__icon">
+                          <use xlink:href="img/icons/icons.svg#download"></use>
+                        </svg>
+                        <div class="download-item__text">Скачать документы для подписания</div></a><a class="download-item" href="">
+                        <svg class="download-item__icon">
+                          <use xlink:href="img/icons/icons.svg#paperclip"></use>
+                        </svg>
+                        <div class="download-item__text">Прикрепить подписанные документы</div></a></div>
                   </div>
-                </div>
+                  <div class="ycaptcha"><picture><source srcset="img/captcha.webp" type="image/webp"><img src="img/captcha.png" alt=""></picture></div>
+                  <div class="form-main__btn"><a class="btn btn--large btn--disabled btn--fw" href="">Заказать звонок</a></div>
+                </form>
               </div>
             </div>
           </div>

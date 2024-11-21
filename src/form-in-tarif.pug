@@ -1,0 +1,102 @@
+doctype html
+html
+  include html/head
+  body
+    .wrapper
+      .menu-mobile
+      .menu-overlay
+      <header class="header">
+      <div class="header__container">
+      <div class="logo"><a href="/gigtest/dist/"><picture><source srcset="img/logo.webp, img/logo@2x.webp 2x" type="image/webp"><img class="logo__image" src="img/logo.png" srcset="img/logo@2x.png 2x" alt=""></picture></a></div>
+      <nav class="menu">
+      <ul class="menu__list">
+      <li class="menu__item"><a class="menu__link">Решения</a>
+      <svg class="menu__icon">
+      <use xlink:href="img/icons/icons.svg#arrow-down"></use>
+      </svg>
+      <div class="menu__dropdown">
+      <ul class="menu-dropdown">
+      <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="https://gigtest.ru" target="_blanc"><span class="menu-dropdown__title">    ГИГТЕСТ</span><span class="menu-dropdown__text">Сервис для&nbsp;проведения гигиенического обучения граждан</span></a></li>
+      <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="https://med.gigtest.ru" target="_blanc"><span class="menu-dropdown__title">ГИГТЕСТ. Медицина</span><span class="menu-dropdown__text">Медицинская информационная система</span></a></li>
+      <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/gigtest/dist/integration.html"><span class="menu-dropdown__title">Интеграция с&nbsp;ЕГИСЗ</span><span class="menu-dropdown__text">Подключаем вашу МИС к ЕГИСЗ</span></a></li>
+      <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/gigtest/dist/seo.html"><span class="menu-dropdown__title">SEO&nbsp;в&nbsp;медицине</span><span class="menu-dropdown__text">Маркетинговая помощь в продвижении медицинских услуг</span></a></li>
+      <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/gigtest/dist/consulting.html"><span class="menu-dropdown__title">Консалтинг</span><span class="menu-dropdown__text">Поможем в подключении вашей организации к единому контуру</span></a></li>
+      </ul>
+      </div>
+      </li>
+      <li class="menu__item"><a class="menu__link" href="/gigtest/dist/api.html">API</a></li>
+      <li class="menu__item"><a class="menu__link menu__link--active" href="/gigtest/dist/prices.html">Тарифы</a></li>
+      <li class="menu__item"><a class="menu__link" href="/gigtest/dist/knowledge.html">База знаний</a></li>
+      <li class="menu__item"><a class="menu__link" href="/gigtest/dist/contacts-in.html">Контакты</a></li>
+      </ul>
+      </nav>
+      <div class="header__phone">
+      <div class="phone">
+      <svg class="phone__icon">
+      <use xlink:href="img/icons/icons.svg#telephone-fill"></use>
+      </svg>
+      <div class="phone__item">
+      <div class="phone__top">с&nbsp;9–00&nbsp;до&nbsp;18–00&nbsp;Пн-Пт</div><a class="phone__bottom" href="tel:+78007003060">8&nbsp;800&nbsp;700-30-60</a>
+      </div>
+      </div>
+      </div>
+      <div class="hamburger">
+      <svg class="hamburger__icon">
+      <use xlink:href="img/icons/icons.svg#hamburger"></use>
+      </svg>
+      <svg class="hamburger__close">
+      <use xlink:href="img/icons/icons.svg#cross"></use>
+      </svg>
+      </div>
+      </div>
+      </header>
+      main
+        .breadcrumbs
+          .breadcrumbs__container
+            ul.breadcrumbs__list
+              li.breadcrumbs__item
+                a(href="/gigtest/dist/integration.html").breadcrumbs__link Интеграция с ЕГИСЗ
+              li.breadcrumbs__item
+                a(href="/gigtest/dist/prices.html").breadcrumbs__link Тарифы
+              li.breadcrumbs__item Заявка на подключение
+        .section-page
+          .section-page__form
+            .section-page__container
+              .section-page__formHead
+                h1.page-title Заявка на подключение к МИС ГИГТЕСТ
+              .section-page__formMain
+                form.form-main
+                  .form-main__price Тариф:
+                    span 5000 ₽/мес
+                  .form-main__block
+                    .form-main__items
+                      .form-main__item
+                        input(type="text" placeholder="Введите имя" value="Ольга").form-input-name.form-input-name--is-valid
+                      .form-main__item
+                        input(type="text" placeholder="+7 (___) ___ - __ - __" value="+7 (927) 876–98–63").form-input-tel.form-input-tel--is-valid
+                      .form-main__item
+                        input(type="text" placeholder="Введите ИНН медицинской организации*" value="9876511371").form-input-inn.form-input-inn--is-valid
+                    .form-main__info
+                      .form-main-info
+                        p С таким ИНН найдена организация в ФРМО
+                        p Организация: ООО «Медицинский региональный центр»
+                        p OID: 1.2.643.5.1.13.13.12.2.14.59483
+                        p Адрес: 125094, г. Москва, ул. Ленина, дом 3, стр. 23, офис 6
+                        p Руководитель: Иванов И.И (директор)
+                    .form-main__download
+                      a(href="").download-item
+                        svg.download-item__icon
+                          use(xlink:href="@img/icons/icons.svg#download")
+                        .download-item__text Скачать документы для подписания
+                      a(href="").download-item
+                        svg.download-item__icon
+                          use(xlink:href="@img/icons/icons.svg#paperclip")
+                        .download-item__text Прикрепить подписанные документы
+                  .ycaptcha
+                    img(src="@img/captcha.png" alt="")
+                  .form-main__btn
+                    a(href="").btn.btn--large.btn--disabled.btn--fw Заказать звонок
+      include html/footer
+  script(src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js")
+  script(src="https://code.jquery.com/jquery-3.7.1.min.js")
+  script(src='js/app.js')
