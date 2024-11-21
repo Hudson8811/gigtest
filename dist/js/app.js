@@ -430,18 +430,9 @@ overlay.addEventListener("click", function(){
  overlay.classList.toggle('menu-overlay--active');
 })
 
-/*document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
-  });
-});*/
-
 document.addEventListener('DOMContentLoaded', () => {
 
+  //Прокрутка к якорю при первом открытии страницы
   let currentHash = window.location.hash
 
   if(currentHash.length > 0 && $(currentHash).length > 0) {
@@ -450,38 +441,70 @@ document.addEventListener('DOMContentLoaded', () => {
     if ($(currentHash).offset().top > $(document).height() - $(window).height()) {
         dest = $(document).height() - $(window).height();
     } else {
-        dest = $(currentHash).offset().top;
+        dest = $(currentHash).offset().top - 80;
     }
 
     let currentScroll = $(window).scrollTop()
 
     let currentDest = currentScroll > dest ? currentScroll - dest : dest - currentScroll
 
-    //go to destination
     $('html,body').animate({
         scrollTop: dest
     }, currentDest / 3, 'linear');
   }
 
+  //Прокрутка к якорю по клику
   $("[href^='#']").on("click touchstart" , function (event) {
 
           event.preventDefault();
-          //calculate destination place
+
+          if($(window).width() < 1101) {
+            $('.header .hamburger').click()
+          }
+          
           var dest = 0;
           if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
               dest = $(document).height() - $(window).height();
           } else {
-              dest = $(this.hash).offset().top;
+              dest = $(this.hash).offset().top - 80;
           }
 
           let currentScroll = $(window).scrollTop()
 
           let currentDest = currentScroll > dest ? currentScroll - dest : dest - currentScroll
 
-          //go to destination
           $('html,body').animate({
               scrollTop: dest
           }, currentDest / 3, 'swing');
 
   });
+
+  //подсвечивание пункта меню при прокрутке
+  let anhorLinks = $(".header [href^='#']")
+  let wh = $(window).height()
+  
+  window.addEventListener('scroll', function () {
+    let trigger = false
+    anhorLinks.each(function() {
+
+      if($(this.hash).offset().top < $(window).scrollTop() + wh / 3 && $(this.hash).offset().top + $(this.hash).outerHeight() > $(window).scrollTop() + wh / 3) {
+        trigger = true
+        let currentBlock = $(this.hash)
+        anhorLinks.each(function() {
+          if(currentBlock.attr('id') == $(this).attr('href').slice(1)) {
+            $(this).addClass('menu__link--active')
+          } else {
+            $(this).removeClass('menu__link--active')
+          }
+        })
+      }
+    })
+
+    if(!trigger) {
+      anhorLinks.each(function() {
+        $(this).removeClass('menu__link--active')
+      })
+    }
+  });
+
 })
