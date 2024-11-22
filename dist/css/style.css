@@ -1619,6 +1619,10 @@ body {
   max-width: 235px;
 }
 
+.section-price__row .swiper-wrapper .swiper-slide--active-card .price-card__head .btn:hover {
+  color: #5479F8;
+}
+
 .section-price__row .swiper-wrapper .swiper-slide--active-card .price-card__sum {
   font-size: 26px;
   padding-right: 0;
@@ -2001,7 +2005,7 @@ body {
 }
 
 .section-requirements__list a:hover {
-  color: #26599B;
+  color: #5479f8;
 }
 
 .section-requirements__list > * {
@@ -2195,6 +2199,10 @@ body {
   max-width: 270px;
   border-radius: 6px;
   color: #26599B;
+}
+
+.prices-card__head .btn:hover {
+  color: #5479F8;
 }
 
 .prices-card__head {
@@ -2560,6 +2568,10 @@ body {
   color: #35495D;
   font-weight: 500;
   max-width: 450px;
+}
+
+.section-certificate__arm:hover .section-certificate__arm-text {
+  color: #5479f8;
 }
 
 .section-certificate__item {

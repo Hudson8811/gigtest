@@ -6,12 +6,45 @@
   <component name="ChangeListManager">
     <list default="true" id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/connect.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/connect.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documentation-normative.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/documentation-normative.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/knowledge.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/knowledge.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prices.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/prices.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snils.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/snils.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/appsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/appsoft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/connect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/consulting.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/consulting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contacts-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts-in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/documentation-normative.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/documentation-normative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/egsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/egsis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-error2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-focus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-in-tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-in-tarif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-inactive.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-inactive2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-robot1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-robot2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-validation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/happens.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/happens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/keys.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/keys.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/knowledge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/requirements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/requirements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/seo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts-in.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts-in.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,24 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="form-in.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/form-in.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form-in-tarif.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/form-in-tarif.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="prices.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/prices.pug">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +103,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1010">
-              <caret line="7088" column="24" selection-start-line="7088" selection-start-column="24" selection-end-line="7088" selection-end-column="24" />
+            <state relative-caret-position="705">
+              <caret line="3973" column="22" selection-start-line="3973" selection-start-column="22" selection-end-line="3973" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header2-contacts-in.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/header2-contacts-in.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts-in.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contacts-in.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -106,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            <state relative-caret-position="782">
+              <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -119,14 +152,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section-contact</find>
-      <find>__contentConnect</find>
       <find>5479F8</find>
       <find>__descr</find>
       <find>__place</find>
-      <find>Настройка сайтов</find>
+      <find />
       <find>service-item</find>
-      <find>.hystmodal .form-input-tel</find>
+      <find />
       <find>.hystmodal</find>
       <find>.section-question__rows</find>
       <find>__close</find>
@@ -140,15 +171,17 @@
       <find>menu-dropdown</find>
       <find>5479f8</find>
       <find>26599b</find>
-      <find>Единый реестр Российских</find>
+      <find />
       <find>__list</find>
       <find>.section-page</find>
       <find>__li</find>
-      <find>Подключиться к</find>
+      <find />
       <find>swiper</find>
       <find>.slider-item__title</find>
       <find>.slider-item</find>
       <find>__tit</find>
+      <find>.section-pric</find>
+      <find>.prices-card</find>
     </findStrings>
     <replaceStrings>
       <replace>/gigtest/dist/</replace>
@@ -188,14 +221,12 @@
         <option value="$PROJECT_DIR$/src/happens.pug" />
         <option value="$PROJECT_DIR$/src/html/header-index.pug" />
         <option value="$PROJECT_DIR$/src/index.pug" />
-        <option value="$PROJECT_DIR$/src/contacts-in.pug" />
         <option value="$PROJECT_DIR$/src/html/header2.pug" />
         <option value="$PROJECT_DIR$/src/html/header2-contacts-in.pug" />
         <option value="$PROJECT_DIR$/src/integration.pug" />
         <option value="$PROJECT_DIR$/src/form-in-tarif.pug" />
         <option value="$PROJECT_DIR$/src/form.pug" />
         <option value="$PROJECT_DIR$/src/form-in.pug" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/api.pug" />
         <option value="$PROJECT_DIR$/src/prices.pug" />
         <option value="$PROJECT_DIR$/src/knowledge.pug" />
@@ -203,6 +234,8 @@
         <option value="$PROJECT_DIR$/src/connect.pug" />
         <option value="$PROJECT_DIR$/src/snils.pug" />
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/contacts-in.pug" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
       </list>
     </option>
   </component>
@@ -362,12 +395,14 @@
       <workItem from="1732122222896" duration="10603000" />
       <workItem from="1732182147158" duration="5184000" />
       <workItem from="1732197902539" duration="3886000" />
-      <workItem from="1732208440931" duration="169000" />
+      <workItem from="1732208440931" duration="427000" />
+      <workItem from="1732209057510" duration="15000" />
+      <workItem from="1732256303431" duration="833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61422000" />
+    <option name="totallyTimeSpent" value="62528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,23 +418,23 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" sideWeight="0.5007837" side_tool="true" weight="0.24980299" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8025078" visible="true" weight="0.1501182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80093026" visible="true" weight="0.1501182" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299373" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" sideWeight="0.19749217" side_tool="true" visible="true" weight="0.1501182" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15752351" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15752351" />
+      <window_info id="npm" order="2" sideWeight="0.19906977" side_tool="true" visible="true" weight="0.1501182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5736677" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -602,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts-in.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/header2.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -620,13 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/header2-contacts-in.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -661,14 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/form-in-tarif.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
-          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -714,10 +728,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/header2-contacts-in.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="7088" column="24" selection-start-line="7088" selection-start-column="24" selection-end-line="7088" selection-end-column="24" />
+        <state relative-caret-position="705">
+          <caret line="3973" column="22" selection-start-line="3973" selection-start-column="22" selection-end-line="3973" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts-in.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -2697,6 +2697,9 @@ body {
               background: white;
               color: $blue;
               max-width: 235px;
+              &:hover{
+                color: #5479F8;
+              }
             }
           }
 
@@ -3607,7 +3610,7 @@ body {
       color: $dark-blue;
 
       &:hover {
-        color: $blue;
+        color: #5479f8;
       }
     }
 
@@ -3967,6 +3970,9 @@ body {
       max-width: 270px;
       border-radius: 6px;
       color: $blue;
+      &:hover{
+        color: #5479F8;
+      }
 
       @include mobile {
         max-width: 210px;
@@ -4690,6 +4696,10 @@ body {
         font-size: 16px;
         line-height: 1.2;
       }
+    }
+
+    &:hover &-text{
+      color: #5479f8;
     }
   }
 
