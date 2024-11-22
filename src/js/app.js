@@ -51,6 +51,7 @@ if (tabButtons && tabContents) {
 }
 
 var swiper = new Swiper(".section-main__slider", {
+  speed: 1000,
   spaceBetween: 30,
   slidesPerView: 1,
   autoplay:true,
