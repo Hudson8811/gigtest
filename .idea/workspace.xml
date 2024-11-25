@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/${app.path.build.js}/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/${app.path.build.js}/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/appsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/appsoft.html" afterDir="false" />
@@ -34,7 +33,6 @@
       <change beforePath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/keys.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/keys.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/knowledge.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/prices.html" afterDir="false" />
@@ -44,8 +42,27 @@
       <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appsoft.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/appsoft.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connect.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/connect.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consulting.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/consulting.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts-in.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts-in.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documentation-normative.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/documentation-normative.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/egsis.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/egsis.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/happens.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/happens.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integration.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/integration.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keys.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/keys.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knowledge.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/knowledge.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prices.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/prices.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirements.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/requirements.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reviews.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/reviews.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/seo.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snils.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/snils.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/support.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/support.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,92 +76,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="documentation-normative.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/documentation-normative.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connect.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/connect.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snils.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/snils.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="7668" column="55" lean-forward="true" selection-start-line="7668" selection-start-column="55" selection-end-line="7668" selection-end-column="55" />
+            <state relative-caret-position="395">
+              <caret line="8540" column="21" selection-start-line="8540" selection-start-column="21" selection-end-line="8540" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header2-contacts-in.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/header2-contacts-in.pug">
+      <file leaf-file-name="seo.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/seo.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
+            <state relative-caret-position="556">
+              <caret line="339" column="75" selection-start-line="339" selection-start-column="75" selection-end-line="339" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts-in.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contacts-in.pug">
+      <file leaf-file-name="integration.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/integration.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="323">
+              <caret line="19" column="74" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="352">
+              <caret line="403" column="31" selection-start-line="403" selection-start-column="31" selection-end-line="403" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="egsis.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/egsis.pug">
+      <file leaf-file-name="reset.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+            <state relative-caret-position="327">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="happens.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/happens.pug">
+      <file leaf-file-name="reviews.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reviews.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            <state relative-caret-position="510">
+              <caret line="30" column="517" selection-start-line="30" selection-start-column="517" selection-end-line="30" selection-end-column="517" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/requirements.pug">
+      <file leaf-file-name="support.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/support.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="918">
+              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -153,36 +143,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__place</find>
-      <find>Настройка сайтов</find>
-      <find>service-item</find>
-      <find>.hystmodal .form-input-tel</find>
-      <find>.hystmodal</find>
-      <find>.section-question__rows</find>
-      <find>__close</find>
-      <find>hystmodal</find>
-      <find>.section-title</find>
-      <find>.form-question</find>
-      <find>получить</find>
-      <find>страховые</find>
-      <find>data-hystmodal</find>
-      <find>онлайн</find>
-      <find>menu-dropdown</find>
-      <find>5479f8</find>
-      <find>26599b</find>
-      <find>Единый реестр Российских</find>
-      <find>__list</find>
-      <find>.section-page</find>
-      <find>__li</find>
-      <find>Подключиться к</find>
-      <find>swiper</find>
-      <find>.slider-item__title</find>
+      <find>slider-item</find>
+      <find>__container</find>
+      <find>.header</find>
+      <find>section-difficulties</find>
+      <find>review-slide</find>
+      <find>__conta</find>
+      <find>section-possibilities</find>
+      <find>section-price</find>
       <find>.slider-item</find>
-      <find>__tit</find>
-      <find>.section-pric</find>
-      <find>.prices-card</find>
-      <find>.review-item</find>
-      <find>__right</find>
+      <find>__slider</find>
+      <find>section-reviews__slider</find>
+      <find>.partner-item</find>
+      <find>.section-price</find>
+      <find>.section-reviews</find>
+      <find>section</find>
+      <find>.section-page__integration</find>
+      <find>section-information</find>
+      <find>.section-advantage</find>
+      <find>Подключаем</find>
+      <find>__integration</find>
+      <find>.section-page-image</find>
+      <find>d-md-none</find>
+      <find>img2</find>
+      <find>slider-item-seo</find>
+      <find>.section-numbers</find>
+      <find>.section-clients</find>
+      <find>.section-keys__row</find>
+      <find>.section-prices</find>
+      <find>__col</find>
+      <find>section-keys</find>
     </findStrings>
     <replaceStrings>
       <replace>/gigtest/dist/</replace>
@@ -205,38 +195,39 @@
         <option value="$PROJECT_DIR$/src/form-confirmed-enabled2.pug" />
         <option value="$PROJECT_DIR$/src/form-robot1.pug" />
         <option value="$PROJECT_DIR$/src/form-confirmed-enabled.pug" />
-        <option value="$PROJECT_DIR$/src/keys.pug" />
         <option value="$PROJECT_DIR$/src/html/footer.pug" />
-        <option value="$PROJECT_DIR$/src/seo.pug" />
         <option value="$PROJECT_DIR$/src/html/header3.pug" />
         <option value="$PROJECT_DIR$/src/html/header.pug" />
-        <option value="$PROJECT_DIR$/src/appsoft.pug" />
-        <option value="$PROJECT_DIR$/src/consulting.pug" />
         <option value="$PROJECT_DIR$/src/html/header2-consulting.pug" />
-        <option value="$PROJECT_DIR$/src/contacts.pug" />
         <option value="$PROJECT_DIR$/src/html/header2-contacts.pug" />
-        <option value="$PROJECT_DIR$/src/reviews.pug" />
-        <option value="$PROJECT_DIR$/src/support.pug" />
         <option value="$PROJECT_DIR$/src/html/header-index.pug" />
-        <option value="$PROJECT_DIR$/src/index.pug" />
         <option value="$PROJECT_DIR$/src/html/header2.pug" />
         <option value="$PROJECT_DIR$/src/html/header2-contacts-in.pug" />
-        <option value="$PROJECT_DIR$/src/integration.pug" />
         <option value="$PROJECT_DIR$/src/form-in-tarif.pug" />
         <option value="$PROJECT_DIR$/src/form.pug" />
         <option value="$PROJECT_DIR$/src/form-in.pug" />
-        <option value="$PROJECT_DIR$/src/api.pug" />
-        <option value="$PROJECT_DIR$/src/prices.pug" />
-        <option value="$PROJECT_DIR$/src/knowledge.pug" />
-        <option value="$PROJECT_DIR$/src/connect.pug" />
-        <option value="$PROJECT_DIR$/src/snils.pug" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/contacts-in.pug" />
+        <option value="$PROJECT_DIR$/src/contacts.pug" />
+        <option value="$PROJECT_DIR$/src/keys.pug" />
+        <option value="$PROJECT_DIR$/src/scss/reset.scss" />
+        <option value="$PROJECT_DIR$/src/snils.pug" />
+        <option value="$PROJECT_DIR$/src/appsoft.pug" />
+        <option value="$PROJECT_DIR$/src/api.pug" />
+        <option value="$PROJECT_DIR$/src/connect.pug" />
+        <option value="$PROJECT_DIR$/src/consulting.pug" />
+        <option value="$PROJECT_DIR$/src/documentation-normative.pug" />
         <option value="$PROJECT_DIR$/src/egsis.pug" />
         <option value="$PROJECT_DIR$/src/happens.pug" />
+        <option value="$PROJECT_DIR$/src/knowledge.pug" />
+        <option value="$PROJECT_DIR$/src/prices.pug" />
         <option value="$PROJECT_DIR$/src/requirements.pug" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
-        <option value="$PROJECT_DIR$/src/documentation-normative.pug" />
+        <option value="$PROJECT_DIR$/src/support.pug" />
+        <option value="$PROJECT_DIR$/src/reviews.pug" />
+        <option value="$PROJECT_DIR$/src/index.pug" />
+        <option value="$PROJECT_DIR$/src/integration.pug" />
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/seo.pug" />
       </list>
     </option>
   </component>
@@ -272,7 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,6 +297,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,12 +389,13 @@
       <workItem from="1732197902539" duration="3886000" />
       <workItem from="1732208440931" duration="427000" />
       <workItem from="1732209057510" duration="15000" />
-      <workItem from="1732256303431" duration="4440000" />
+      <workItem from="1732256303431" duration="29193000" />
+      <workItem from="1732473489449" duration="12302000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66135000" />
+    <option name="totallyTimeSpent" value="103190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,25 +409,25 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
     <layout>
-      <window_info id="Gulp" order="2" sideWeight="0.5007837" side_tool="true" weight="0.24980299" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80093026" visible="true" weight="0.1501182" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299373" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1669279" />
+      <window_info active="true" id="npm" order="4" sideWeight="0.20219436" side_tool="true" visible="true" weight="0.1501182" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5736677" />
+      <window_info id="Gulp" order="2" sideWeight="0.5007837" side_tool="true" weight="0.24980299" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79780567" visible="true" weight="0.1501182" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15752351" />
-      <window_info id="npm" order="2" sideWeight="0.19906977" side_tool="true" visible="true" weight="0.1501182" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5736677" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,9 +437,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/img/review/review2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/review/review1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -546,34 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reviews.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/seo.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6171">
-          <caret line="363" column="70" selection-start-line="363" selection-start-column="70" selection-end-line="363" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/support.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/consulting.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/header2-contacts.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -595,34 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appsoft.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/keys.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/header2.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -634,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/integration.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="175" column="90" selection-start-line="175" selection-start-column="90" selection-end-line="175" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -665,41 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/prices.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/knowledge.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connect.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/snils.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/header2-contacts-in.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -709,50 +600,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts-in.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keys.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="82" column="38" selection-start-line="14" selection-start-column="10" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/snils.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="67" column="86" lean-forward="true" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connect.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consulting.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appsoft.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/egsis.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/happens.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/requirements.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="20" column="215" selection-start-line="20" selection-start-column="215" selection-end-line="20" selection-end-column="215" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/documentation-normative.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="860">
+          <caret line="68" column="2517" selection-start-line="68" selection-start-column="2517" selection-end-line="68" selection-end-column="2517" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/happens.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="121" selection-start-line="19" selection-start-column="121" selection-end-line="19" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knowledge.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prices.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="117" column="73" selection-start-line="117" selection-start-column="73" selection-end-line="117" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/requirements.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/support.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reviews.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="517" selection-start-line="30" selection-start-column="517" selection-end-line="30" selection-end-column="517" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="403" column="31" selection-start-line="403" selection-start-column="31" selection-end-line="403" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="7668" column="55" lean-forward="true" selection-start-line="7668" selection-start-column="55" selection-end-line="7668" selection-end-column="55" />
+        <state relative-caret-position="395">
+          <caret line="8540" column="21" selection-start-line="8540" selection-start-column="21" selection-end-line="8540" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/integration.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/seo.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="339" column="75" selection-start-line="339" selection-start-column="75" selection-end-line="339" selection-end-column="75" />
         </state>
       </provider>
     </entry>

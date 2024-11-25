@@ -93,17 +93,44 @@ ol {
 
 
 [class*="__container"] {
-  max-width: 1060px;
+  max-width: 1056px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 100%;
 
   @include desctop {
-    max-width: 850px;
+    max-width: 716px;
   }
+  @include tablet {
+    max-width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @include mobile {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+[class*="__main-container"] {
+  max-width: 1056px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
 
   @include desctop {
-    padding: 0 15px;
+    max-width: 856px;
+  }
+  @include tablet {
+    max-width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @include mobile {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -293,7 +320,7 @@ section {
   }
 
   @include mobile {
-    padding: 50px 0;
+    padding: 56px 0;
   }
 }
 
@@ -349,7 +376,7 @@ body {
     column-gap: 55px;
 
     @include desctop {
-      max-width: 850px;
+      max-width: 856px;
       padding-top: 15px;
       padding-bottom: 15px;
       column-gap: 37px;
@@ -640,7 +667,7 @@ body {
 
   &__item {
     @include desctop {
-      padding: 20px 23px;
+      padding: 19px 23px;
       border-bottom: 1px solid white;
     }
 
@@ -656,7 +683,7 @@ body {
 
   &__title {
     font-size: 16px;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
     font-weight: 500;
     display: block;
 
@@ -1056,7 +1083,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     margin-top: 5px;
     margin-left: 3px;
   }
@@ -1064,7 +1090,6 @@ body {
   @include tablet {
     width: 135px;
     height: 135px;
-
     margin-left: 8px;
   }
 
@@ -1077,39 +1102,29 @@ body {
 
 
 .slider-item-seo {
-
   display: flex;
-
   width: 100%;
   height: 555px;
   position: relative;
   padding: 100px 0;
 
-
-
-  &__container {
+  &__main-container {
     position: relative;
     display: flex;
 
-
-
     @include mobile {
       display: block;
-
     }
-
   }
 
   .btn {
     margin-top: 48px;
-
     @include desctop {
       margin-top: 20px;
       width: 100%;
     }
 
     @include tablet {
-
       margin-top: 20px;
     }
   }
@@ -1120,18 +1135,14 @@ body {
   }
 
   @include tablet {
-
     height: 360px;
-
-
     padding-bottom: 20px;
   }
 
   @include mobile {
     flex-direction: column;
     height: auto;
-    height: auto;
-    padding-bottom: 55px;
+    padding-bottom: 35px;
   }
 
   &__circle {
@@ -1258,8 +1269,6 @@ body {
 
     }
 
-
-
     @include tablet {
       font-size: 22px;
       line-height: 1.2;
@@ -1273,8 +1282,6 @@ body {
     }
   }
 
-
-
   &__title2 {
     font-size: 38px;
     font-weight: 500;
@@ -1287,11 +1294,7 @@ body {
       font-size: 24px;
       margin-bottom: 5px;
       padding-top: 77px;
-
     }
-
-
-
 
     @include tablet {
       font-size: 22px;
@@ -1317,23 +1320,15 @@ body {
 
     @include desctop {
       font-size: 26px;
-      margin-bottom: 5px;
-
       margin-bottom: 25px;
-
       padding-top: 80px;
     }
 
 
-
     @include tablet {
-
       line-height: 1.2;
-
       margin-bottom: 25px;
-
       padding-top: 70px;
-
     }
 
     @include mobile {
@@ -1342,8 +1337,6 @@ body {
       font-size: 22px;
     }
   }
-
-
 
 
   &__col {
@@ -1361,7 +1354,7 @@ body {
 
     &:first-child {
       @include mobile {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         padding-top: 20px;
       }
     }
@@ -1469,9 +1462,9 @@ body {
   position: relative;
   padding: 90px 0;
 
-  @include desctop-md {}
+  @include desctop-md{}
 
-  &__container {
+  &__main-container {
     position: relative;
     display: flex;
 
@@ -1497,7 +1490,7 @@ body {
 
     @include desctop {
 
-      margin-top: 30px;
+      margin-top: 20px;
       flex-direction: column;
       max-width: 235px;
       gap: 16px;
@@ -1611,8 +1604,8 @@ body {
 
     @include desctop {
       font-size: 16px;
-      padding-top: 10px;
-      padding-bottom: 20px;
+      padding-top: 0;
+      padding-bottom: 25px;
     }
 
     @include tablet {
@@ -1633,7 +1626,7 @@ body {
 
     @include desctop {
       gap: 25px;
-      margin-bottom: 10px;
+      margin-bottom: 32px;
       max-width: 320px;
       padding-left: 5px;
     }
@@ -1858,7 +1851,7 @@ body {
     }
   }
 
-  &__container {
+  &__main-container {
     overflow: hidden;
   }
 
@@ -2032,12 +2025,10 @@ body {
 
 .section-numbers {
   background: $background;
-
   padding-bottom: 125px;
 
   @include tablet {
     padding-bottom: 80px;
-
   }
 
   @include desctop {
@@ -2231,18 +2222,13 @@ body {
 
   &__wrap {
     padding: 5px 0 22px 0;
-
     font-size: 18px;
-
     padding-right: 25px;
 
     @include desctop {
-      padding-top: 0;
-      padding-right: 10px;
       padding-top: 10px;
       padding-right: 10px;
       padding-bottom: 20px;
-
     }
 
     @include tablet {
@@ -2253,7 +2239,6 @@ body {
       padding-right: 0;
       font-size: 16px;
     }
-
   }
 
   &__info {
@@ -2262,12 +2247,10 @@ body {
     padding-right: 30px;
 
     @include desctop {
-
-      padding-top: 20px;
+      padding-top: 27px;
     }
 
     @include tablet {
-
       padding-top: 5px;
       padding-left: 40px;
     }
@@ -2295,7 +2278,7 @@ body {
   }
 
   &__title {
-    padding-bottom: 25px;
+    padding-bottom: 19px;
 
     @include desctop-md {
       padding-bottom: 20px;
@@ -2310,7 +2293,7 @@ body {
     }
   }
 
-  &__container {
+  &__main-container {
 
     @include tablet {
       max-width: 750px;
@@ -2329,7 +2312,7 @@ body {
     @include mobile {
 
       font-size: 14px;
-      padding-bottom: 15px;
+      padding-bottom: 35px;
     }
   }
 
@@ -2355,8 +2338,6 @@ body {
 
 .section-price {
   position: relative;
-
-
   overflow: hidden;
 
   @include mobile {
@@ -2364,20 +2345,15 @@ body {
 
   }
 
-  &__prices {
+  &__prices{
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 28px;
 
     .card-item {
       height: 510px;
     }
 
-
-
-
     @include desctop {
-      padding-top: 50px;
       padding-left: 10px;
     }
 
@@ -2386,12 +2362,9 @@ body {
     }
 
     @include mobile {
-      padding-bottom: 0;
-      padding-top: 35px;
+      padding-bottom: 10px;
       padding-left: 0;
-
     }
-
   }
 
   &__cards {
@@ -2450,12 +2423,14 @@ body {
     @include tablet {
       column-gap: 10px;
       padding-left: 0;
+      padding-top: 24px;
     }
 
     @include mobile {
       flex-direction: column;
-      gap: 23px;
+      gap: 24px;
       padding-top: 20px;
+      margin-left: 10px;
     }
   }
 
@@ -2562,12 +2537,12 @@ body {
           max-width: 344px;
 
           .price-card__bodyItem {
-            padding: 43px 43px 56px;
+            padding: 43px 43px 46px;
             padding-left: 55px;
             height: auto;
 
             @include mobile {
-              padding: 38px 43px 56px;
+              padding: 38px 43px 46px;
               padding-right: 25px;
               padding-left: 25px;
             }
@@ -2682,7 +2657,7 @@ body {
             background: $blue;
             color: white;
             padding-top: 40px;
-            padding-bottom: 57px;
+            padding-bottom: 47px;
 
             @include desctop {
               padding-top: 30px;
@@ -3088,10 +3063,7 @@ body {
 }
 
 .section-page-image {
-
-
   &__title {
-    font-weight: bold;
     font-size: 20px;
     font-weight: 500;
     color: $dark-blue;
@@ -3100,16 +3072,15 @@ body {
     margin-bottom: 40px;
 
     @include tablet {
-      padding-top: 45px;
+      padding-top: 64px;
     }
 
     @include mobile {
-      font-size: 20px;
-      padding-top: 35px;
+      padding-top: 25px;
       font-size: 18px;
       padding-bottom: 15px;
+      margin-bottom: 10px;
     }
-
   }
 
   img {
@@ -3124,7 +3095,7 @@ body {
 
     @include mobile {
       width: 100%;
-      margin-bottom: 70px;
+      margin-bottom: 40px;
     }
   }
 
@@ -3135,7 +3106,7 @@ body {
 }
 
 .d-none {
-  display: none;
+  display: none !important;
 }
 
 .d-lg-block {
@@ -3154,8 +3125,6 @@ body {
 }
 
 .d-md-block {
-
-
   @include tablet {
     display: block;
   }
@@ -3175,7 +3144,13 @@ body {
 
 .d-sm-none {
   @include mobile {
-    display: none;
+    display: none !important;
+  }
+}
+
+.d-sm-block {
+  @include mobile {
+    display: block !important;
   }
 }
 
@@ -3202,26 +3177,20 @@ body {
     }
 
     @include desctop {
-      padding: 5px 0;
-
-      height: 70.8px;
-
+      padding: 21px 0;
+      height: auto;
     }
 
     @include mobile {
       font-size: 18px;
       height: auto;
-
-
-      padding: 21.7px 0;
-
+      padding: 20px 0;
     }
 
   }
 
   &__name {
     font-size: 20px;
-
     color: $dark-blue;
     padding: 20px 0;
     padding-left: 30px;
@@ -3245,7 +3214,6 @@ body {
       padding-top: 25px;
       padding-left: 40px;
       line-height: 1.2;
-
     }
 
     @include mobile {
@@ -3285,7 +3253,6 @@ body {
 }
 
 .accordion-item {
-
   &__block {
     width: calc(50% - 11px);
     border-bottom: 1px solid $blue;
@@ -3296,7 +3263,6 @@ body {
     }
 
     &.active {
-
       .accordion-header__title {
         padding-bottom: 0;
       }
@@ -3314,7 +3280,6 @@ body {
           padding-bottom: 0;
 
         }
-
       }
 
       .accordion-content {
@@ -3329,12 +3294,6 @@ body {
         transform: rotate(-180deg);
       }
     }
-
-    // &>* {
-
-    //   background: white;
-    // }
-
   }
 
   &:not(:last-child) {
@@ -3354,6 +3313,9 @@ body {
   &__wrap {
     background: #F8FBFF;
     font-size: 18px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 
     &.active {
       .accordion-header__icon {
@@ -3363,11 +3325,8 @@ body {
       .accordion-content {
         display: block;
       }
-
     }
   }
-
-
 }
 
 
@@ -3569,17 +3528,6 @@ body {
     padding-bottom: 40px;
   }
 
-  &__container {
-    @include desctop {
-      max-width: 710px;
-    }
-
-    @include tablet {
-      max-width: 760px;
-    }
-  }
-
-
   &__title {
     max-width: 800px;
     margin: 0 auto;
@@ -3644,10 +3592,8 @@ body {
 .section-reviews {
   background: #F8FBFF;
 
-
-
   &__btn {
-    padding-top: 80px;
+    padding-top: 75px;
     text-align: center;
 
     @include desctop-md {
@@ -3655,8 +3601,6 @@ body {
     }
 
     @include desctop {
-
-
       padding-top: 80px;
     }
 
@@ -3672,10 +3616,8 @@ body {
   &__slider {
     margin-top: 50px;
     overflow: hidden;
-    padding-left: 35px;
-    padding-right: 35px;
-
-
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
 
     @include desctop {
@@ -3683,9 +3625,15 @@ body {
       padding-right: 25px;
     }
 
+    @include tablet {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
     @include mobile {
       padding: 0;
-      margin-top: 45px;
+      margin: 0;
+      margin-top: 35px;
       padding-bottom: 50px;
     }
   }
@@ -3712,12 +3660,11 @@ body {
       position: relative;
       justify-content: center;
       gap: 40px;
-      padding-top: 25px;
       top: 0;
       left: 0;
       bottom: 0;
       transform: none;
-      padding-top: 40px;
+      padding-top: 20px;
     }
 
     &-left,
@@ -3731,10 +3678,16 @@ body {
       justify-content: center;
       cursor: pointer;
     }
+    &-right{
+      margin-top: 5px;
+    }
+    &-left{
+      margin-left: 5px;
+    }
   }
 
   @include mobile {
-    padding-top: 50px;
+    padding-top: 56px;
     padding-bottom: 60px;
   }
 }
@@ -3742,7 +3695,7 @@ body {
 .review-slide {
   box-shadow: 0px 0px 8px 0px #00000026;
   border-radius: 16px;
-  padding: 47px 50px;
+  padding: 56px;
   background: white;
   display: flex;
   justify-content: space-between;
@@ -4429,7 +4382,7 @@ body {
   }
 
   @include mobile {
-    padding-top: 30px;
+    padding-top: 56px;
   }
 
   &__fwContainer {
@@ -4542,6 +4495,10 @@ body {
     padding-top: 110px;
   }
 
+  @include tablet {
+    padding-top: 80px;
+  }
+
   @include mobile {
     padding-top: 35px;
   }
@@ -4571,15 +4528,16 @@ body {
     margin-bottom: 6px;
 
     @include desctop {
-
       padding-top: 20px;
     }
 
-
     @include tablet {
-      margin-top: 30px;
+      margin-top: 20px;
       padding-top: 0;
       margin-bottom: 15px;
+      img{
+        max-height: 98px;
+      }
     }
   }
 
@@ -4649,9 +4607,12 @@ body {
         height: auto;
         padding-top: 40px;
 
-        @include mobile {
-          margin-top: 0;
+        @include tablet {
+          padding-top: 0;
+        }
 
+        @include mobile {
+          margin-top: 30px;
           img {
             width: 100px;
           }
@@ -4665,8 +4626,12 @@ body {
         height: auto;
         padding-top: 40px;
 
+        @include tablet {
+          padding-top: 0;
+        }
+
         @include mobile {
-          margin-top: 0;
+          margin-top: 40px;
 
           img {
             width: 100px;
@@ -4688,7 +4653,9 @@ body {
       }
 
       @include tablet {
-        padding-top: 12px;
+        padding-top: 22px;
+        font-size: 16px;
+        line-height: 19px;
       }
 
       @include mobile {
@@ -4720,15 +4687,14 @@ body {
 
 
 .section-goals {
-
   background: #F8FBFF;
 
-  @include tablet {
-    padding-top: 75px;
+  @include desctop {
+    padding-top: 100px;
   }
 
-  @include desctop {
-    padding-top: 95px;
+  @include tablet {
+    padding-top: 80px;
   }
 
   @include mobile {
@@ -5325,9 +5291,7 @@ body {
   }
 
   @include desctop {
-
     padding-top: 75px;
-
   }
 
   @include tablet {
@@ -5339,11 +5303,6 @@ body {
   }
 
   &__container {
-    @include desctop {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
     @include tablet {
       max-width: 750px;
     }
@@ -5424,6 +5383,7 @@ body {
     @include mobile {
       flex-direction: column;
       padding-top: 40px;
+      gap: 35px;
     }
   }
 
@@ -5469,6 +5429,10 @@ body {
   justify-content: space-between;
   gap: 20px;
 
+  @include tablet {
+    gap: 10px;
+  }
+
   @include mobile {
     gap: 8px;
   }
@@ -5483,6 +5447,14 @@ body {
     justify-content: center;
     margin: 0 auto;
     margin-top: 10px;
+
+    @include tablet {
+      width: 136px;
+      height: 136px;
+      img{
+        max-height: 84px;
+      }
+    }
 
     @include mobile {
       width: 140px;
@@ -5512,6 +5484,8 @@ body {
 
     @include tablet {
       padding-bottom: 5px;
+      font-size: 16px;
+      line-height: 1.2em;
     }
 
     @include mobile {
@@ -5604,14 +5578,10 @@ input[type="checkbox"]:checked {
   }
 
   &__container {
-    max-width: 1255px;
+    max-width: 1260px;
 
     @include desctop {
-
-
-      max-width: 840px;
-
-
+      max-width: 850px;
     }
   }
 
@@ -5633,20 +5603,19 @@ input[type="checkbox"]:checked {
 
 
 .section-question {
-
   &__container {
     @include desctop {
       max-width: 710px;
     }
   }
 
-
-
   &--bg-lightblue {
     background: #F8FBFF;
+    padding-bottom: 140px;
 
     @include desctop {
-      padding: 90px 0;
+      padding: 93px 0;
+      padding-top: 100px;
     }
 
     @include tablet {
@@ -5660,8 +5629,13 @@ input[type="checkbox"]:checked {
 
 
   &__block {
-    padding-top: 59px;
-
+    padding-top: 40px;
+    @include tablet{
+      padding-top: 32px;
+    }
+    @include mobile{
+      padding-top: 24px;
+    }
   }
 
   &__wrap {
@@ -5689,13 +5663,13 @@ input[type="checkbox"]:checked {
 
     @include tablet {
       margin-right: auto;
-      margin-left: 0;
-
+      margin-left: 17px;
     }
 
     @include mobile {
       width: 279px;
       margin: 0 auto;
+      padding-top: 16px;
     }
   }
 
@@ -5786,6 +5760,15 @@ input[type="checkbox"]:checked {
   }
 }
 
+#section-question{
+  .section-question__block{
+    padding-top: 56px;
+    @include mobile{
+      padding-top: 40px;
+    }
+  }
+}
+
 
 .ycaptcha {
   padding-top: 15px;
@@ -5821,7 +5804,7 @@ input[type="checkbox"]:checked {
   }
 
   &>*:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     display: flex;
 
     @include mobile {
@@ -5860,6 +5843,9 @@ input[type="checkbox"]:checked {
   background: #F8FBFF;
 
   &__container {
+    @include desctop {
+      max-width: 850px;
+    }
     @include tablet {
       max-width: 750px;
     }
@@ -6120,6 +6106,17 @@ header.is-sticky {
   padding: 24px 0;
   background: #FAFAFA;
 
+  &__container{
+    @media screen and (min-width: 992px) and (max-width: 1100px){
+      max-width: 850px;
+    }
+    @media screen and (min-width: 1101px) {
+      max-width: 1260px;
+    }
+    @include tablet{
+      max-width: 750px;
+    }
+  }
 
   @include mobile {
     padding: 16px 0;
@@ -6156,35 +6153,71 @@ header.is-sticky {
 }
 
 .section-page {
+  padding: 48px 0 80px;
 
-  &__formMain {
-    padding-top: 10px;
+  @include tablet {
+    padding: 40px 0 60px;
+  }
+
+  @include mobile {
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+
+  &__wrap &__container{
+    @include desctop{
+      max-width: 856px;
+    }
+    @include tablet{
+      max-width: 750px;
+    }
+  }
+
+  &__info{
+    max-width: 805px;
+    margin: 0 auto;
+  }
+
+  &__question{
+    padding-top: 40px;
+    margin-top: 40px;
+    @include tablet{
+       margin-top: 20px;
+     }
+    @include tablet{
+      margin-top: 20px;
+      padding-top: 40px;
+    }
+    @include mobile{
+      margin-top: 40px;
+      padding-top: 0;
+    }
+  }
+
+  &__large{
+    padding-top: 12px;
+    @include tablet{
+      padding-top: 0;
+    }
   }
 
   &__prices {
-    padding: 95px 0 70px 0;
-
     .section-price__row .swiper-wrapper {
       @include desctop {
         column-gap: 30px;
 
       }
-
-
     }
 
 
     .section-page__container {
       @include desctop {
         max-width: 750px;
-
-
-
       }
 
       @include desctop {
         .section-price__row .swiper-wrapper .swiper-slide.swiper-slide--active-card {
-          max-width: 368px !important;
+          max-width: 352px !important;
         }
 
         .section-price__row .swiper-wrapper .swiper-slide {
@@ -6226,30 +6259,15 @@ header.is-sticky {
 
     .section-price__dots {
       @include mobile {
-        bottom: -75px;
+        bottom: -60px;
       }
     }
-
-
-
-    @include desctop {
-      padding: 100px 0;
-      padding-bottom: 70px;
-      padding-top: 95px;
-    }
-
-
 
 
     @include tablet {
-      padding: 80px 0;
-      padding-top: 85px;
-
-
       .section-price__row .swiper-wrapper {
         column-gap: 20px;
       }
-
       padding-left: 20px;
     }
 
@@ -6257,428 +6275,10 @@ header.is-sticky {
       .section-price__row .swiper-wrapper {
         column-gap: 0;
       }
-
-      padding-bottom: 85px;
-      padding-top: 65px;
       padding-left: 0;
+      padding-bottom: 16px;
     }
 
-
-  }
-
-
-  &__api {
-
-
-
-
-
-    .section-page__title {
-      @include mobile {
-        padding-bottom: 41.5px;
-      }
-    }
-
-    padding: 95px 0;
-    padding-bottom: 120px;
-
-
-    @include desctop {
-      padding: 100px 0;
-
-      padding-top: 94px;
-      padding-bottom: 130px;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-      padding-bottom: 120px;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 50px;
-    }
-
-  }
-
-
-  &__connect {
-
-
-
-
-    padding: 120px 0;
-    padding-top: 95px;
-    padding-bottom: 120px;
-
-    @include desctop {
-      padding: 100px 0;
-
-      padding-bottom: 100px;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-      padding-bottom: 80px;
-
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 50px;
-    }
-
-  }
-
-  &__snils {
-
-
-
-
-    padding: 120px 0;
-    padding-top: 95px;
-    padding-bottom: 180px;
-
-    @include desctop {
-      padding: 100px 0;
-      padding-bottom: 140px;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-      padding-bottom: 120px;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 56px;
-    }
-
-  }
-
-
-  &__documentation {
-
-
-
-
-    padding: 120px 0;
-    padding-top: 95px;
-    padding-bottom: 325px;
-
-    @include desctop {
-      padding: 100px 0;
-      padding-bottom: 140px;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-      padding-bottom: 115px;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 50px;
-    }
-
-  }
-
-
-  &__requirements {
-
-
-
-    .section-page__title {
-      @include mobile {
-        padding-bottom: 41.5px;
-      }
-    }
-
-    padding: 120px 0;
-
-    @include desctop {
-      padding: 100px 0;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 50px;
-    }
-
-  }
-
-  &__knowledge {
-
-
-
-    .section-page__title {
-      @include mobile {
-        padding-bottom: 41.5px;
-      }
-    }
-
-    padding: 95px 0;
-
-    padding-bottom: 125px;
-
-    @include desctop {
-      padding: 100px 0;
-      padding-bottom: 130px;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-      padding-bottom: 115px;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-
-      padding-bottom: 40px;
-    }
-
-  }
-
-
-  &__happens {
-
-
-
-    .section-page__title {
-      @include mobile {
-        padding-bottom: 41.5px;
-      }
-    }
-
-    padding: 120px 0;
-
-    @include desctop {
-      padding: 100px 0;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 50px;
-    }
-
-  }
-
-  &__egsis {
-
-
-
-    .section-page__title {
-      @include mobile {
-        padding-bottom: 41.5px;
-      }
-    }
-
-    padding: 120px 0;
-
-    @include desctop {
-      padding: 100px 0;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-    }
-
-    @include mobile {
-      padding-top: 60px;
-      padding-bottom: 50px;
-    }
-
-  }
-
-  &__egsisContact {
-    padding-top: 80px;
-
-    @include desctop {
-      padding-top: 60px;
-    }
-
-    @include tablet {
-      padding-top: 40px;
-    }
-
-    @include mobile {
-      padding-top: 55px;
-    }
-  }
-
-  &__happensContact {
-    padding-top: 70px;
-
-    @include desctop {
-      padding-top: 58px;
-    }
-
-    @include tablet {
-      padding-top: 40px;
-    }
-
-    @include mobile {
-      padding-top: 55px;
-    }
-  }
-
-  &__requirementsContact {
-    padding-top: 70px;
-
-    @include desctop {
-      padding-top: 68px;
-    }
-
-    @include tablet {
-      padding-top: 40px;
-    }
-
-    @include mobile {
-      padding-top: 55px;
-    }
-  }
-
-  &__contact {
-    padding-top: 95px;
-    padding-bottom: 260px;
-
-    @include desctop {
-      padding-bottom: 120px;
-    }
-
-    @include tablet {
-      padding-top: 85px;
-      padding-bottom: 295px;
-
-
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 60px;
-    }
-  }
-
-  &__form {
-    padding-top: 95px;
-    padding-bottom: 90px;
-
-    @include desctop {
-      padding-bottom: 125px;
-      padding-top: 100px;
-    }
-
-    @include tablet {
-      padding-top: 90px;
-
-
-    }
-
-    @include mobile {
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
-  }
-
-  &__support {
-    padding-top: 95px;
-    padding-bottom: 90px;
-
-    @include desctop {
-      padding-bottom: 125px;
-    }
-
-    @include tablet {
-      padding-top: 82px;
-
-
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 60px;
-    }
-  }
-
-  &__large {
-    padding: 120px 0;
-
-    @include desctop {
-      padding: 100px 0;
-    }
-
-    @include tablet {
-      padding: 80px 0;
-    }
-
-    @include tablet {
-      padding: 60px 0;
-    }
-
-    @include mobile {
-      padding-bottom: 46px;
-
-      .section-page__title {
-        padding-bottom: 42px;
-      }
-    }
-  }
-
-  &__appsoft {
-    padding: 120px 0;
-
-    @include desctop-md {
-      padding: 120px 0 120px 0;
-    }
-
-    @include desctop {
-      padding: 100px 0 105px 0;
-    }
-
-    @include tablet {
-      padding-top: 75px;
-      padding-bottom: 130px;
-    }
-
-    @include mobile {
-      padding-top: 60px;
-      padding-bottom: 40px;
-    }
-  }
-
-  &__wrap {
-    padding-top: 95px;
-    padding-bottom: 120px;
-
-    @include desctop {
-      padding-bottom: 105px;
-    }
-
-    @include tablet {
-      padding-top: 82px;
-
-      padding-bottom: 85px;
-    }
-
-    @include mobile {
-      padding-top: 62px;
-      padding-bottom: 55px;
-    }
-  }
-
-  &__container {
-    @include tablet {
-      max-width: 750px;
-    }
   }
 
   &__button {
@@ -6701,18 +6301,11 @@ header.is-sticky {
       padding-top: 70px;
     }
 
-    .btn {
-      font-size: 14px;
-
-    }
-
     @include mobile {
 
       margin-top: 0;
       padding-top: 40px;
-
     }
-
   }
 
   &__list {
@@ -6730,7 +6323,6 @@ header.is-sticky {
       position: relative;
       margin-bottom: 20px;
       padding-left: 37px;
-
 
       @include mobile {
         margin-bottom: 20px;
@@ -6771,11 +6363,15 @@ header.is-sticky {
   }
 
   &__formHead {
-    padding-bottom: 55px;
+    padding-bottom: 42px;
     text-align: center;
 
+    @include tablet {
+      padding-bottom: 32px;
+    }
+
     @include mobile {
-      padding-bottom: 25px;
+      padding-bottom: 24px;
     }
   }
 
@@ -6795,79 +6391,32 @@ header.is-sticky {
   }
 
   &__title {
-    padding-bottom: 57px;
+    padding-bottom: 40px;
     text-align: center;
-    padding-top: 0;
 
-    @include mobile {
-      padding-bottom: 45px;
+    @include tablet {
+      padding-bottom: 32px;
     }
 
-  }
-
-  &__titleAppsoft {
-    padding-bottom: 53px;
-    text-align: center;
-    padding-top: 0;
-
     @include mobile {
-      padding-bottom: 35px;
-
-      .page-title {
-        font-size: 22px;
-      }
+      padding-bottom: 24px;
     }
+
   }
 
 
   &__reviews {
     &>*:not(:last-child) {
-      padding-bottom: 50px;
-
-      @include tablet {
-        padding-bottom: 46px;
+      padding-bottom: 32px;
+      @include desctop {
+        padding-bottom: 24px;
       }
 
       @include mobile {
-        padding-bottom: 50px;
+        padding-bottom: 8px;
       }
 
     }
-
-
-    // & > *:nth-child(2){
-    //   .review-item__title {
-    //     padding-top: 4px;
-
-    //   }
-    //    & > *{
-    //     padding-top: 30px;
-    //     padding-bottom: 35px;
-    //    }
-
-    // }
-
-    // &:nth-child(2){
-    //   .review-item__block {
-    //     padding-top: 35px;
-    //     padding-bottom: 35px;
-    //   }
-
-
-
-    // }
-
-    // &:nth-child(3){
-    //   .review-item__block {
-    //     padding-top: 25px;
-    //   }
-    // }
-
-    // &:nth-child(4){
-    //   .review-item__block {
-    //     padding-top: 25px;
-    //   }
-    // }
   }
 
   &__wrapper {
@@ -6886,576 +6435,26 @@ header.is-sticky {
     }
   }
 
-  &__info {
-    max-width: 805px;
-    margin: 0 auto;
-
-  }
-
-  &__contentApi {
-
-
-
-    padding-top: 5px;
-
-    &:not(:last-child) {
-      padding-bottom: 55px;
-
-      @include mobile {
-        padding-bottom: 0;
-
-      }
-
-      @include tablet {
-
-        padding-bottom: 55px;
-      }
-
-      @include desctop {
-        .mb-lg-none {
-          margin-bottom: 0;
-        }
-
-
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.32;
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 23px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-      @include desctop {
-        margin-bottom: 18px;
-      }
-
-      @include mobile {
-        margin-bottom: 0;
-
-      }
-
-    }
-
-    @include mobile {
-
-      p {
-        padding-bottom: 15px;
-      }
-    }
-  }
-
-  &__contentConnect {
-    padding-top: 3px;
-    padding-bottom: 160px;
-    a{
-      color: inherit;
-      &:hover{
-        color: #5479F8;
-      }
-    }
-
-    @include desctop {
-      padding-top: 0;
-      padding-bottom: 140px;
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    @include tablet {
-      padding-bottom: 125px;
-      max-width: 100%;
-    }
-
-
-
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.32;
-      }
-
-      @include tablet {
-        line-height: 1.32;
-      }
-
-      @include mobile {
-        line-height: 1.3;
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 20px;
-
-      @include desctop {
-        margin-bottom: 19px;
-
-      }
-
-
-
-    }
-  }
-
-
-  &__contentSnils {
-    padding-top: 3px;
-
-    @include desctop {
-      padding-top: 0;
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    @include tablet {
-      max-width: 100%;
-    }
-
-
-    &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
-      }
-
-      @include tablet {
-        padding-bottom: 90px;
-      }
-
-      @include desctop {
-        .mb-lg-none {
-          margin-bottom: 0;
-        }
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.27;
-      }
-
-      @include tablet {
-        line-height: 1.3;
-      }
-
-      @include mobile {
-        line-height: 1.3;
-      }
-
-      a {
-        color: inherit;
-
-        &:hover {
-          color: #5479f8;
-        }
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-      @include desctop {
-        margin-bottom: 22px;
-      }
-
-      @include mobile {
-        margin-bottom: 20px;
-      }
-
-    }
-  }
-
-
-  &__contentDocumentation {
-    padding-top: 3px;
-
-
-
-    @include desctop {
-      padding-top: 0;
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    @include tablet {
-      max-width: 100%;
-    }
-
-
-    &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
-      }
-
-      @include tablet {
-        padding-bottom: 90px;
-      }
-
-      @include desctop {
-        .mb-lg-none {
-          margin-bottom: 0;
-        }
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.27;
-      }
-
-      @include tablet {
-        line-height: 1.45;
-      }
-
-      @include mobile {
-        line-height: 1.3;
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-      @include desctop {
-        margin-bottom: 22px;
-      }
-
-      @include mobile {
-        margin-bottom: 18px;
-      }
-
-    }
-  }
-
-  &__requirementsWrap {
-    padding-top: 5px;
-
-    &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
-      }
-
-      @include tablet {
-        padding-bottom: 90px;
-      }
-
-      @include desctop {
-        .mb-lg-none {
-          margin-bottom: 0;
-        }
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.27;
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include desctop {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    @include tablet {
-      max-width: 100%;
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-      @include desctop {
-        margin-bottom: 22px;
-      }
-
-
-
-    }
-  }
-
-  &__contentKnowledge {
-    padding-top: 3px;
-
-    @include desctop {
-      padding-top: 0;
-    }
-
-    &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.27;
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-      @include mobile {
-        margin-bottom: 18px;
-      }
-
-    }
-  }
-
-  &__happensWrap {
-    padding-top: 3px;
-
-    &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-
-      @include desctop {
-        line-height: 1.27;
-      }
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include desctop {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    @include tablet {
-      max-width: 100%;
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-
-
-    }
-  }
-
-  &__contentWrap {
-    padding-top: 3px;
-
-    &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
-      }
-    }
-
-    font-size: 18px;
-    color: $dark-blue;
-
-    p {
-      line-height: 1.3;
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 500;
-      text-align: center;
-      padding-bottom: 43px;
-
-      @include mobile {
-        font-size: 16px;
-      }
-    }
-
-    @include mobile {
-      font-size: 16px;
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 19px;
-
-
-    }
-
-    @include desctop {
-      max-width: 680px;
-      margin: 0 auto;
-    }
-
-    @include tablet {
-      max-width: 100%;
-    }
-  }
-
   &__integration {
-    padding-top: 120px;
-
+    padding-top: 80px;
     padding-bottom: 115px;
 
     @include mobile {
-      padding-bottom: 90px;
+      padding-bottom: 64px;
     }
 
     @include tablet {
-      padding-top: 80px;
+      padding-top: 64px;
     }
 
     @include desctop {
-      padding-top: 100px;
-
+      padding-top: 64px;
       padding-bottom: 80px;
     }
 
     @include mobile {
-      padding-top: 60px;
+      padding-top: 32px;
+      padding-bottom: 56px;
     }
 
     .section-page__title {
@@ -7468,9 +6467,6 @@ header.is-sticky {
   }
 
   &__integrationWrap {
-
-
-
     font-size: 18px;
     color: $dark-blue;
 
@@ -7495,7 +6491,6 @@ header.is-sticky {
           display: none;
         }
       }
-
     }
 
     h2 {
@@ -7519,50 +6514,68 @@ header.is-sticky {
 
       padding-bottom: 58px;
     }
-
-
   }
 
-  &__content {
+  &__content{
+    &+.section-page__content{
+      padding-top: 40px;
 
+      @include tablet {
+
+        padding-top: 32px;
+      }
+    }
     &:not(:last-child) {
-      padding-bottom: 80px;
-
-      @include mobile {
-        padding-bottom: 40px;
+      @include desctop {
+        .mb-lg-none {
+          margin-bottom: 0;
+        }
       }
     }
 
     font-size: 18px;
     color: $dark-blue;
 
-    @include mobile {
-      padding-right: 20px;
-    }
 
     p {
       line-height: 1.3;
+
+      @include desctop {
+        line-height: 1.32;
+      }
+      &+p{
+        padding-top: 17px;
+      }
+      a {
+        color: inherit;
+        &:hover{
+          color: #5479f8;
+        }
+      }
     }
 
     h2 {
       font-size: 20px;
       font-weight: 500;
       text-align: center;
-      padding-bottom: 43px;
+      padding-bottom: 32px;
+      @include tablet {
+        padding-bottom: 24px;
+      }
 
       @include mobile {
         font-size: 16px;
+        padding-bottom: 16px;
       }
+    }
+
+    @include tablet {
+      padding-right: 2px;
     }
 
     @include mobile {
       font-size: 16px;
-
-    }
-
-    &>*:not(:last-child) {
-      margin-bottom: 10px;
-
+      padding-right: 1px;
     }
   }
 }
@@ -7576,9 +6589,13 @@ header.is-sticky {
     font-size: 22px;
   }
 
+  @include tablet {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
   @include mobile {
     font-size: 20px;
-    line-height: 1.25;
   }
 
 }
@@ -7595,7 +6612,7 @@ header.is-sticky {
 
   &__block {
     display: flex;
-    column-gap: 50px;
+    column-gap: 44px;
     row-gap: 20px;
 
     @include desctop {
@@ -7605,18 +6622,6 @@ header.is-sticky {
 
       .br-desctop-rev {
         display: none;
-      }
-    }
-
-    @include tablet {
-      padding: 55px 53px 45px 55px;
-
-      .br-desctop-tablet {
-        display: block;
-
-        @include mobile {
-          display: none;
-        }
       }
     }
 
@@ -7630,7 +6635,7 @@ header.is-sticky {
   &__title {
     font-size: 22px;
     color: $dark-blue;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 
     @include desctop {
       font-size: 20px;
@@ -7638,10 +6643,8 @@ header.is-sticky {
 
     @include tablet {
       font-size: 18px;
+      padding-bottom: 20px;
     }
-
-    padding-bottom: 15px;
-
   }
 
   &__left {
@@ -7657,11 +6660,8 @@ header.is-sticky {
     @include desctop {
       margin-left: 0;
       margin-top: 20px;
-    }
-
-    @include tablet {
-      width: 215px;
-      min-width: 215px;
+      width: 198px;
+      min-width: 198px;
     }
 
     img {
@@ -7673,12 +6673,13 @@ header.is-sticky {
 
   &__content {
     font-size: 18px;
-    padding-top: 10px;
+    line-height: 24px;
+    padding-top: 5px;
 
     @include desctop {
       font-size: 16px;
+      line-height: 21px;
     }
-
   }
 
   &__block {
@@ -7686,6 +6687,10 @@ header.is-sticky {
     box-shadow: 0px 0px 8px 0px #00000026;
     border-radius: 6px;
     background: white;
+
+    @include desctop {
+      padding: 56px;
+    }
 
     .br-desctop-md {
       display: none;
@@ -7695,170 +6700,25 @@ header.is-sticky {
       }
     }
   }
-
-  &:nth-child(2) {
-    .review-item__block {
-      padding: 40px 70px 40px 70px;
-      padding-top: 38px;
-
-      @include desctop {
-        padding: 45px 56px 50px 60px;
-      }
-
-      @include tablet {
-        padding: 58px 58px 45px 55px;
-      }
-
-      @include mobile {
-        padding: 26px 20px 16px 20px;
-
-
-      }
-    }
-  }
-
-  &:nth-child(3) {
-    .review-item__block {
-      @include tablet {
-        padding: 60px 53px 45px 55px;
-      }
-
-      @include mobile {
-        padding: 24px 20px 16px 20px;
-
-
-      }
-    }
-
-
-  }
-
-  &:nth-child(4) {
-    .review-item__block {
-      padding: 40px 70px 40px 70px;
-
-      @include desctop {
-        padding: 56px 56px 50px 60px;
-      }
-
-      @include tablet {
-        padding: 58px 54px 45px 60px;
-      }
-
-      @include mobile {
-        padding: 26px 20px 16px 20px;
-
-
-      }
-    }
-  }
-
-  &:nth-child(5) {
-    .review-item__block {
-      padding: 40px 70px 40px 70px;
-
-      @include desctop {
-        padding: 56px 56px 50px 60px;
-      }
-
-      @include tablet {
-        padding: 59px 56px 50px 60px;
-      }
-
-      @include mobile {
-        padding: 26px 20px 16px 20px;
-
-
-      }
-    }
-  }
-
-  &:nth-child(6) {
-    .review-item__block {
-      padding: 40px 70px 30px 70px;
-
-      @include desctop {
-        padding: 55px 65px 55px 60px;
-      }
-
-      @include mobile {
-        padding: 26px 20px 16px 20px;
-
-
-      }
-    }
-  }
-
-  &:nth-child(7) {
-    .review-item__block {
-      padding: 35px 70px 35px 70px;
-
-      @include desctop {
-        padding: 50px 65px 50px 60px;
-      }
-
-      @include mobile {
-        padding: 26px 20px 16px 20px;
-
-
-      }
-    }
-  }
-
-  &:nth-child(8) {
-    .review-item__block {
-      padding: 40px 65px 40px 70px;
-
-      @include desctop {
-        padding: 56px 56px 50px 60px;
-      }
-
-      @include tablet {
-        padding: 61px 56px 45px 58px;
-      }
-
-      @include mobile {
-        padding: 26px 20px 16px 20px;
-
-
-      }
-    }
-
-    @include desctop {
-      margin-bottom: 20px;
-    }
-
-    @include mobile {
-      margin-bottom: 10px;
-    }
-
-    @include tablet {
-      margin-bottom: 35px;
-    }
-
-
-  }
 }
 
 
 .section-steps {
   @include mobile {
-
-    padding-top: 63px;
+    padding-top: 56px;
   }
 
-  &__container {}
+  &__fwContainer{
+    @include desctop{
+     max-width: 850px;
+    }
+    @include tablet{
+      max-width: 750px;
+    }
+  }
 
   &__title {
-    padding-bottom: 57px;
-
-    @include desctop {
-      padding-bottom: 47px;
-    }
-
-    @include mobile {
-      padding-bottom: 57px;
-    }
+    padding-bottom: 56px;
   }
 
   &__row {
@@ -7867,9 +6727,7 @@ header.is-sticky {
 
     @include mobile {
       flex-direction: column;
-
     }
-
   }
 
   &__col {
@@ -7965,7 +6823,7 @@ header.is-sticky {
     }
 
     @include tablet {
-      padding-top: 95px;
+      padding-top: 72px;
     }
 
     @include mobile {
@@ -7979,9 +6837,7 @@ header.is-sticky {
     font-size: 18px;
     color: $dark-blue;
     text-align: center;
-
     padding-top: 15px;
-
 
     @include desctop {
       font-size: 16px;
@@ -7996,6 +6852,7 @@ header.is-sticky {
 
     @include tablet {
       padding-top: 15px;
+      max-width: 220px;
     }
 
     @include mobile {
@@ -8134,7 +6991,7 @@ header.is-sticky {
       }
 
       @include mobile {
-        padding-top: 38px;
+        padding-top: 42px;
       }
     }
   }
@@ -8144,18 +7001,14 @@ header.is-sticky {
     font-size: 16px;
 
     &:not(:last-child) {
-      margin-bottom: 23px;
-
-      @include mobile {
-        margin-bottom: 30px;
-      }
+      margin-bottom: 24px;
     }
 
     &:last-child {
       padding-top: 18px;
 
       @include mobile {
-        padding-top: 10px;
+        padding-top: 20px;
       }
     }
 
@@ -8183,14 +7036,14 @@ header.is-sticky {
     display: flex;
     justify-content: center;
     gap: 32px;
-    padding-top: 107px;
+    padding-top: 97px;
 
     @include desctop {
-      padding-top: 111px;
+      padding-top: 90px;
     }
 
     @include mobile {
-      padding-top: 55px;
+      padding-top: 40px;
       flex-direction: column;
       text-align: center;
     }
@@ -8201,16 +7054,15 @@ header.is-sticky {
   }
 
   img {
-
     display: block;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: 22px;
 
     @include desctop {
       display: block;
       margin-left: auto;
-      margin-top: 70px;
+      margin-top: 55px;
       margin-right: 10px;
       width: 250px;
     }
@@ -8220,7 +7072,7 @@ header.is-sticky {
       width: auto;
       margin-left: auto;
       display: block;
-      margin-top: 65px;
+      margin-top: 35px;
       margin-right: 10px;
     }
 
@@ -8250,7 +7102,11 @@ header.is-sticky {
     }
 
     &:nth-child(2) {
-      padding-top: 57px;
+      padding-top: 32px;
+
+      @include tablet {
+        padding-top: 25px;
+      }
 
       @include mobile {
         padding-top: 45px;
@@ -8352,7 +7208,7 @@ header.is-sticky {
   }
 
   @include tablet {
-    padding-top: 85px;
+    padding-top: 80px;
   }
 
   &__container {
@@ -8365,7 +7221,6 @@ header.is-sticky {
 
   &__row {
     display: flex;
-
     flex-wrap: wrap;
     gap: 20px;
     row-gap: 25px;
@@ -8373,17 +7228,16 @@ header.is-sticky {
 
     @include desctop {
       column-gap: 20px;
+      column-gap:24px;
     }
 
     @include tablet {
       row-gap: 23px;
-      padding-left: 7px;
     }
 
     @include mobile {
       padding-top: 40px;
       padding-left: 0;
-
       row-gap: 28px;
     }
   }
@@ -8393,6 +7247,10 @@ header.is-sticky {
 
     @include desctop {
       width: calc(50% - 10px);
+    }
+
+    @include tablet {
+      width: calc(50% - 12px);
     }
 
     @include mobile {
@@ -8432,13 +7290,12 @@ header.is-sticky {
   column-gap: 20px;
 
   @include tablet {
-    column-gap: 17px;
+    column-gap: 16px;
   }
 
   &__img {
     width: 56px;
     height: 56px;
-
     min-width: 56px;
     min-height: 56px;
   }
@@ -8468,36 +7325,22 @@ header.is-sticky {
 .section-app {
 
   &__btn {
+    padding-top: 56px;
+    text-align: center;
+
     @include desctop {
-      padding-left: 70px;
+      padding-left: 73px;
     }
 
     @include tablet {
-      padding-top: 75px;
-      padding-left: 80px;
+      padding-top: 40px;
+      padding-left: 100px;
     }
 
     @include mobile {
       padding-left: 0;
     }
 
-  }
-
-  &__wrapper {
-    padding-bottom: 140px;
-
-    @include desctop-md {
-      padding-bottom: 20px;
-    }
-
-    @include tablet {
-      padding-left: 25px;
-      padding-top: 0;
-    }
-
-    @include mobile {
-      padding-left: 0;
-    }
   }
 
   &__logo {
@@ -8506,6 +7349,9 @@ header.is-sticky {
 
     @include tablet {
       padding-top: 10px;
+      padding-left: 22px;
+      padding-right: 22px;
+      min-width: 224px;
     }
 
     @include mobile {
@@ -8517,10 +7363,6 @@ header.is-sticky {
     display: flex;
     gap: 25px;
     padding-top: 3px;
-
-    @include tablet {
-      gap: 45px;
-    }
 
     @include mobile {
       flex-direction: column;
@@ -8534,7 +7376,7 @@ header.is-sticky {
     color: $dark-blue;
 
     @include mobile {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     @include desctop {
@@ -8550,17 +7392,8 @@ header.is-sticky {
     }
 
     &>*:not(:last-child) {
-      margin-bottom: 17px;
+      margin-bottom: 16px;
 
-    }
-  }
-
-  &__btn {
-    padding-top: 80px;
-    text-align: center;
-
-    @include mobile {
-      padding-top: 40px;
     }
   }
 }
@@ -8577,15 +7410,14 @@ ol li {
 
 .code-descr {
   &__block {
-    padding-top: 20px;
     max-width: 800px;
     margin: 0 auto;
     margin-left: 0;
     font-size: 14px;
-    padding-top: 13px;
+    padding-top: 32px;
 
     @include mobile {
-      padding-top: 40px;
+      padding-top: 24px;
     }
   }
 }
@@ -8601,11 +7433,14 @@ ol li {
 pre {
   background: #F2F1F1;
   color: #8F8F8F;
+  margin: 0;
+  @include mobile{
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 code {
-
-
   &>span {
     display: block;
     width: 100%;
@@ -8613,15 +7448,20 @@ code {
     &>span {
       display: flex;
       flex-direction: column;
-      //padding-left: 16px;
+      padding-left: 6px;
       width: 100%;
       margin-top: 2.3px;
+      @include mobile{
+        padding-left: 4px;
+      }
 
       &>span {
         display: flex;
         width: 100%;
-        //padding-left: 16px;
-
+        padding-left: 6px;
+        @include mobile{
+          padding-left: 4px;
+        }
       }
     }
   }
@@ -8692,14 +7532,17 @@ code {
 
   &__row {
     display: flex;
-    margin-top: 75px;
+    margin-top: 80px;
     gap: 20px;
 
+    @include tablet {
+      margin-top: 60px;
+    }
+
     @include mobile {
-      padding-top: 10px;
       flex-direction: column;
-      margin-top: 40px;
-      gap: 10px;
+      margin-top: 48px;
+      gap: 16px;
     }
   }
 
@@ -8742,7 +7585,7 @@ code {
   height: 100%;
 
   @include tablet {
-    min-height: 290px;
+    min-height: 283px;
     justify-content: flex-start;
   }
 
@@ -8751,11 +7594,12 @@ code {
     max-height: 170px;
     width: auto;
     margin-top: 15px;
-    margin-bottom: 13.5px;
+    margin-bottom: 8px;
 
     @include tablet {
       height: 145px;
-      margin-bottom: 5px;
+      margin-top: 5px;
+      margin-bottom: 10px;
     }
 
     @include mobile {
@@ -8780,7 +7624,7 @@ code {
     }
 
     @include mobile {
-      margin-top: 15px;
+      margin-top: 10px;
     }
   }
 }
@@ -8800,7 +7644,7 @@ code {
   }
 
   @include mobile {
-    padding-top: 65px;
+    padding-top: 56px;
     padding-bottom: 60px;
   }
 
@@ -8824,7 +7668,6 @@ code {
     @include mobile {
       gap: 20px;
     }
-
   }
 
   &__col {
@@ -8832,8 +7675,6 @@ code {
 
     @include tablet {
       width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
     }
 
     @include mobile {
@@ -8880,18 +7721,23 @@ code {
   max-width: 810px;
   margin: 0 auto;
 
+  @include desctop {
+    padding-left: 10px;
+  }
+
+  @include desctop {
+    padding-left: 0;
+  }
+
   @include mobile {
     font-size: 12px;
-
     margin-top: 5px;
-
   }
 
 }
 
 
 .numbers-item {
-
   &__place {
     font-size: 26px;
     color: $blue;
@@ -8917,10 +7763,6 @@ code {
     font-size: 16px;
     padding-top: 15px;
     text-align: center;
-
-    @include desctop {
-      padding-top: 20px;
-    }
 
     @include mobile {
       font-size: 12px;
@@ -9054,21 +7896,16 @@ code {
     }
 
     @include mobile {
-
       gap: 28px;
       padding-top: 45px;
     }
   }
 
   &__col {
-
     width: calc(25% - 15px);
 
     @include desctop {
       width: calc(50% - 15px);
-
-
-
     }
 
     @include mobile {
@@ -9076,7 +7913,6 @@ code {
     }
 
   }
-
 }
 
 .advantages-item {
@@ -9123,14 +7959,13 @@ code {
 
 
 .section-prices {
-
   @include mobile {
     padding-top: 60px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
   }
 
   @include tablet {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   &__descr {
@@ -9146,7 +7981,6 @@ code {
   }
 
   &__row {
-
     padding-top: 55px;
 
     @include tablet {
@@ -9180,7 +8014,7 @@ code {
   }
 
   @include tablet {
-    padding-top: 75px;
+    padding-top: 80px;
   }
 
   @include mobile {
@@ -9207,34 +8041,29 @@ code {
     column-gap: 20px;
     row-gap: 25px;
     flex-wrap: wrap;
-
     padding-top: 55px;
 
     @include tablet {
-      padding-top: 50px;
+      padding-top: 56px;
     }
 
     @include mobile {
       padding-top: 40px;
       row-gap: 8px;
     }
-
   }
 
   &__col {
     width: calc(25% - 15px);
 
     @include desctop {
-
       width: calc(33.3% - 14px);
-
     }
 
     @include mobile {
       width: 100%;
     }
   }
-
 }
 
 
@@ -9303,34 +8132,20 @@ code {
 
 .section-contentSeo {
   padding-bottom: 110px;
-  padding-top: 115px;
 
   @include desctop {
     padding-top: 100px;
-
     padding-bottom: 100px;
-
   }
 
   @include tablet {
-    padding-top: 75px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 75px;
   }
 
   @include mobile {
     padding-top: 65px;
-
     padding-bottom: 50px;
-  }
-
-  &__container {
-    @include desctop {
-      max-width: 710px;
-    }
-
-    @include tablet {
-      max-width: 760px;
-    }
   }
 
   &__title {
@@ -9357,7 +8172,6 @@ code {
     }
 
     div p {
-
       @include desctop {
         padding-bottom: 22px;
       }
@@ -9376,14 +8190,12 @@ code {
     gap: 20px;
 
     @include desctop {
-
       margin-top: 35px;
     }
 
     @include mobile {
-      margin-top: 20px;
       flex-direction: column;
-      margin-top: 22px;
+      margin-top: 12px;
     }
   }
 }
@@ -9405,7 +8217,6 @@ code {
 
 
 .section-clients {
-
   &__container {
     @include desctop {
       max-width: 710px;
@@ -9417,16 +8228,12 @@ code {
   }
 
   @include desctop {
-
-    padding-top: 94px;
-
+    padding-top: 100px;
   }
 
   @include tablet {
-
     padding-left: 70px;
     padding-right: 70px;
-
     padding-top: 80px;
   }
 
@@ -9463,7 +8270,6 @@ code {
       width: calc(100% + 85px);
     }
 
-
     @include mobile {
       width: 100%;
       height: 25px;
@@ -9486,13 +8292,8 @@ code {
 
 
 .section-key {
-  padding: 95px 0 90px 0;
-
-
-
   &__header {
     text-align: center;
-
   }
 
   &__col {
@@ -9503,6 +8304,7 @@ code {
 
     @include mobile {
       width: 100%;
+      align-items: center;
     }
   }
 
@@ -9522,7 +8324,7 @@ code {
     @include mobile {
       width: 100%;
       max-width: 350px;
-      margin: 0;
+      margin: 0 auto;
     }
   }
 
@@ -9532,6 +8334,9 @@ code {
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;
+    @include mobile{
+      padding-left: 0;
+    }
   }
 
   &__dynamic {
@@ -9539,18 +8344,16 @@ code {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
 
     @include mobile {
       font-size: 14px;
-      margin-bottom: 8px;
+      margin-bottom: 16px;
     }
   }
 
   &__scheme {
-
     @include desctop {
-
       width: 335px;
     }
 
@@ -9565,18 +8368,9 @@ code {
     }
 
     @include mobile {
-      padding: 0 10px;
+      padding: 0;
       margin: 0;
-      margin-top: 12px;
     }
-  }
-
-  @include mobile {
-    padding-top: 60px;
-  }
-
-  @include tablet {
-    padding-top: 90px;
   }
 
   &__container {
@@ -9588,32 +8382,46 @@ code {
   }
 
   &__wrapper {
-    padding: 45px 0;
-    height: 545px;
+    padding: 40px 0;
+    height: 513px;
 
 
     @include desctop {
-      height: 438px;
+      height: 406px;
     }
 
     @include tablet {
-      height: auto;
-      padding-bottom: 48px;
-      padding-bottom: 50px;
+      padding: 32px 0;
+      height: 364px;
     }
 
     @include mobile {
-      padding-top: 42px;
-      padding-bottom: 42px;
-
+      padding-top: 24px;
+      padding-bottom: 24px;
+      height: auto;
     }
 
     &:nth-child(even) {
       background: #F8FBFF;
     }
+
+    &:last-child{
+      padding-bottom: 0;
+      height: 473px;
+
+      @include desctop {
+        height: 366px;
+      }
+
+      @include tablet {
+        height: 332px;
+      }
+
+      @include mobile {
+        height: auto;
+      }
+    }
   }
-
-
 
   &__row {
     display: flex;
@@ -9626,44 +8434,34 @@ code {
     }
   }
 
-
-
   &__descr {
     font-weight: 500;
     font-size: 20px;
     color: $dark-blue;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 48px;
 
     @include desctop {
       font-size: 18px;
-      padding-top: 12px;
     }
 
     @include mobile {
-      padding-top: 0;
       font-size: 16px;
-      padding-bottom: 25px;
+      padding-bottom: 32px;
     }
   }
-
 
   &__bottom {
     font-size: 16px;
     color: $dark-blue;
     gap: 10px;
     display: flex;
-    margin-top: 12px;
+    margin-top: 18px;
     justify-content: center;
     width: 100%;
 
-    @include tablet {
-      margin-top: 0;
-    }
-
     @include mobile {
-      margin-top: 10px;
+      margin-top: 16px;
       font-size: 12px;
     }
 
@@ -9674,33 +8472,30 @@ code {
 }
 
 
-
-
 .section-keys {
   @include desctop-md {
-
     padding-top: 110px;
-
-
   }
 
   @include desctop {
-    padding-top: 95px;
-  }
-
-  @include mobile {
-
-    padding-top: 85px;
-    padding-bottom: 55px;
+    padding-top: 100px;
   }
 
   @include tablet {
-    padding-top: 70px;
-    padding-bottom: 135px;
+    padding-top: 75px;
+    padding-bottom: 80px;
+  }
+
+  @include mobile {
+    padding-top: 85px;
+    padding-bottom: 45px;
   }
 
   &__container {
     max-width: 1250px;
+    @include desctop{
+      max-width: 850px;
+    }
   }
 
   &__button {
@@ -9708,17 +8503,15 @@ code {
     padding-top: 35px;
 
     @include desctop-md {
-
       padding-top: 30px;
     }
 
     @include desctop {
-
-      padding-top: 50px;
+      padding-top: 70px;
     }
 
     @include tablet {
-      padding-top: 45px;
+      padding-top: 65px;
     }
 
     @include mobile {
@@ -9731,6 +8524,10 @@ code {
     justify-content: space-between;
     padding-right: 95px;
 
+    @include desctop{
+      padding-right: 52px;
+    }
+
     @include mobile {
       flex-direction: column;
       padding-right: 0;
@@ -9740,6 +8537,17 @@ code {
   &__col {
     &:last-child {
       margin-top: 33px;
+      @include desctop{
+        margin-top: 30px;
+      }
+    }
+    &:first-child {
+      @include desctop{
+        padding-right: 20px;
+      }
+      @include mobile{
+        padding-right: 0;
+      }
     }
   }
 
@@ -9762,7 +8570,6 @@ code {
     }
   }
 
-
   &__bottom {
     font-size: 16px;
     color: $dark-blue;
@@ -9772,7 +8579,7 @@ code {
     justify-content: center;
 
     @include tablet {
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     @include mobile {
@@ -9823,7 +8630,7 @@ code {
 
     &>*:first-child {
       padding-bottom: 160px;
-      height: 321.4px;
+      height: 318.4px;
 
       @include tablet {
         height: 278px;
@@ -10279,11 +9086,6 @@ code {
   }
 }
 
-
-.form-main-info {
-  color: #A6A6A6;
-}
-
 .form-main-validation {
   display: flex;
   gap: 10px;
@@ -10307,6 +9109,7 @@ code {
 
   @include mobile {
     font-size: 14px;
+    margin-right: -2px;
   }
 
   &>*:not(:last-child) {
