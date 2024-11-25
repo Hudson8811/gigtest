@@ -1,3 +1,8 @@
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
 /*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
