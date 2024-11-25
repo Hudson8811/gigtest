@@ -4,46 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/scss/style.scss" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/appsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/appsoft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/connect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/consulting.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/consulting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contacts-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/documentation-normative.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/documentation-normative.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/egsis.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/egsis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-confirmed-enabled2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-error2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-error2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-focus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-in-tarif.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-in-tarif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-inactive.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-inactive2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-inactive2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-robot1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-robot2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-robot2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form-validation.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form-validation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/happens.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/happens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/icons/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icons/icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/stack/sprite.stack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/symbol/svg/sprite.symbol.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/symbol/svg/sprite.symbol.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/keys.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/keys.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/knowledge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/requirements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/requirements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/seo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/seo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svgicons/odnoklassniki.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgicons/odnoklassniki.svg" afterDir="false" />
-    </list>
+    <list default="true" id="c96af4f3-73c7-4a98-8716-0ae169bef47d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -382,12 +343,12 @@
       <workItem from="1732256303431" duration="29193000" />
       <workItem from="1732473489449" duration="12302000" />
       <workItem from="1732520599368" duration="56000" />
-      <workItem from="1732525583943" duration="4571000" />
+      <workItem from="1732525583943" duration="5057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107817000" />
+    <option name="totallyTimeSpent" value="108303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
