@@ -102,11 +102,13 @@ ol {
   @include desctop {
     max-width: 716px;
   }
+
   @include tablet {
     max-width: 750px;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   @include mobile {
     padding-left: 16px;
     padding-right: 16px;
@@ -123,11 +125,13 @@ ol {
   @include desctop {
     max-width: 856px;
   }
+
   @include tablet {
     max-width: 750px;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   @include mobile {
     padding-left: 16px;
     padding-right: 16px;
@@ -1119,6 +1123,7 @@ body {
 
   .btn {
     margin-top: 48px;
+
     @include desctop {
       margin-top: 20px;
       width: 100%;
@@ -1224,8 +1229,10 @@ body {
 
     a {
       color: inherit;
-      &:hover{
-        color: #5479F8;}
+
+      &:hover {
+        color: #5479F8;
+      }
     }
   }
 
@@ -1462,7 +1469,7 @@ body {
   position: relative;
   padding: 90px 0;
 
-  @include desctop-md{}
+  @include desctop-md {}
 
   &__main-container {
     position: relative;
@@ -2345,7 +2352,7 @@ body {
 
   }
 
-  &__prices{
+  &__prices {
     position: relative;
     padding-bottom: 28px;
 
@@ -2672,7 +2679,8 @@ body {
               background: white;
               color: $blue;
               max-width: 235px;
-              &:hover{
+
+              &:hover {
                 color: #5479F8;
               }
             }
@@ -3358,6 +3366,7 @@ body {
     max-width: 1060px;
     margin: 0 auto;
     padding-top: 30px;
+
     @include desctop {
       max-width: 706px;
     }
@@ -3380,7 +3389,7 @@ body {
     position: relative;
 
     @include mobile {
-      padding: 40px 15px;
+      padding: 55px 15px;
     }
   }
 
@@ -3427,6 +3436,7 @@ body {
     height: 23px;
     margin-right: 20px;
     margin-top: 20px;
+
     @media (max-width: 991.98px) {
       margin-top: 10px;
     }
@@ -3435,12 +3445,11 @@ body {
       width: 17px;
       height: 17px;
       margin-right: 10px;
-      margin-top: 16px;
+      margin-top: 10px;
     }
   }
 
-  .form-input-tel {
-  }
+  .form-input-tel {}
 
   .section-question__rows {
     padding-top: 18px;
@@ -3473,6 +3482,7 @@ body {
       margin-right: 0;
 
     }
+
     @include mobile {
       margin-right: auto;
       padding-bottom: 0;
@@ -3678,10 +3688,12 @@ body {
       justify-content: center;
       cursor: pointer;
     }
-    &-right{
+
+    &-right {
       margin-top: 5px;
     }
-    &-left{
+
+    &-left {
       margin-left: 5px;
     }
   }
@@ -3923,7 +3935,8 @@ body {
       max-width: 270px;
       border-radius: 6px;
       color: $blue;
-      &:hover{
+
+      &:hover {
         color: #5479F8;
       }
 
@@ -4535,7 +4548,8 @@ body {
       margin-top: 20px;
       padding-top: 0;
       margin-bottom: 15px;
-      img{
+
+      img {
         max-height: 98px;
       }
     }
@@ -4613,6 +4627,7 @@ body {
 
         @include mobile {
           margin-top: 30px;
+
           img {
             width: 100px;
           }
@@ -4665,7 +4680,7 @@ body {
       }
     }
 
-    &:hover &-text{
+    &:hover &-text {
       color: #5479f8;
     }
   }
@@ -4898,9 +4913,11 @@ body {
       row-gap: 10px;
     }
   }
-  &__col:first-child{
+
+  &__col:first-child {
     cursor: auto;
   }
+
   &__col {
     width: calc(33.3% - 13px);
     cursor: pointer;
@@ -5451,7 +5468,8 @@ body {
     @include tablet {
       width: 136px;
       height: 136px;
-      img{
+
+      img {
         max-height: 84px;
       }
     }
@@ -5630,10 +5648,12 @@ input[type="checkbox"]:checked {
 
   &__block {
     padding-top: 40px;
-    @include tablet{
+
+    @include tablet {
       padding-top: 32px;
     }
-    @include mobile{
+
+    @include mobile {
       padding-top: 24px;
     }
   }
@@ -5760,10 +5780,11 @@ input[type="checkbox"]:checked {
   }
 }
 
-#section-question{
-  .section-question__block{
+#section-question {
+  .section-question__block {
     padding-top: 56px;
-    @include mobile{
+
+    @include mobile {
       padding-top: 40px;
     }
   }
@@ -5846,6 +5867,7 @@ input[type="checkbox"]:checked {
     @include desctop {
       max-width: 850px;
     }
+
     @include tablet {
       max-width: 750px;
     }
@@ -5984,7 +6006,7 @@ input[type="checkbox"]:checked {
   }
 
   &__items {
-    a{
+    a {
       color: inherit;
     }
   }
@@ -6106,14 +6128,16 @@ header.is-sticky {
   padding: 24px 0;
   background: #FAFAFA;
 
-  &__container{
-    @media screen and (min-width: 992px) and (max-width: 1100px){
+  &__container {
+    @media screen and (min-width: 992px) and (max-width: 1100px) {
       max-width: 850px;
     }
+
     @media screen and (min-width: 1101px) {
       max-width: 1260px;
     }
-    @include tablet{
+
+    @include tablet {
       max-width: 750px;
     }
   }
@@ -6164,39 +6188,44 @@ header.is-sticky {
     padding-bottom: 48px;
   }
 
-  &__wrap &__container{
-    @include desctop{
+  &__wrap &__container {
+    @include desctop {
       max-width: 856px;
     }
-    @include tablet{
+
+    @include tablet {
       max-width: 750px;
     }
   }
 
-  &__info{
+  &__info {
     max-width: 805px;
     margin: 0 auto;
   }
 
-  &__question{
+  &__question {
     padding-top: 40px;
     margin-top: 40px;
-    @include tablet{
-       margin-top: 20px;
-     }
-    @include tablet{
+
+    @include tablet {
+      margin-top: 20px;
+    }
+
+    @include tablet {
       margin-top: 20px;
       padding-top: 40px;
     }
-    @include mobile{
+
+    @include mobile {
       margin-top: 40px;
       padding-top: 0;
     }
   }
 
-  &__large{
+  &__large {
     padding-top: 12px;
-    @include tablet{
+
+    @include tablet {
       padding-top: 0;
     }
   }
@@ -6268,6 +6297,7 @@ header.is-sticky {
       .section-price__row .swiper-wrapper {
         column-gap: 20px;
       }
+
       padding-left: 20px;
     }
 
@@ -6275,6 +6305,7 @@ header.is-sticky {
       .section-price__row .swiper-wrapper {
         column-gap: 0;
       }
+
       padding-left: 0;
       padding-bottom: 16px;
     }
@@ -6408,6 +6439,7 @@ header.is-sticky {
   &__reviews {
     &>*:not(:last-child) {
       padding-bottom: 32px;
+
       @include desctop {
         padding-bottom: 24px;
       }
@@ -6516,8 +6548,8 @@ header.is-sticky {
     }
   }
 
-  &__content{
-    &+.section-page__content{
+  &__content {
+    &+.section-page__content {
       padding-top: 40px;
 
       @include tablet {
@@ -6525,6 +6557,7 @@ header.is-sticky {
         padding-top: 32px;
       }
     }
+
     &:not(:last-child) {
       @include desctop {
         .mb-lg-none {
@@ -6543,12 +6576,15 @@ header.is-sticky {
       @include desctop {
         line-height: 1.32;
       }
-      &+p{
+
+      &+p {
         padding-top: 17px;
       }
+
       a {
         color: inherit;
-        &:hover{
+
+        &:hover {
           color: #5479f8;
         }
       }
@@ -6559,6 +6595,7 @@ header.is-sticky {
       font-weight: 500;
       text-align: center;
       padding-bottom: 32px;
+
       @include tablet {
         padding-bottom: 24px;
       }
@@ -6708,11 +6745,12 @@ header.is-sticky {
     padding-top: 56px;
   }
 
-  &__fwContainer{
-    @include desctop{
-     max-width: 850px;
+  &__fwContainer {
+    @include desctop {
+      max-width: 850px;
     }
-    @include tablet{
+
+    @include tablet {
       max-width: 750px;
     }
   }
@@ -7020,7 +7058,7 @@ header.is-sticky {
 
     }
 
-    &-text a{
+    &-text a {
       color: inherit;
     }
   }
@@ -7141,7 +7179,7 @@ header.is-sticky {
       font-size: 16px;
     }
 
-    &-text a{
+    &-text a {
       color: inherit;
     }
   }
@@ -7228,7 +7266,7 @@ header.is-sticky {
 
     @include desctop {
       column-gap: 20px;
-      column-gap:24px;
+      column-gap: 24px;
     }
 
     @include tablet {
@@ -7434,7 +7472,8 @@ pre {
   background: #F2F1F1;
   color: #8F8F8F;
   margin: 0;
-  @include mobile{
+
+  @include mobile {
     font-size: 14px;
     line-height: 18px;
   }
@@ -7451,7 +7490,8 @@ code {
       padding-left: 6px;
       width: 100%;
       margin-top: 2.3px;
-      @include mobile{
+
+      @include mobile {
         padding-left: 4px;
       }
 
@@ -7459,7 +7499,8 @@ code {
         display: flex;
         width: 100%;
         padding-left: 6px;
-        @include mobile{
+
+        @include mobile {
           padding-left: 4px;
         }
       }
@@ -7747,9 +7788,11 @@ code {
     padding-bottom: 14px;
     padding-top: 10px;
     border-bottom: 1px solid $blue;
-    a{
+
+    a {
       color: inherit;
-      &:hover{
+
+      &:hover {
         color: #5479f8;
       }
     }
@@ -7831,14 +7874,15 @@ code {
       font-size: 14px;
     }
 
-    &--before-hover{
+    &--before-hover {
       display: block;
     }
-    &--after-hover{
+
+    &--after-hover {
       display: none;
     }
-    
-    a{
+
+    a {
       color: #fff;
       padding: 0 8px 4px;
       border-bottom: 1px dashed #fff;
@@ -7855,10 +7899,11 @@ code {
     }
 
     .service-item__content {
-      &--before-hover{
+      &--before-hover {
         display: none;
       }
-      &--after-hover{
+
+      &--after-hover {
         display: block;
       }
     }
@@ -8208,7 +8253,8 @@ code {
   @include mobile {
     padding-bottom: 75px;
   }
-  .swiper-slide{
+
+  .swiper-slide {
     padding: 0 !important;
   }
 
@@ -8262,7 +8308,8 @@ code {
     width: calc(100% + 185px);
     height: 0;
 
-    &-left, &-right{
+    &-left,
+    &-right {
       cursor: pointer;
     }
 
@@ -8334,7 +8381,8 @@ code {
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;
-    @include mobile{
+
+    @include mobile {
       padding-left: 0;
     }
   }
@@ -8405,7 +8453,7 @@ code {
       background: #F8FBFF;
     }
 
-    &:last-child{
+    &:last-child {
       padding-bottom: 0;
       height: 473px;
 
@@ -8493,7 +8541,8 @@ code {
 
   &__container {
     max-width: 1250px;
-    @include desctop{
+
+    @include desctop {
       max-width: 850px;
     }
   }
@@ -8524,7 +8573,7 @@ code {
     justify-content: space-between;
     padding-right: 95px;
 
-    @include desctop{
+    @include desctop {
       padding-right: 52px;
     }
 
@@ -8537,15 +8586,18 @@ code {
   &__col {
     &:last-child {
       margin-top: 33px;
-      @include desctop{
+
+      @include desctop {
         margin-top: 30px;
       }
     }
+
     &:first-child {
-      @include desctop{
+      @include desctop {
         padding-right: 20px;
       }
-      @include mobile{
+
+      @include mobile {
         padding-right: 0;
       }
     }
