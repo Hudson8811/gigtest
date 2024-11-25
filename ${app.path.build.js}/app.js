@@ -469,7 +469,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
                 dest = $(document).height() - $(window).height();
             } else {
+
+              if($(window).scrollTop() > 10) {
+                dest = $(this.hash).offset().top;
+              } else {
                 dest = $(this.hash).offset().top - 80;
+              }
             }
   
             let currentScroll = $(window).scrollTop()
