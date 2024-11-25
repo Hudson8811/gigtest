@@ -42,7 +42,6 @@
       <change beforePath="$PROJECT_DIR$/dist/snils.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/snils.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/support.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/seo.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/svgicons/odnoklassniki.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgicons/odnoklassniki.svg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -243,7 +242,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-3" />
     <option name="y" value="3" />
     <option name="width" value="1987" />
@@ -383,12 +382,12 @@
       <workItem from="1732256303431" duration="29193000" />
       <workItem from="1732473489449" duration="12302000" />
       <workItem from="1732520599368" duration="56000" />
-      <workItem from="1732525583943" duration="2735000" />
+      <workItem from="1732525583943" duration="4571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105981000" />
+    <option name="totallyTimeSpent" value="107817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,13 +399,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1408" extended-state="7" />
+    <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299373" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="npm" order="4" sideWeight="0.2045889" side_tool="true" visible="true" weight="0.1501182" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18025078" />
+      <window_info active="true" id="npm" order="4" sideWeight="0.2045889" side_tool="true" visible="true" weight="0.1501182" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18025078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.13244514" />
       <window_info id="Gulp" order="2" sideWeight="0.5007837" side_tool="true" weight="0.24980299" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7954111" visible="true" weight="0.1501182" />
