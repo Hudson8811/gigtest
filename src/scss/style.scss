@@ -721,13 +721,27 @@ body {
   }
 
   @include desctop {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
     width: 100%;
     max-width: 320px;
   }
 
   .menu {
     display: block;
+  }
+  .phone{
+    display: none;
+    margin-top: 48px;
+    color: #fff;
+    margin-left: 24px;
+    @include mobile{
+      display: flex;
+    }
+  }
+  .phone__bottom{
+    color: #fff;
   }
 }
 
@@ -751,8 +765,10 @@ body {
   &__bottom {
     color: $dark-blue;
     font-size: 16px;
+    &:hover{
+      color:  #5479f8;
+    }
   }
-
 }
 
 .circle-item-block {
@@ -5899,12 +5915,9 @@ input[type="checkbox"]:checked {
     @include mobile {
       flex-wrap: wrap;
       padding-top: 8px;
-
     }
 
     &-item {
-
-
       @include mobile {
         width: auto;
         text-align: center;
@@ -5915,15 +5928,11 @@ input[type="checkbox"]:checked {
   }
 
   &__block {
-
-
     display: flex;
     gap: 88px;
     padding-left: 155px;
 
     @include desctop {
-
-
       margin-left: 0;
       gap: 52px;
       padding-left: 78px;
@@ -5940,16 +5949,11 @@ input[type="checkbox"]:checked {
       flex-direction: column;
       gap: 31px;
       padding-left: 0;
-
       margin: 0 auto;
       padding: 0;
     }
 
     &>*:nth-child(3) {
-
-
-
-
       @include mobile {
         padding-left: 0;
       }
@@ -5957,11 +5961,9 @@ input[type="checkbox"]:checked {
   }
 
   &__row {
-
     padding-bottom: 34px;
     padding-top: 45px;
     display: flex;
-
     gap: 20px;
 
     @include desctop {
@@ -6006,26 +6008,26 @@ input[type="checkbox"]:checked {
     @include mobile {
       width: 100%;
     }
-
   }
 
   &__items {
     a {
       color: inherit;
+      &:hover{
+        color:  #5479f8;
+      }
     }
   }
 
   &__item {
     font-size: 14px;
     color: $gray;
-
   }
 
   &__copyright {
     display: flex;
     gap: 40px;
     padding: 7px 0 10px 0;
-
     font-size: 12px;
 
     @include desctop {
@@ -6043,8 +6045,6 @@ input[type="checkbox"]:checked {
 
 
 .footer-social-item {
-
-
   &__icon {
     width: 20px;
     height: 20px;
@@ -6176,7 +6176,9 @@ header.is-sticky {
 
   &__link {
     color: $dark-blue;
-
+    &:hover{
+      color:  #5479f8;
+    }
   }
 }
 
@@ -6972,6 +6974,9 @@ header.is-sticky {
 
   &__link {
     color: $blue;
+    &:hover{
+      color:  #5479f8;
+    }
   }
 
   img {
@@ -7064,6 +7069,9 @@ header.is-sticky {
 
     &-text a {
       color: inherit;
+      &:hover{
+        color:  #5479f8;
+      }
     }
   }
 }
@@ -7093,6 +7101,9 @@ header.is-sticky {
 
   &__link {
     color: $blue;
+    &:hover{
+      color:  #5479f8;
+    }
   }
 
   img {
@@ -7185,6 +7196,9 @@ header.is-sticky {
 
     &-text a {
       color: inherit;
+      &:hover{
+        color:  #5479f8;
+      }
     }
   }
 }
