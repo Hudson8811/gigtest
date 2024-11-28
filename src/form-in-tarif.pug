@@ -11,11 +11,18 @@ html
       <nav class="menu">
       <ul class="menu__list">
       <li class="menu__item"><a class="menu__link">Решения</a>
-      <svg class="menu__icon">
+      <svg class="menu__icon" data-js="menuToggle">
       <use xlink:href="img/icons/icons.svg#arrow-down"></use>
       </svg>
       <div class="menu__dropdown">
       <ul class="menu-dropdown">
+      <li class="menu-dropdown__item menu-dropdown__item--back" data-js="menuToggle">
+        <a class="menu-dropdown__link" href="javascript:void(0)"><span class="menu-dropdown__title">Назад</span>
+          <svg class="menu__icon">
+            <use xlink:href="img/icons/icons.svg#arrow-down"></use>
+          </svg>
+        </a>
+      </li>
       <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="https://gigtest.ru" target="_blanc"><span class="menu-dropdown__title">    ГИГТЕСТ</span><span class="menu-dropdown__text">Сервис для&nbsp;проведения гигиенического обучения граждан</span></a></li>
       <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="https://med.gigtest.ru" target="_blanc"><span class="menu-dropdown__title">ГИГТЕСТ. Медицина</span><span class="menu-dropdown__text">Медицинская информационная система</span></a></li>
       <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/gigtest/dist/integration.html"><span class="menu-dropdown__title">Интеграция с&nbsp;ЕГИСЗ</span><span class="menu-dropdown__text">Подключаем вашу МИС к ЕГИСЗ</span></a></li>

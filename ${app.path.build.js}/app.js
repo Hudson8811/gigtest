@@ -389,7 +389,7 @@ window.addEventListener("scroll", () => {
   
 
 
-const menuToggle = document.querySelectorAll('.menu__icon');
+const menuToggle = document.querySelectorAll('[data-js="menuToggle"]');
 
 
 menuToggle.forEach(function(e) {

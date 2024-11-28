@@ -12,15 +12,20 @@ header.header
   .header__container
     .logo
       a(href="/gigtest/dist/")
-        img(src="@img/logo.png" srcset="@img/logo@2x.png 2x", alt="").logo__image
+        img(src="@img/logo.png" srcset="@img/logo@2x.png 2x" alt="").logo__image
     nav.menu
       ul.menu__list
         li.menu__item
           a.menu__link Решения
-          svg.menu__icon
+          svg.menu__icon(data-js="menuToggle")
             use(xlink:href="@img/icons/icons.svg#arrow-down")
           .menu__dropdown
             ul.menu-dropdown
+              li.menu-dropdown__item.menu-dropdown__item--back(data-js="menuToggle")
+                a(href="javascript:void(0)").menu-dropdown__link
+                  span.menu-dropdown__title Назад
+                  svg.menu__icon
+                    use(xlink:href="@img/icons/icons.svg#arrow-down")
               li.menu-dropdown__item
                 a(href="https://gigtest.ru" target="_blanc").menu-dropdown__link
                   span.menu-dropdown__title     ГИГТЕСТ

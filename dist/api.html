@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20241127112450">
-    <link rel="stylesheet" href="css/style.min.css?_v=20241127112450">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20241128095741">
+    <link rel="stylesheet" href="css/style.min.css?_v=20241128095741">
     <title>Document</title>
   </head>
   <body>
@@ -25,11 +25,18 @@
 <nav class="menu">
 <ul class="menu__list">
 <li class="menu__item"><a class="menu__link">Решения</a>
-<svg class="menu__icon">
+<svg class="menu__icon" data-js="menuToggle">
 <use xlink:href="img/icons/icons.svg#arrow-down"></use>
 </svg>
 <div class="menu__dropdown">
 <ul class="menu-dropdown">
+<li class="menu-dropdown__item menu-dropdown__item--back" data-js="menuToggle">
+<a class="menu-dropdown__link" href="javascript:void(0)"><span class="menu-dropdown__title">Назад</span>
+<svg class="menu__icon">
+<use xlink:href="img/icons/icons.svg#arrow-down"></use>
+</svg>
+</a>
+</li>
 <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="https://gigtest.ru" target="_blanc"><span class="menu-dropdown__title">    ГИГТЕСТ</span><span class="menu-dropdown__text">Сервис для&nbsp;проведения гигиенического обучения граждан</span></a></li>
 <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/gigtest/dist/"><span class="menu-dropdown__title">ГИГТЕСТ. Медицина</span><span class="menu-dropdown__text">Медицинская информационная система</span></a></li>
 <li class="menu-dropdown__item"><a class="menu-dropdown__link" href="/gigtest/dist/integration.html"><span class="menu-dropdown__title">Интеграция с&nbsp;ЕГИСЗ</span><span class="menu-dropdown__text">Подключаем вашу МИС к ЕГИСЗ</span></a></li>
@@ -157,7 +164,7 @@
       </footer>
     </div>
   </body>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241127112450"></script>
-  <script src="js/modules/jquery.js?_v=20241127112450"></script>
-  <script src="js/app.js?_v=20241127112450"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241128095741"></script>
+  <script src="js/modules/jquery.js?_v=20241128095741"></script>
+  <script src="js/app.js?_v=20241128095741"></script>
 </html>
